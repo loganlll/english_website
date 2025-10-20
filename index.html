@@ -21,6 +21,7 @@
       <div class="search" aria-expanded="false">
         <input id="searchInput" class="search__input" type="search" placeholder="Search topics…" autocomplete="off" />
         <ul class="search__suggestions" role="listbox" aria-label="Topic suggestions"></ul>
+        <button class="search__clear" type="button" aria-label="Clear search">&times;</button>
       </div>
 
       <div class="right-bar">
@@ -48,12 +49,10 @@
         <button class="vbtn" data-level="B2">B2</button>
         <button class="vbtn" data-level="C1">C1</button>
         <button class="vbtn active" data-level="C2">C2</button>
-        <button id="shuffleVocab" class="btn-ghost">Shuffle vocab</button>
+        <button id="shuffleVocab" class="btn-ghost btn-ghost--light">Shuffle vocab</button>
       </div>
       <div class="chips" id="vocabChips"></div>
     </main>
-
-    <footer class="app__footer"></footer>
   </div>
   <script src="scripts.js"></script>
 </body>
