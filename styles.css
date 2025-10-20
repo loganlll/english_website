@@ -83,3 +83,12 @@ html[data-theme="dark"] .depth__range::-webkit-slider-thumb{ background:#fff; bo
 
 @media (max-width:1100px){ .controls{grid-template-columns:1fr .8fr 1fr 1fr} }
 @media (max-width:900px){ .controls{grid-template-columns:1fr; gap:10px} .topic{font-size:46px} .questions li{font-size:calc(var(--qsize) - 2px); line-height:1.6} }
+
+
+/* Hide suggestions unless there are items; prevents empty ghost box */
+.search__suggestions{display:none; border:1px solid #e7e7ee; padding:6px;}
+.search[aria-expanded="true"] .search__suggestions:not(:empty){display:block}
+
+/* Improve depth legend spacing and prevent mashed labels */
+.depth__legend{display:flex; justify-content:space-between; gap:12px; font-size:13px; color:var(--muted); width:100%}
+.depth__legend span{white-space:nowrap; padding:0 2px;}
