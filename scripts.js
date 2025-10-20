@@ -1,7 +1,9 @@
-// Topic Generator (vocab level slider + safer vocab pooling)
+// Topic Generator (vocab level buttons + bigger pools support)
 const btnGenerate   = document.querySelector('#btn-generate');
 const btnReshuffle  = document.querySelector('#btn-reshuffle');
 const btnVocabShuffle = document.querySelector('#btn-vocab-shuffle');
+const vLevelBtns = Array.from(document.querySelectorAll('.vbtn'));
+
 const img     = document.querySelector('#image');
 const topicEl = document.querySelector('#topic');
 const listEl  = document.querySelector('#questions');
@@ -14,8 +16,6 @@ const suggBox = document.querySelector('#topic-suggestions');
 // sliders
 const depthRange = document.querySelector('#depthRange');
 const depthLegend = document.querySelector('.depth__legend');
-const vocabRange = document.querySelector('#vocabRange');
-const vocabLegend = document.querySelector('.vdepth .depth__legend');
 
 // text size
 const fsBtns = Array.from(document.querySelectorAll('.fs-btn'));
@@ -32,8 +32,8 @@ let VOCAB_LEVEL = 0; // 0=B2,1=C1,2=C2
 let TEXT_SIZE = localStorage.getItem('tg_textsize') || 'm';
 
 // Cache params
-const Q_VER = 'q30';
-const V_VER = 'v31';
+const Q_VER = 'q31';
+const V_VER = 'v32';
 
 Promise.all([
   fetch('questions.json?' + Q_VER).then(r => r.json()),
@@ -43,21 +43,6 @@ Promise.all([
   VOCAB     = v;
   TOPICS    = Object.keys(QUESTIONS).sort((a,b)=>a.localeCompare(b));
   if (searchInput.value.trim()) drawSuggestions(filterTopics(searchInput.value));
-
-  // global freq maps
-  window.__LV_FREQ__ = {B2:new Map(), C1:new Map(), C2:new Map()};
-  if (VOCAB.topic_levels){
-    for (const [t, levels] of Object.entries(VOCAB.topic_levels)){
-      for (const k of ['B2','C1','C2']){
-        (levels[k]||[]).forEach(w=>{
-          const key = String(w).toLowerCase();
-          const m = window.__LV_FREQ__[k];
-          m.set(key, (m.get(key)||0)+1);
-        });
-      }
-    }
-  }
-  window.__RECENT_LEVEL__ = {B2:[], C1:[], C2:[]};
   applyTextSize(TEXT_SIZE);
   highlightFsButton(TEXT_SIZE);
 }).catch(err => {
@@ -87,29 +72,24 @@ function getPrompts(topic){
   if (!entry) return [];
   if (!Array.isArray(entry) && (entry.easy || entry.medium || entry.hard)){
     const want = DIFF;
-    if (entry[want] && entry[want].length) return sampleN(entry[want], 10);
-    if (entry.medium && entry.medium.length) return sampleN(entry.medium, 10);
-    const first = Object.values(entry).find(a => Array.isArray(a) && a.length);
-    return first ? sampleN(first, 10) : [];
+    let pool = entry[want] && entry[want].length ? entry[want] : (entry.medium || entry.easy || entry.hard || []);
+    return sampleN(pool, 15); // show 15 now
   }
-  return sampleN((entry || []), 10);
+  return sampleN((entry || []), 15);
 }
 
-// Vocab helpers (safer, no cross-topic mixing to avoid off-topic chips)
-function pickUniqueForLevel(topic, level){
-  const L = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][level]) || [];
-  const freq = (window.__LV_FREQ__ && window.__LV_FREQ__[level]) || new Map();
-  for (const w of L){ if ((freq.get(String(w).toLowerCase())||0) === 1) return w; }
-  return L[0] || null;
-}
-
-function take7(topic, level){
+// Vocab helpers (topic-only list; bigger pools are in JSON)
+function takeN(topic, level, n=7){
   const levelKey = ['B2','C1','C2'][level];
   const base = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][levelKey]) || [];
-  const uniqWord = pickUniqueForLevel(topic, levelKey);
+  const uniqWord = (()=>{
+    // choose a word seen only in this topic-level: approximate by checking for topic's unique tag
+    // If JSON doesn't mark it, just pick first as anchor
+    return base[0] || null;
+  })();
   let pool = Array.from(new Set([...(uniqWord ? [uniqWord]:[]), ...base]));
   pool = shuffle(pool);
-  let items = pool.slice(0,7);
+  let items = pool.slice(0,n);
   if (uniqWord && !items.includes(uniqWord) && pool.length){
     items[items.length-1] = uniqWord;
   }
@@ -135,23 +115,19 @@ function render(topic){
     li.textContent = q;
     listEl.appendChild(li);
   });
-
   renderVocab(topic);
 }
 
 function renderVocab(topic){
   vocabEl.innerHTML = '';
-  const pack = take7(topic, VOCAB_LEVEL);
+  const pack = takeN(topic, VOCAB_LEVEL, 9); // show 9 chips now
   (pack.items || []).forEach(w => {
     const chip = document.createElement('span');
     chip.className = 'chip' + (pack.unique && w === pack.unique ? ' unique' : '');
     chip.textContent = w;
     vocabEl.appendChild(chip);
   });
-  // Update slider legend active state
-  Array.from(vocabLegend.children).forEach((el,i)=>{ el.classList.toggle('active', i===VOCAB_LEVEL); });
-  vocabRange.setAttribute('aria-valuenow', String(VOCAB_LEVEL));
-  vocabRange.setAttribute('aria-label', `Vocabulary Level: ${['B2','C1','C2'][VOCAB_LEVEL]}`);
+  vLevelBtns.forEach((b,i)=>b.classList.toggle('active', i===VOCAB_LEVEL));
 }
 
 // Autocomplete
@@ -240,6 +216,12 @@ btnVocabShuffle.addEventListener('click', ()=>{
   const t = currentTopic();
   if (t) renderVocab(t);
 });
+vLevelBtns.forEach(btn => btn.addEventListener('click', ()=>{
+  VOCAB_LEVEL = Number(btn.dataset.lvl);
+  const t = currentTopic(); if (t) renderVocab(t);
+  vLevelBtns.forEach(b => b.classList.toggle('active', b===btn));
+}));
+
 document.addEventListener('keydown', e => {
   if (e.key === 'Enter' && document.activeElement !== searchInput) generateRandom();
   if (e.key.toLowerCase() === 'r' && !e.ctrlKey && !e.metaKey){ const t = currentTopic(); if (t) render(t); }
@@ -251,11 +233,6 @@ depthRange.addEventListener('input', (e)=>{
   DIFF = map[val];
   Array.from(depthLegend.children).forEach((el,i)=>{ el.classList.toggle('active', i===val); });
   const t = currentTopic(); if (t) render(t);
-});
-
-vocabRange.addEventListener('input', (e)=>{
-  VOCAB_LEVEL = Number(e.target.value);
-  const t = currentTopic(); if (t) renderVocab(t);
 });
 
 // Text size

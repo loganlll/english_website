@@ -6,7 +6,7 @@
   <title>Topic Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Economica:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="stylesheet" href="styles.css?v=7" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -65,18 +65,12 @@
 
         <h3 class="section-title">Vocabulary (choose level)</h3>
 
-        <!-- Vocab level slider (bottom) -->
-        <div class="vdepth">
-          <label for="vocabRange" class="depth__label">Vocabulary Level</label>
-          <input id="vocabRange" class="depth__range" type="range" min="0" max="2" step="1" value="0" aria-valuemin="0" aria-valuemax="2" aria-valuenow="0" aria-label="Vocabulary Level: B2">
-          <div class="depth__legend">
-            <span data-val="0" class="active">B2</span>
-            <span data-val="1">C1</span>
-            <span data-val="2">C2</span>
-          </div>
-          <div class="vocab-actions">
-            <button class="btn btn-ghost sm" id="btn-vocab-shuffle" aria-label="Shuffle vocabulary">Shuffle vocab</button>
-          </div>
+        <!-- Vocab level segmented buttons -->
+        <div class="vlevel" role="group" aria-label="Vocabulary level">
+          <button class="vbtn active" data-lvl="0">B2</button>
+          <button class="vbtn" data-lvl="1">C1</button>
+          <button class="vbtn" data-lvl="2">C2</button>
+          <button class="btn btn-ghost sm" id="btn-vocab-shuffle" aria-label="Shuffle vocabulary">Shuffle vocab</button>
         </div>
 
         <div id="vocab" class="chips"></div>
@@ -88,6 +82,6 @@
     </footer>
   </main>
 
-  <script src="scripts.js?v=build23"></script>
+  <script src="scripts.js?v=build24"></script>
 </body>
 </html>
