@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Topic Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Economica:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -15,7 +15,7 @@
   <main class="app">
     <header class="app__header">
       <h1>Topic Generator</h1>
-      <p class="subtitle">Press <kbd>Enter</kbd> or click to get a random topic with <strong>10</strong> prompts + B2–C2 vocabulary</p>
+      <p class="subtitle">Press <kbd>Enter</kbd> or click to get a random topic with <strong>10</strong> prompts • B2–C2 vocabulary</p>
     </header>
 
     <section class="card">
@@ -36,12 +36,16 @@
           <ul id="topic-suggestions" class="search__suggestions" role="listbox"></ul>
         </div>
 
-        <fieldset class="diff" aria-label="Depth">
-          <legend>Depth</legend>
-          <label class="seg"><input type="radio" name="difficulty" value="easy"><span>Warm‑up</span></label>
-          <label class="seg"><input type="radio" name="difficulty" value="medium" checked><span>Standard</span></label>
-          <label class="seg"><input type="radio" name="difficulty" value="hard"><span>Challenge</span></label>
-        </fieldset>
+        <!-- Depth slider -->
+        <div class="depth">
+          <label for="depthRange" class="depth__label">Depth</label>
+          <input id="depthRange" class="depth__range" type="range" min="0" max="2" step="1" value="1" aria-valuemin="0" aria-valuemax="2" aria-valuenow="1" aria-label="Depth: Standard">
+          <div class="depth__legend">
+            <span data-val="0">Warm‑up</span>
+            <span data-val="1" class="active">Standard</span>
+            <span data-val="2">Challenge</span>
+          </div>
+        </div>
       </div>
 
       <div class="result" role="status" aria-live="polite">
@@ -49,16 +53,16 @@
         <img id="image" src="img/trans.png" alt="" onerror="this.style.display='none'" />
         <h3 class="section-title">Discussion Prompts</h3>
         <ul id="questions" class="questions"></ul>
-        <h3 class="section-title">Vocabulary by Level (B2 · C1 · C2)</h3>
+        <h3 class="section-title">Vocabulary by Level (B2 • C1 • C2)</h3>
         <div id="vocab" class="chips"></div>
       </div>
     </section>
 
     <footer class="app__footer">
-      <small>Static site · No tracking · JSON-driven · Perfect for GitHub Pages/Netlify</small>
+      <small>Static site · No tracking · JSON‑driven · Perfect for GitHub Pages/Netlify</small>
     </footer>
   </main>
 
-  <script src="scripts.js?v=build20"></script>
+  <script src="scripts.js?v=build21"></script>
 </body>
 </html>

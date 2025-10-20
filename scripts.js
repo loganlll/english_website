@@ -1,4 +1,4 @@
-// Topic Generator with search, depth, leveled vocab, and no duplicate randoms
+// Topic Generator (readability refresh + slider + richer vocab sampling)
 const btn     = document.querySelector('.btn');
 const img     = document.querySelector('#image');
 const topicEl = document.querySelector('#topic');
@@ -8,7 +8,10 @@ const vocabEl = document.querySelector('#vocab');
 const searchWrap = document.querySelector('.search');
 const searchInput = document.querySelector('#search');
 const suggBox = document.querySelector('#topic-suggestions');
-const diffInputs = Array.from(document.querySelectorAll('input[name="difficulty"]'));
+
+// slider
+const depthRange = document.querySelector('#depthRange');
+const depthLegend = document.querySelector('.depth__legend');
 
 let QUESTIONS = null;
 let VOCAB     = null;
@@ -29,8 +32,9 @@ Promise.all([
   VOCAB     = v;
   TOPICS    = Object.keys(QUESTIONS).sort((a,b)=>a.localeCompare(b));
   if (searchInput.value.trim()) drawSuggestions(filterTopics(searchInput.value));
-  // Build global frequency maps per level to help pick unique chips
-  window.__LV_FREQ__ = {B2: new Map(), C1: new Map(), C2: new Map()};
+
+  // Build global frequency maps per level and init recent buffers
+  window.__LV_FREQ__ = {B2:new Map(), C1:new Map(), C2:new Map()};
   if (VOCAB.topic_levels){
     for (const [t, levels] of Object.entries(VOCAB.topic_levels)){
       for (const k of ['B2','C1','C2']){
@@ -42,7 +46,7 @@ Promise.all([
       }
     }
   }
-
+  window.__RECENT_LEVEL__ = {B2:[], C1:[], C2:[]}; // FIFO of recently shown chips per level
 }).catch(err => {
   console.error('Load error:', err);
   topicEl.textContent = 'Error loading questions.';
@@ -61,7 +65,6 @@ function pickNewTopic(){
 }
 
 // ===== Questions helpers =====
-
 function sampleN(arr, n){
   const a = [...arr];
   for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
@@ -80,34 +83,68 @@ function getPrompts(topic){
   return sampleN((entry || []), 10);
 }
 
-
 // ===== Vocab helpers =====
-function buildVocabLevels(topic){
-  const L = (VOCAB.topic_levels && VOCAB.topic_levels[topic]) || null;
-  if (!L) return null;
-  const take7 = arr => {
-    const a=[...arr]; for (let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];}
-    return a.slice(0,7);
-  };
-  return { B2: take7(L.B2||[]), C1: take7(L.C1||[]), C2: take7(L.C2||[]) };
-}
-
-
 function pickUniqueForLevel(topic, level){
   const L = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][level]) || [];
   const freq = (window.__LV_FREQ__ && window.__LV_FREQ__[level]) || new Map();
-  for (const w of L){
-    if ((freq.get(String(w).toLowerCase())||0) === 1) return w;
-  }
+  for (const w of L){ if ((freq.get(String(w).toLowerCase())||0) === 1) return w; }
+  // try category/general pools for a word unused globally
   const cat = (VOCAB.topic_to_cat && VOCAB.topic_to_cat[topic]) || 'general';
   let extras = [];
   if (VOCAB.cat && VOCAB.cat[cat]) extras = extras.concat(VOCAB.cat[cat]);
   if (VOCAB.cat && VOCAB.cat.general) extras = extras.concat(VOCAB.cat.general);
-  for (const w of extras){
-    const key = String(w).toLowerCase();
-    if (!freq.has(key)) return w;
-  }
+  for (const w of extras){ const key = String(w).toLowerCase(); if (!freq.has(key)) return w; }
   return L[0] || null;
+}
+
+// Build a larger candidate pool per level, avoiding high-frequency and recently shown chips
+function buildLevelPool(topic, level){
+  const base = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][level]) || [];
+  const cat  = (VOCAB.topic_to_cat && VOCAB.topic_to_cat[topic]) || null;
+  const freq = window.__LV_FREQ__ ? window.__LV_FREQ__[level] : new Map();
+  const recent = new Set((window.__RECENT_LEVEL__ && window.__RECENT_LEVEL__[level]) || []);
+
+  // collect rare words from other topics in same category to enlarge pool (without destroying level)
+  let extra = [];
+  if (cat && VOCAB.topic_levels){
+    for (const [t, L] of Object.entries(VOCAB.topic_levels)){
+      if (t === topic) continue;
+      if ((VOCAB.topic_to_cat && VOCAB.topic_to_cat[t]) !== cat) continue;
+      extra = extra.concat((L[level]||[]).filter(w => (freq.get(String(w).toLowerCase())||0) <= 2)); // take rarer ones
+    }
+  }
+
+  // Remove globally very frequent items (e.g., "caveat") unless they are the unique pick
+  const COMMON_CUTOFF = 6;
+  const common = new Set(Array.from(freq.entries()).filter(([w,c]) => c >= COMMON_CUTOFF).map(([w])=>w));
+
+  const pool = uniq(base.concat(extra)).filter(w => typeof w === 'string');
+  return pool.filter(w => !recent.has(String(w).toLowerCase()) && !common.has(String(w).toLowerCase()));
+}
+
+function take7WithRules(topic, level){
+  let pool = buildLevelPool(topic, level);
+  // ensure a unique word is present
+  const uniqWord = pickUniqueForLevel(topic, level);
+  if (uniqWord){ pool = uniq([uniqWord, ...pool]); }
+  // if pool too small, fall back to base list
+  if (pool.length < 7){
+    const base = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][level]) || [];
+    pool = uniq([...(uniqWord ? [uniqWord]:[]), ...base, ...pool]);
+  }
+  pool = shuffle(pool).slice(0,7);
+  // update recent buffer (keep last 30 per level)
+  const recent = window.__RECENT_LEVEL__[level];
+  pool.forEach(w => {
+    recent.push(String(w).toLowerCase());
+    if (recent.length > 30) recent.shift();
+  });
+  return pool;
+}
+
+function buildVocabLevels(topic){
+  if (!(VOCAB.topic_levels && VOCAB.topic_levels[topic])) return null;
+  return { B2: take7WithRules(topic,'B2'), C1: take7WithRules(topic,'C1'), C2: take7WithRules(topic,'C2') };
 }
 
 // ===== Render =====
@@ -140,16 +177,7 @@ function render(topic){
       g.appendChild(h);
       const row = document.createElement('div');
       row.className = 'chips';
-      let arr = [...(levels[key] || [])];
-      if (arr.length){
-        const uniqWord = pickUniqueForLevel(topic, key);
-        if (uniqWord){
-          const set = new Set([uniqWord, ...arr]);
-          arr = Array.from(set);
-        }
-      }
-      for (let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}
-      arr.slice(0,7).forEach(w=>{
+      (levels[key] || []).forEach(w => {
         const chip = document.createElement('span');
         chip.className = 'chip';
         chip.textContent = w;
@@ -243,10 +271,17 @@ btn.addEventListener('click', generateRandom);
 document.addEventListener('keydown', e => {
   if (e.key === 'Enter' && document.activeElement !== searchInput) generateRandom();
 });
-diffInputs.forEach(r => r.addEventListener('change', (e)=>{
-  DIFF = e.target.value;
+
+// Slider events
+depthRange.addEventListener('input', (e)=>{
+  const val = Number(e.target.value); // 0/1/2
+  const map = ['easy','medium','hard'];
+  DIFF = map[val];
+  depthRange.setAttribute('aria-valuenow', String(val));
+  depthRange.setAttribute('aria-label', `Depth: ${val===0?'Warm-up':val===1?'Standard':'Challenge'}`);
+  Array.from(depthLegend.children).forEach((el,i)=>{ el.classList.toggle('active', i===val); });
   if (topicEl.textContent){
     const current = TOPICS.find(t => t.toUpperCase() === topicEl.textContent.trim());
     if (current) render(current);
   }
-}));
+});
