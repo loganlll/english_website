@@ -1,25 +1,37 @@
-// Static Topic Generator — 10 conversation prompts + robust vocab
+// Static Topic Generator + Autocomplete — 10 conversation prompts + curated vocab
 const btn     = document.querySelector('.btn');
 const img     = document.querySelector('#image');
 const topicEl = document.querySelector('#topic');
 const listEl  = document.querySelector('#questions');
 const vocabEl = document.querySelector('#vocab');
 
+const searchWrap = document.querySelector('.search');
+const searchInput = document.querySelector('#search');
+const suggBox = document.querySelector('#topic-suggestions');
+
 let QUESTIONS = null;
 let VOCAB     = null;
+let TOPICS    = [];
 let busy      = false;
 
-// Bump these whenever you update the JSONs
-const Q_VER = 'q12';
-const V_VER = 'v12';
+// Bump these when you change JSON
+const Q_VER = 'q20';
+const V_VER = 'v30';
 
 Promise.all([
   fetch('questions.json?' + Q_VER).then(r => r.json()),
   fetch('vocab.json?'     + V_VER).then(r => r.json())
+
 ]).then(([q, v]) => {
   QUESTIONS = q.questions;
   VOCAB     = v;
+  TOPICS    = Object.keys(QUESTIONS).sort((a,b)=>a.localeCompare(b));
+  // Re-run suggestions in case user already typed while loading
+  if (searchInput.value.trim()) {
+    drawSuggestions(filterTopics(searchInput.value));
+  }
 }).catch(err => {
+
   console.error('Load error:', err);
   topicEl.textContent = 'Error loading questions.';
 });
@@ -33,13 +45,12 @@ function topicCategory(topic){
   if (map[topic]) return map[topic];
   const t = topic.toLowerCase();
   for(const [cat, list] of Object.entries(VOCAB.cats || {})){
-    if (list.some(k => t.includes(k.toLowerCase()))) return cat;
+    if (Array.isArray(list) && list.some(k => t.includes(String(k).toLowerCase()))) return cat;
   }
   return 'general';
 }
 
 function buildVocab(topic){
-  // Aim for 12 words. Prefer topic-specific, then fill with category/general.
   const want = 12;
   let words = [];
   if (VOCAB.topic && VOCAB.topic[topic]) {
@@ -55,39 +66,133 @@ function buildVocab(topic){
   return shuffle(words).slice(0, want);
 }
 
-function generate(){
-  if (busy || !QUESTIONS || !VOCAB) return;
-  busy = true;
+function render(topic){
+  if (!topic || !QUESTIONS || !VOCAB) return;
+  const qs = (QUESTIONS[topic] || []).slice(0, 10);
 
+  img && (img.src = 'img/trans.png');
+  topicEl.textContent = topic.toUpperCase();
+
+  // questions
+  listEl.innerHTML = '';
+  qs.forEach(q => {
+    const li = document.createElement('li');
+    li.textContent = q;
+    listEl.appendChild(li);
+  });
+
+  // vocab
+  vocabEl.innerHTML = '';
+  buildVocab(topic).forEach(w => {
+    const chip = document.createElement('span');
+    chip.className = 'chip';
+    chip.textContent = w;
+    vocabEl.appendChild(chip);
+  });
+}
+
+function generateRandom(){
+  if (busy || !TOPICS.length) return;
+  busy = true;
   topicEl.textContent = '';
   listEl.innerHTML = '';
   vocabEl.innerHTML = '';
-  if (img) img.src = 'img/loader.gif';
-
+  img && (img.src = 'img/loader.gif');
   setTimeout(() => {
-    const topics = Object.keys(QUESTIONS);
-    const topic  = pick(topics);
-    const qs     = (QUESTIONS[topic] || []).slice(0, 10);
-
-    if (img) img.src = 'img/trans.png';
-    topicEl.textContent = topic.toUpperCase();
-
-    qs.forEach(q => {
-      const li = document.createElement('li');
-      li.textContent = q;
-      listEl.appendChild(li);
-    });
-
-    buildVocab(topic).forEach(w => {
-      const chip = document.createElement('span');
-      chip.className = 'chip';
-      chip.textContent = w;
-      vocabEl.appendChild(chip);
-    });
-
+    render(pick(TOPICS));
     busy = false;
-  }, 250);
+  }, 200);
 }
 
-btn.addEventListener('click', generate);
-document.addEventListener('keydown', e => { if (e.key === 'Enter') generate(); });
+// ===== Autocomplete =====
+let activeIndex = -1;
+function filterTopics(q){
+  const s = q.trim().toLowerCase();
+  if (!s) return [];
+  // startsWith first, then includes
+  const starts = TOPICS.filter(t => t.toLowerCase().startsWith(s));
+  const contains = TOPICS.filter(t => !starts.includes(t) && t.toLowerCase().includes(s));
+  return [...starts, ...contains].slice(0, 8);
+}
+
+function drawSuggestions(items){
+  if(!suggBox) return;
+  suggBox.innerHTML = '';
+  activeIndex = -1;
+  if (!items.length){ searchWrap.setAttribute('aria-expanded','false'); suggBox.style.display='none'; return; }
+  items.forEach((t,i)=>{
+    const li = document.createElement('li');
+    li.id = `sugg-${i}`;
+    li.role = 'option';
+    li.textContent = t;
+    li.tabIndex = -1;
+    li.addEventListener('mousedown', e => { e.preventDefault(); choose(t); });
+    suggBox.appendChild(li);
+  });
+  searchWrap.setAttribute('aria-expanded','true'); suggBox.style.display='block';
+}
+
+function choose(topic){
+  searchInput.value = topic;
+  searchWrap.setAttribute('aria-expanded','false');
+  render(topic);
+  searchInput.setSelectionRange(topic.length, topic.length);
+}
+
+
+searchInput.addEventListener('input', (e)=>{
+  if (!TOPICS.length){ // data still loading
+    drawSuggestions(['Loading…']);
+    return;
+  }
+  const items = filterTopics(e.target.value);
+  drawSuggestions(items);
+});
+
+
+searchInput.addEventListener('keydown', (e)=>{
+  const items = Array.from(suggBox.children);
+  if (e.key === 'ArrowDown' && items.length){
+    e.preventDefault();
+    activeIndex = (activeIndex + 1) % items.length;
+  } else if (e.key === 'ArrowUp' && items.length){
+    e.preventDefault();
+    activeIndex = (activeIndex - 1 + items.length) % items.length;
+  } else if (e.key === 'Enter'){
+    e.preventDefault();
+    if (items.length && activeIndex >= 0){
+      choose(items[activeIndex].textContent);
+    } else {
+      // If user typed an exact topic, use it; otherwise random
+      const exact = TOPICS.find(t => t.toLowerCase() === searchInput.value.trim().toLowerCase());
+      if (exact) choose(exact); else generateRandom();
+    }
+    return;
+  } else if (e.key === 'Escape'){
+    searchWrap.setAttribute('aria-expanded','false');
+    return;
+  } else {
+    return; // let other keys flow
+  }
+  // update active styles
+  items.forEach((el,i)=>{
+    el.setAttribute('aria-selected', i===activeIndex ? 'true':'false');
+  });
+  const activeEl = items[activeIndex];
+  if (activeEl){
+    searchInput.setAttribute('aria-activedescendant', activeEl.id);
+    activeEl.scrollIntoView({block:'nearest'});
+  }
+});
+
+document.addEventListener('click', (e)=>{
+  if (!searchWrap.contains(e.target)){
+    searchWrap.setAttribute('aria-expanded','false');
+  }
+});
+
+// Buttons & Enter (global)
+btn.addEventListener('click', generateRandom);
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && document.activeElement !== searchInput) generateRandom();
+});

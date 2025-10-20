@@ -41,7 +41,7 @@ body{
 }
 .search__input:focus{outline:none; box-shadow:var(--ring)}
 .search__suggestions{
-  position:absolute; top:100%; left:0; right:0; z-index:10; margin-top:6px; list-style:none; padding:6px;
+  position:absolute; top:100%; left:0; right:0; z-index:9999; margin-top:6px; list-style:none; padding:6px;
   background:var(--card); border-radius:12px; box-shadow:var(--shadow); border:1px solid #e7e7ee; max-height:280px; overflow:auto; display:none;
 }
 .search[aria-expanded="true"] .search__suggestions{display:block}
