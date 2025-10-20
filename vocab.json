@@ -19,7 +19,12 @@
     "Politics": "society",
     "Books": "arts",
     "Music": "arts",
-    "TV Series and Movies": "arts"
+    "TV Series and Movies": "arts",
+    "Travel": "travel",
+    "Vacation": "travel",
+    "Video Games": "games",
+    "Sports and Exercising": "games",
+    "Relationships": "people"
   },
   "cats": {
     "tech": [
@@ -47,7 +52,10 @@
       "Travel",
       "Vacation",
       "Living Abroad",
-      "Transportation"
+      "Transportation",
+      "Hostel",
+      "Itinerary",
+      "Transit"
     ],
     "work": [
       "Jobs",
@@ -72,10 +80,6 @@
       "Stereotypes",
       "Values",
       "Privacy",
-      "Police",
-      "War",
-      "Crime",
-      "Race",
       "Leaders",
       "Public Services",
       "Civic Engagement"
@@ -137,7 +141,9 @@
       "end‑to‑end encryption",
       "threat model",
       "human‑in‑the‑loop",
-      "feature flag"
+      "feature flag",
+      "A/B test",
+      "guardrail"
     ],
     "arts": [
       "aesthetic choices",
@@ -151,7 +157,9 @@
       "cadence",
       "counterpoint",
       "curation",
-      "composition"
+      "composition",
+      "remix culture",
+      "intertextuality"
     ],
     "travel": [
       "itinerary",
@@ -163,7 +171,10 @@
       "local insight",
       "day pass",
       "red‑eye flight",
-      "reservation window"
+      "reservation window",
+      "jet lag",
+      "couchsurfing",
+      "travel hack"
     ],
     "work": [
       "stakeholder",
@@ -175,7 +186,10 @@
       "deadline slippage",
       "feedback loop",
       "runway",
-      "unit economics"
+      "unit economics",
+      "bandwidth",
+      "north star metric",
+      "single point of failure"
     ],
     "society": [
       "trade‑off",
@@ -187,7 +201,9 @@
       "equity vs equality",
       "civil discourse",
       "public consultation",
-      "proportionality"
+      "proportionality",
+      "social fabric",
+      "institutional trust"
     ],
     "health": [
       "evidence‑based",
@@ -199,7 +215,9 @@
       "habit loop",
       "baseline",
       "sleep hygiene",
-      "chronotype"
+      "chronotype",
+      "protective factor",
+      "behavioral cue"
     ],
     "nature": [
       "habitat restoration",
@@ -211,7 +229,9 @@
       "overuse",
       "leave‑no‑trace",
       "watershed",
-      "conservation vs access"
+      "conservation vs access",
+      "reforestation",
+      "runoff"
     ],
     "business": [
       "conversion funnel",
@@ -220,10 +240,11 @@
       "price anchor",
       "break‑even",
       "value proposition",
-      "A/B test",
       "churn",
       "runway",
-      "unit economics"
+      "unit economics",
+      "loss leader",
+      "elasticity"
     ],
     "games": [
       "skill ceiling",
@@ -233,7 +254,9 @@
       "balancing",
       "playtesting",
       "min‑maxing",
-      "cooldown"
+      "cooldown",
+      "hitbox",
+      "resource management"
     ],
     "general": [
       "nuanced",
@@ -245,7 +268,9 @@
       "resilience",
       "scrutiny",
       "ramifications",
-      "ubiquitous"
+      "ubiquitous",
+      "contentious",
+      "scalable"
     ]
   },
   "topic": {
@@ -260,7 +285,9 @@
       "drought‑tolerant",
       "drip irrigation",
       "companion planting",
-      "succession planting"
+      "succession planting",
+      "hardiness zone",
+      "topsoil"
     ],
     "Parks / National Parks": [
       "trailhead",
@@ -273,7 +300,9 @@
       "permit quota",
       "leave‑no‑trace",
       "switchback",
-      "overuse mitigation"
+      "overuse mitigation",
+      "park stewardship",
+      "wayfinding"
     ],
     "Happiness": [
       "subjective well‑being (SWB)",
@@ -285,7 +314,9 @@
       "prosocial behavior",
       "autonomy / competence / relatedness",
       "rumination vs reframing",
-      "flow state"
+      "flow state",
+      "sense of meaning",
+      "emotion regulation"
     ],
     "Sleep": [
       "sleep debt",
@@ -295,7 +326,10 @@
       "wind‑down routine",
       "REM / deep sleep",
       "sleep latency",
-      "chronotype"
+      "chronotype",
+      "sleep inertia",
+      "sleep efficiency",
+      "sleep fragmentation"
     ],
     "Food and Nutrition": [
       "macronutrient balance",
@@ -307,7 +341,9 @@
       "fortified",
       "whole‑grain",
       "batch‑cook",
-      "added sugars"
+      "added sugars",
+      "mindful eating",
+      "empty calories"
     ],
     "Technology": [
       "threat model",
@@ -317,7 +353,10 @@
       "rate‑limiting",
       "privacy by default",
       "telemetry",
-      "feature flag"
+      "feature flag",
+      "guardrail",
+      "safety by design",
+      "cognitive load"
     ],
     "Politics": [
       "stakeholder mapping",
@@ -325,7 +364,9 @@
       "checks and balances",
       "policy safeguard",
       "unintended consequences",
-      "evidence threshold"
+      "evidence threshold",
+      "civil discourse",
+      "polarization"
     ],
     "Books": [
       "unreliable narrator",
@@ -334,7 +375,9 @@
       "foreshadowing",
       "pacing",
       "narrative voice",
-      "show vs tell"
+      "show vs tell",
+      "frame story",
+      "subplot"
     ],
     "Music": [
       "timbre",
@@ -344,7 +387,9 @@
       "hook / motif",
       "arrangement",
       "improvisation",
-      "cadence"
+      "cadence",
+      "polyphony",
+      "resonance"
     ],
     "Cybersecurity & Privacy": [
       "passkey / 2FA",
@@ -352,7 +397,9 @@
       "password manager",
       "breach monitoring",
       "least‑privilege",
-      "end‑to‑end encryption"
+      "end‑to‑end encryption",
+      "threat surface",
+      "zero‑knowledge"
     ],
     "Ocean & Biodiversity": [
       "marine reserve",
@@ -361,14 +408,16 @@
       "coral bleaching",
       "invasive species",
       "restoration project",
-      "biodiversity index"
+      "biodiversity index",
+      "trophic cascade"
     ],
     "Present Perfect": [
       "ever/never questions",
       "recently / lately",
       "since / for",
       "news‑style present perfect",
-      "life experience vs finished time"
+      "life experience vs finished time",
+      "unfinished time frame"
     ],
     "Comparatives": [
       "far/further",
@@ -378,7 +427,38 @@
       "by comparison",
       "comparative clause",
       "than‑clause",
-      "on balance"
+      "on balance",
+      "to a lesser/greater extent"
+    ],
+    "Travel": [
+      "red‑eye flight",
+      "carry‑on only",
+      "packing cube",
+      "transfer time",
+      "seat pitch",
+      "local SIM",
+      "contactless payment",
+      "airport lounge"
+    ],
+    "Video Games": [
+      "skill ceiling",
+      "cooldown",
+      "hitbox",
+      "metagame",
+      "nerf / buff",
+      "frame rate",
+      "latency",
+      "learning curve",
+      "sandbox"
+    ],
+    "Sports and Exercising": [
+      "aerobic threshold",
+      "anaerobic burst",
+      "interval training",
+      "hypertrophy",
+      "mobility work",
+      "joint stability",
+      "VO₂ max"
     ]
   }
 }

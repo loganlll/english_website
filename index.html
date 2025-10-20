@@ -12,7 +12,7 @@
   <main class="app">
     <header class="app__header">
       <h1>Topic Generator</h1>
-      <p class="subtitle">Press <kbd>Enter</kbd> or click to get a topic with 5 prompts and B2–C2 vocabulary</p>
+      <p class="subtitle">Press <kbd>Enter</kbd> or click to get a topic with <strong>10</strong> prompts + B2–C2 vocabulary</p>
     </header>
 
     <section class="card">
@@ -20,18 +20,23 @@
 
       <div class="result" role="status" aria-live="polite">
         <h2 id="topic" class="topic"></h2>
+
+        <!-- Optional image. If missing, it hides itself. -->
         <img id="image" src="img/trans.png" alt="" onerror="this.style.display='none'" />
+
         <h3 class="section-title">Discussion Prompts</h3>
         <ul id="questions" class="questions"></ul>
+
         <h3 class="section-title">Advanced Vocabulary (B2–C2)</h3>
         <div id="vocab" class="chips"></div>
       </div>
     </section>
 
     <footer class="app__footer">
-      <small>Static site · No tracking · JSON-driven · Works great on GitHub Pages/Netlify</small>
+      <small>Static site · No tracking · JSON-driven · Perfect for GitHub Pages/Netlify</small>
     </footer>
   </main>
+
   <script src="scripts.js"></script>
 </body>
 </html>
