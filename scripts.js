@@ -9,9 +9,57 @@ const sample = (a,k)=> (k>=a.length?shuffle(a):shuffle(a).slice(0,k));
 // State
 let QUESTIONS=null, VOCAB=null, TOPICS=[], CURRENT_TOPIC=null, LAST_TOPIC=null, CURRENT_LEVEL="B2";
 
+// Oxford mode
+let OXFORD_MODE=false, OXFORD=null;
+
+// Build VOCAB.levels from our oxford JSON
+function buildVocabFromOxford(ox){
+  const levelMap = {A1:[], A2:[], B1:[], B2:[], C1:[], C2:[]};
+  const entries = ox.oxford_5000_full || [];
+  for(const e of entries){
+    // collect all CEFR levels for this entry (union across POS tags)
+    const levels = new Set();
+    const pl = e.pos_levels || {};
+    for(const k in pl){ (pl[k]||[]).forEach(l=>levels.add(l)); }
+    if(levels.size===0) continue;
+    // choose a display headword: strip trailing digits like 'wind1'
+    let head = (e.lemma || e.head || "").toString();
+    head = head.replace(/\d+$/,"").trim();
+    // optional: strip parentheses explanations at end (keep main word)
+    head = head.replace(/\s*\([^)]*\)\s*$/,"").trim();
+    if(!head) continue;
+    for(const lv of levels){
+      if(levelMap[lv]) levelMap[lv].push(head);
+    }
+  }
+  // de-duplicate words within levels
+  for(const k in levelMap){
+    levelMap[k] = Array.from(new Set(levelMap[k])).sort((a,b)=>a.localeCompare(b));
+  }
+  VOCAB = {levels: levelMap, topic_levels: {}};
+}
+
 // Load data
 async function loadData(){
+  // Try Oxford JSON first
+  try{
+    OXFORD = await fetch('./oxford_wordlists.json',{cache:'no-store'}).then(r=>r.json());
+    buildVocabFromOxford(OXFORD);
+    OXFORD_MODE = true;
+    // Minimal stub for questions/topics to keep UI happy
+    QUESTIONS = {questions: {"Oxford 5000": {easy:[], medium:[], hard:[]}}};
+    TOPICS = ["Oxford 5000"];
+    return;
+  }catch(_){ /* fall through to legacy mode */ }
+  // Legacy mode: original JSONs
   QUESTIONS = await fetch('./questions.json',{cache:'no-store'}).then(r=>r.json());
+  TOPICS = Object.keys(QUESTIONS.questions);
+  try{
+    VOCAB = await fetch('./vocab.json',{cache:'no-store'}).then(r=>r.json());
+  }catch(_){
+    VOCAB = {levels:{B2:[],C1:[],C2:[]}, topic_levels:{}};
+  }
+}).then(r=>r.json());
   TOPICS = Object.keys(QUESTIONS.questions);
   try{
     VOCAB = await fetch('./vocab.json',{cache:'no-store'}).then(r=>r.json());
@@ -55,7 +103,7 @@ function renderVocab(topic, level=CURRENT_LEVEL){
   $$('.btn-level').forEach(b=>b.classList.toggle('is-active', b.dataset.level===level));
   const chips = $('#vocabChips'); chips.innerHTML="";
   const words = getVocab(topic, level);
-  const show = sample(words, Math.min(12, words.length||0));
+  const show = sample(words, Math.min(10, words.length||0));
   if(!show.length){ chips.innerHTML = '<span class="chip">No vocabulary available</span>'; return; }
   show.forEach(w=>{
     const el = document.createElement('span');
@@ -86,6 +134,15 @@ function pickRandom(){
 
 // Actions
 function generate(){
+  if (OXFORD_MODE){
+    const topic = "Oxford 5000";
+    CURRENT_TOPIC = LAST_TOPIC = topic;
+    setTitle(topic);
+    // no questions in Oxford mode
+    $('#questionList').innerHTML = "";
+    renderVocab(topic, CURRENT_LEVEL);
+    return;
+  }
   let topic = pickFromSearch() || pickRandom();
   if(!topic){ alert('No topics available.'); return; }
   CURRENT_TOPIC = LAST_TOPIC = topic;
