@@ -9,9 +9,9 @@ let QUESTIONS = null;
 let VOCAB     = null;
 let busy      = false;
 
-// Bump these when you change JSON to defeat GH Pages cache.
-const Q_VER = 'v10';
-const V_VER = 'v5';
+// Bump these whenever you update the JSONs
+const Q_VER = 'q12';
+const V_VER = 'v12';
 
 Promise.all([
   fetch('questions.json?' + Q_VER).then(r => r.json()),
