@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <!-- Client-side no-cache hints (best effort; cache-busting querystring is the real fix) -->
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -16,15 +15,31 @@
   <main class="app">
     <header class="app__header">
       <h1>Topic Generator</h1>
-      <p class="subtitle">Press <kbd>Enter</kbd> or click to get a topic with <strong>10</strong> prompts + B2–C2 vocabulary</p>
+      <p class="subtitle">Press <kbd>Enter</kbd> or click to get a random topic with <strong>10</strong> prompts + B2–C2 vocabulary</p>
     </header>
 
     <section class="card">
-      <button type="button" class="btn" aria-label="Generate a random topic">Click to Generate</button>
+      <div class="controls">
+        <button type="button" class="btn" aria-label="Generate a random topic">Click to Generate</button>
+
+        <!-- Search with suggestions -->
+        <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="topic-suggestions" aria-expanded="false">
+          <input
+            id="search"
+            class="search__input"
+            type="text"
+            placeholder="Search topics… (e.g., jo, trav, sleep)"
+            autocomplete="off"
+            aria-autocomplete="list"
+            aria-controls="topic-suggestions"
+            aria-activedescendant=""
+          />
+          <ul id="topic-suggestions" class="search__suggestions" role="listbox"></ul>
+        </div>
+      </div>
 
       <div class="result" role="status" aria-live="polite">
         <h2 id="topic" class="topic"></h2>
-        <!-- Optional image. If missing, it hides itself. -->
         <img id="image" src="img/trans.png" alt="" onerror="this.style.display='none'" />
         <h3 class="section-title">Discussion Prompts</h3>
         <ul id="questions" class="questions"></ul>
@@ -38,7 +53,7 @@
     </footer>
   </main>
 
-  <!-- IMPORTANT: cache-bust the script tag itself -->
-  <script src="scripts.js?v=build12"></script>
+  <!-- bump version when you update JS -->
+  <script src="scripts.js?v=build14"></script>
 </body>
 </html>
