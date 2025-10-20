@@ -35,7 +35,7 @@ body{
 .btn:focus-visible{outline:none; box-shadow:var(--ring)}
 
 .btn-ghost{background:transparent; border:1px dashed #c9cbd6; color:var(--ink);}
-.btn-ghost:disabled{opacity:.5; cursor:not-allowed}
+.btn-ghost.sm{font-size:14px; padding:6px 10px; border-style:solid;}
 
 .search{position:relative}
 .search__input{
@@ -53,7 +53,7 @@ body{
 .search__suggestions li[aria-selected="true"], .search__suggestions li:hover{background:#eef0ff; color:#20244a}
 
 /* depth slider */
-.depth{display:flex; flex-direction:column; gap:6px; align-items:stretch}
+.depth, .vdepth{display:flex; flex-direction:column; gap:6px; align-items:stretch}
 .depth__label{font-size:13px; color:var(--muted); letter-spacing:.08em; text-transform:uppercase}
 .depth__range{-webkit-appearance:none; appearance:none; height:6px; border-radius:6px; background:linear-gradient(90deg,#cdd1ff,#cfe9ff); outline:none}
 .depth__range::-webkit-slider-thumb{-webkit-appearance:none; appearance:none; width:22px; height:22px; border-radius:50%; background:#111; box-shadow:0 2px 8px rgba(0,0,0,.25)}
@@ -61,7 +61,8 @@ body{
 .depth__legend{display:flex; justify-content:space-between; font-size:13px; color:var(--muted)}
 .depth__legend span.active{color:var(--ink); font-weight:600}
 
-/* text size */
+.vocab-actions{display:flex; justify-content:flex-end; margin-top:6px;}
+
 .fontsize{display:flex; align-items:center; gap:6px; justify-content:flex-end}
 .fontsize__label{font-size:13px; color:var(--muted); letter-spacing:.08em; text-transform:uppercase; margin-right:2px}
 .fs-btn{border:1px solid #d4d7e3; background:#fff; border-radius:8px; padding:6px 9px; font-size:14px; cursor:pointer}
@@ -73,21 +74,14 @@ body{
 
 .section-title{margin:26px auto 10px; font-size:16px; color:var(--muted); text-transform:uppercase; letter-spacing:.16em}
 
-/* readability improvements */
 .questions{list-style:disc; text-align:left; max-width:760px; margin:0 auto 6px; padding-left:1.35rem}
 .questions li{font-size:var(--qsize); line-height:1.7; margin:.7rem 0; font-weight:500; word-break:keep-all}
 
-/* vocab chips */
-.chips{display:flex; flex-wrap:wrap; gap:12px; justify-content:center; max-width:900px; margin:16px auto 0}
+.chips{display:flex; flex-wrap:wrap; gap:12px; justify-content:center; max-width:900px; margin:12px auto 0}
 .chips .chip{font-size:17px; padding:9px 13px; border-radius:999px; border:1px solid #dcdce0; background:#fff; position:relative}
 .chips .chip.unique::after{content:"★"; font-size:.9em; color:#e39a00; margin-left:6px;}
 
-/* level groups */
-.vocab-groups{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:12px}
-.vgroup{background:transparent; border-radius:12px; padding:8px 6px;}
-.vgroup h4{margin:0 0 6px; font-size:16px; color:var(--muted); letter-spacing:.08em; text-transform:uppercase; text-align:center}
-.vgroup .chips{margin:0; justify-content:center}
 @media (max-width:1100px){ .controls{grid-template-columns:1fr .8fr 1fr 1fr .6fr;} }
-@media (max-width:900px){ .controls{grid-template-columns:1fr; gap:10px} .vocab-groups{grid-template-columns:1fr;} .topic{font-size:46px} #image{width:170px; height:170px} .questions li{font-size:calc(var(--qsize) - 2px); line-height:1.6}}
+@media (max-width:900px){ .controls{grid-template-columns:1fr; gap:10px} .topic{font-size:46px} #image{width:170px; height:170px} .questions li{font-size:calc(var(--qsize) - 2px); line-height:1.6}}
 
 .app__footer{margin-top:22px; text-align:center; color:var(--muted)}
