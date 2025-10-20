@@ -13,10 +13,11 @@ let QUESTIONS = null;
 let VOCAB     = null;
 let TOPICS    = [];
 let busy      = false;
+let lastTopic = null;
 
 // Bump these when you change JSON
 const Q_VER = 'q20';
-const V_VER = 'v30';
+const V_VER = 'v31';
 
 Promise.all([
   fetch('questions.json?' + Q_VER).then(r => r.json()),
@@ -40,6 +41,15 @@ const pick  = arr => arr[Math.floor(Math.random()*arr.length)];
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 function uniq(arr){return [...new Set(arr)];}
 
+function pickNewTopic(){
+  if (!TOPICS.length) return null;
+  if (TOPICS.length === 1) return TOPICS[0];
+  let t = null, tries = 0;
+  do { t = pick(TOPICS); tries++; } while (t === lastTopic && tries < 20);
+  return t;
+}
+
+
 function topicCategory(topic){
   const map = VOCAB.topic_to_cat || {};
   if (map[topic]) return map[topic];
@@ -48,6 +58,23 @@ function topicCategory(topic){
     if (Array.isArray(list) && list.some(k => t.includes(String(k).toLowerCase()))) return cat;
   }
   return 'general';
+}
+
+
+function buildVocabLevels(topic){
+  const L = (VOCAB.topic_levels && VOCAB.topic_levels[topic]) || null;
+  if (!L) return null;
+  // ensure exactly 7 per level (randomize if more)
+  const take7 = arr => {
+    const a = [...arr];
+    for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+    return a.slice(0,7);
+  };
+  return {
+    B2: take7(L.B2 || []),
+    C1: take7(L.C1 || []),
+    C2: take7(L.C2 || []),
+  };
 }
 
 function buildVocab(topic){
@@ -67,6 +94,7 @@ function buildVocab(topic){
 }
 
 function render(topic){
+  if (topic) { lastTopic = topic; }
   if (!topic || !QUESTIONS || !VOCAB) return;
   const qs = (QUESTIONS[topic] || []).slice(0, 10);
 
@@ -81,14 +109,38 @@ function render(topic){
     listEl.appendChild(li);
   });
 
-  // vocab
+  // vocab by levels
   vocabEl.innerHTML = '';
-  buildVocab(topic).forEach(w => {
-    const chip = document.createElement('span');
-    chip.className = 'chip';
-    chip.textContent = w;
-    vocabEl.appendChild(chip);
-  });
+  const levels = buildVocabLevels(topic);
+  if (levels){
+    const wrapper = document.createElement('div');
+    wrapper.className = 'vocab-groups';
+    for (const key of ['B2','C1','C2']){
+      const g = document.createElement('div');
+      g.className = 'vgroup';
+      const h = document.createElement('h4');
+      h.textContent = key;
+      g.appendChild(h);
+      const row = document.createElement('div');
+      row.className = 'chips';
+      (levels[key] || []).forEach(w => {
+        const chip = document.createElement('span');
+        chip.className = 'chip';
+        chip.textContent = w;
+        row.appendChild(chip);
+      });
+      g.appendChild(row);
+      wrapper.appendChild(g);
+    }
+    vocabEl.appendChild(wrapper);
+  } else {
+    buildVocab(topic).forEach(w => {
+      const chip = document.createElement('span');
+      chip.className = 'chip';
+      chip.textContent = w;
+      vocabEl.appendChild(chip);
+    });
+  }
 }
 
 function generateRandom(){
@@ -99,7 +151,7 @@ function generateRandom(){
   vocabEl.innerHTML = '';
   img && (img.src = 'img/loader.gif');
   setTimeout(() => {
-    render(pick(TOPICS));
+    render(pickNewTopic());
     busy = false;
   }, 200);
 }
@@ -133,6 +185,7 @@ function drawSuggestions(items){
 }
 
 function choose(topic){
+  lastTopic = topic;
   searchInput.value = topic;
   searchWrap.setAttribute('aria-expanded','false');
   render(topic);
