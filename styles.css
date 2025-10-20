@@ -46,9 +46,13 @@ body{
   padding: 14px;
 }
 .controls{
-  display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  justify-content: center; align-items: center;
   margin-bottom: 18px;
 }
+.controls > * { justify-self: center; }
 .stage{ padding: 18px 18px 22px; }
 
 /* ============ Buttons & inputs ============ */
@@ -61,70 +65,39 @@ body{
 .btn--primary{ color:#fff; border:0; background-image: var(--accent); box-shadow: 0 10px 24px rgba(122,166,255,.28); }
 .btn--ghost{ background: transparent; }
 
-/* ============ Search ============ */
-.search{ position: relative; width: min(360px, 80vw); }
-.search input{
-  width:100%; padding: 12px 40px 12px 14px; border-radius: 12px; border:1px solid var(--border); outline:none;
-  background: var(--surface); color: var(--ink);
+/* ============ Search / Topics ============ */
+.topics-bar{
+  display:flex; gap:12px; align-items:center; flex-wrap: wrap;
+  padding: 6px 8px; border:1px dashed var(--border); border-radius: 12px;
 }
-.search__clear{
-  position:absolute; right:6px; top:6px; width:28px; height:28px; border-radius: 8px;
-  border:1px solid var(--border); background: var(--surface); cursor:pointer; color: var(--muted); font-weight:700;
-}
-.search__suggestions{ display:none; position:absolute; top:100%; left:0; right:0; z-index:5;
-  background: var(--surface); border:1px solid var(--border); border-radius: 10px; margin-top:6px; padding: 6px;
-}
-.search[aria-expanded="true"] .search__suggestions:not(:empty){ display:block; }
-.search__suggestions button{
-  width:100%; text-align:left; background:transparent; border:0; color:var(--ink);
-  padding:8px 10px; border-radius: 8px; cursor:pointer;
-}
-.search__suggestions button:hover{ background: rgba(127, 156, 245, .10); }
+.topics-bar label{ display:flex; flex-direction:column; gap:4px; font-weight:600; }
+.topics-bar select{ padding: 10px 12px; border:1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--ink); min-width: 220px; }
 
-/* ============ Depth ============ */
-.depth{ display:flex; align-items:center; gap: 10px; }
-.depth__label{ color: var(--muted); font-weight: 600; }
-.depth__range{ width: 220px; }
-.depth__range{ appearance:none; height:6px; border-radius:999px; background: linear-gradient(90deg, rgba(123,167,255,.45), rgba(125,211,252,.45)); outline:none; }
-.depth__range::-webkit-slider-thumb{
-  -webkit-appearance:none; width:22px; height:22px; border-radius:50%; background: var(--surface); border:2px solid #86b1ff; box-shadow: 0 3px 10px rgba(0,0,0,.18);
-}
-.depth__stops{ display:flex; gap:8px; color: var(--muted); }
-.depth__stops b{ color: var(--ink); }
-
-/* ============ Pills & theme ============ */
+/* ============ Depth & pills & theme ============ */
 .pills{ display:flex; gap:8px; align-items:center; }
 .pill__label{ color: var(--muted); }
 .pill{ min-width:36px; height:36px; display:grid; place-items:center; background:var(--surface); color:var(--ink);
-  border:1px solid var(--border); border-radius: 10px; cursor:pointer; font-weight:700; }
+  border:1px solid var(--border); border-radius: 10px; cursor:pointer; font-weight:700; padding: 0 10px; }
 .pill.is-active{ background: var(--ink); color: var(--surface); }
 .theme-toggle{ display:grid; place-items:center; width:38px; height:38px; border:1px solid var(--border); border-radius: 12px; background: var(--surface); cursor:pointer; }
 .icon-24{ width:20px; height:20px; display:block; color: var(--ink); }
+.actions{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
 
-/* ============ Topic & Questions ============ */
-.topic-title{ font-family: Economica, Inter, Arial; font-size: 64px; text-align:center; margin: 8px 0 2px; letter-spacing:.5px; }
-.questions{ list-style:none; padding: 0 4px; margin: 10px 0 16px; }
-.questions li{ font-size: 20px; line-height:1.6; margin: 12px 0; position:relative; padding-left:28px; opacity:0; transform: translateY(6px); }
-.questions li::before{
-  content:""; position:absolute; left:0; top:.7em; width:8px; height:8px; border-radius:50%;
-  background: linear-gradient(135deg, var(--g1), var(--g2)); box-shadow: 0 0 0 3px rgba(120,170,255,.18);
-}
-@keyframes slideIn{from{opacity:0; transform: translateY(6px);} to{opacity:1; transform:none;}}
-.questions li.q-enter{ animation: slideIn .28s ease forwards; }
-.questions li.q-enter:nth-child(2){ animation-delay: 40ms; }
-.questions li.q-enter:nth-child(3){ animation-delay: 80ms; }
-.questions li.q-enter:nth-child(4){ animation-delay: 120ms; }
-.questions li.q-enter:nth-child(5){ animation-delay: 160ms; }
-.questions li.q-enter:nth-child(6){ animation-delay: 200ms; }
-.questions li.q-enter:nth-child(7){ animation-delay: 240ms; }
-.questions li.q-enter:nth-child(8){ animation-delay: 280ms; }
-.questions li.q-enter:nth-child(9){ animation-delay: 320ms; }
-.questions li.q-enter:nth-child(10){ animation-delay: 360ms; }
+/* ============ Topic & Chips ============ */
+.topic-title{ font-family: Economica, Inter, Arial; font-size: 40px; text-align:center; margin: 8px 0 2px; letter-spacing:.5px; }
+.muted{ color: var(--muted); font-size: 12px; }
+.chips{ display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; }
+.chip{ display:inline-flex; align-items:center; gap:8px; border:1px solid var(--border); background:var(--surface); color: var(--ink);
+  border-radius: 20px; padding:8px 12px; font-size: 14px; }
+.chip a{ text-decoration:none; color: inherit; opacity:.85; }
+.chip a:hover{ text-decoration: underline; opacity:1; }
 
-/* ============ Vocab ============ */
-.vocab__header{ display:flex; gap:12px; align-items:center; justify-content: space-between; flex-wrap:wrap; }
-.levels{ display:flex; gap:8px; }
+/* ============ Levels ============ */
+.levels{ display:flex; gap:8px; flex-wrap: wrap; align-items:center; justify-content:center; }
 .btn-level{ border-radius: 14px; padding: 8px 12px; border:1px solid var(--border); background: var(--surface); font-weight:700; cursor:pointer; }
 .btn-level.is-active{ color:#fff; border:0; background-image: var(--accent); box-shadow: 0 10px 22px rgba(123,167,255,.28); }
-.chips{ display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; }
-.chip{ display:inline-flex; border:1px solid var(--border); background: var(--surface); color: var(--ink); border-radius: 20px; padding:8px 12px; font-size: 14px; }
+
+/* Responsive tweaks */
+@media (min-width: 760px){
+  .controls{ grid-template-columns: auto auto 1fr; grid-template-areas: "a b c" "d d d" "e e e"; }
+}

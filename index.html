@@ -3,60 +3,60 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Topic Generator</title>
+  <title>Oxford Vocabulary Trainer</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <main class="container">
     <header class="header">
-      <h1 class="app-title">Topic Generator</h1>
-      <p class="subtitle">Click or press <b>Enter</b> to get 10 Oxford words</p>
+      <h1 class="app-title">Oxford Vocabulary Trainer</h1>
+      <p class="subtitle">Click or press <b>Enter</b> to get 10 words. Choose a CEFR level (A1–C2) and source.</p>
     </header>
 
     <section class="card controls">
-      <button id="generateBtn" class="btn btn--primary">Click to Generate</button>
+      <button id="generateBtn" class="btn btn--primary">Get words</button>
       <button id="reshuffleBtn" class="btn">Reshuffle</button>
 
-      <div class="search" id="searchBox" aria-expanded="false">
-        <input id="searchInput" type="text" placeholder="Search topics…" autocomplete="off" />
-        <button id="searchClear" class="search__clear" aria-label="Clear search">×</button>
-        <div class="search__suggestions" id="suggestions"></div>
+      <div class="pills" role="tablist" aria-label="Source">
+        <span class="pill__label">Source</span>
+        <button id="src5000" class="pill is-active" data-source="ox5000" role="tab" aria-selected="true">Oxford 5000</button>
+        <button id="srcTopics" class="pill" data-source="topics" role="tab" aria-selected="false">Oxford Topics</button>
       </div>
 
-      <div class="depth">
-        <span class="depth__label">Depth</span>
-        <input class="depth__range" type="range" id="depthRange" min="0" max="100" value="50" />
-        <div class="depth__stops">
-          <span id="depthWarm">Warm‑up</span>
-          <b id="depthStd">Standard</b>
-          <span id="depthChal">Challenge</span>
-        </div>
+      <div class="levels">
+        <button class="btn-level is-active" data-level="A1">A1</button>
+        <button class="btn-level" data-level="A2">A2</button>
+        <button class="btn-level" data-level="B1">B1</button>
+        <button class="btn-level" data-level="B2">B2</button>
+        <button class="btn-level" data-level="C1">C1</button>
+        <button class="btn-level" data-level="C2">C2</button>
       </div>
 
-      <div class="pills">
-        <span class="pill__label">Text</span>
-        <button class="pill is-active" data-size="s">S</button>
-        <button class="pill" data-size="m">M</button>
-        <button class="pill" data-size="l">L</button>
+      <div id="topicsBar" class="topics-bar" hidden>
+        <label>
+          <span class="muted">Category</span>
+          <select id="topicCategory"></select>
+        </label>
+        <label>
+          <span class="muted">Topic</span>
+          <select id="topicName"></select>
+        </label>
       </div>
 
-      <button id="themeToggle" class="theme-toggle" title="Toggle theme"></button>
+      <div class="actions">
+        <button id="copyBtn" class="btn btn--ghost">Copy list</button>
+        <button id="csvBtn" class="btn btn--ghost">Export CSV</button>
+        <button id="themeToggle" class="theme-toggle" title="Toggle theme"></button>
+      </div>
     </section>
 
     <section class="card stage">
-      <h2 id="topicTitle" class="topic-title">—</h2>
-
-      <ul id="questionList" class="questions"></ul>
+      <h2 id="title" class="topic-title">Oxford 5000 — <span id="levelLabel">A1</span></h2>
 
       <div class="vocab">
         <div class="vocab__header">
-          <h3>Vocabulary (choose level)</h3>
-          <div class="levels">
-            <button class="btn-level is-active" data-level="B2">B2</button>
-            <button class="btn-level" data-level="C1">C1</button>
-            <button class="btn-level" data-level="C2">C2</button>
-          </div>
-          <button id="shuffleVocab" class="btn btn--ghost">Shuffle vocab</button>
+          <h3>Words</h3>
+          <span id="countLabel" class="muted"></span>
         </div>
         <div id="vocabChips" class="chips"></div>
       </div>

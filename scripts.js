@@ -2,181 +2,189 @@
 const $ = (s, r=document)=>r.querySelector(s);
 const $$ = (s, r=document)=>Array.from(r.querySelectorAll(s));
 const rand = (n)=>Math.floor(Math.random()*n);
-const choice = (a)=>a[rand(a.length)];
 const shuffle = (a)=>a.map(x=>[Math.random(),x]).sort((p,q)=>p[0]-q[0]).map(p=>p[1]);
 const sample = (a,k)=> (k>=a.length?shuffle(a):shuffle(a).slice(0,k));
 
 // State
-let QUESTIONS=null, VOCAB=null, TOPICS=[], CURRENT_TOPIC=null, LAST_TOPIC=null, CURRENT_LEVEL="B2";
+let DATA = { levels: {A1:[],A2:[],B1:[],B2:[],C1:[],C2:[]}, topics:{} };
+let CURRENT_LEVEL = "A1";
+let CURRENT_SOURCE = "ox5000"; // 'ox5000' | 'topics'
+let CURRENT_CATEGORY = null;
+let CURRENT_TOPIC = null;
+let CURRENT_WORDS = [];
 
-// Oxford mode
-let OXFORD_MODE=false, OXFORD=null;
+// ---------- Load Oxford data (static JSON) ----------
+async function loadOxford(){
+  try{
+    const raw = await fetch('./oxford_wordlists.json',{cache:'no-store'}).then(r=>r.json());
+    DATA = normalizeOxford(raw);
+  }catch(err){
+    console.warn('oxford_wordlists.json not found or invalid; using demo data.', err);
+    DATA = demoData();
+  }
+}
 
-// Build VOCAB.levels from our oxford JSON
-function buildVocabFromOxford(ox){
-  const levelMap = {A1:[], A2:[], B1:[], B2:[], C1:[], C2:[]};
-  const entries = ox.oxford_5000_full || [];
-  for(const e of entries){
-    // collect all CEFR levels for this entry (union across POS tags)
-    const levels = new Set();
-    const pl = e.pos_levels || {};
-    for(const k in pl){ (pl[k]||[]).forEach(l=>levels.add(l)); }
-    if(levels.size===0) continue;
-    // choose a display headword: strip trailing digits like 'wind1'
-    let head = (e.lemma || e.head || "").toString();
-    head = head.replace(/\d+$/,"").trim();
-    // optional: strip parentheses explanations at end (keep main word)
-    head = head.replace(/\s*\([^)]*\)\s*$/,"").trim();
-    if(!head) continue;
-    for(const lv of levels){
-      if(levelMap[lv]) levelMap[lv].push(head);
+// Accept both shapes:
+// 1) { oxford_5000_full:[{lemma, pos_levels:{noun:["B1",...]}}], topics:{Category:{Topic:{A1:[...]...}} } }
+// 2) { oxford_5000:{A1:[...],...}, topics:{...} }
+function normalizeOxford(raw){
+  const out = { levels: {A1:[],A2:[],B1:[],B2:[],C1:[],C2:[]}, topics: raw.topics || {} };
+  if (raw.oxford_5000_full){
+    const levelMap = {A1:[],A2:[],B1:[],B2:[],C1:[],C2:[]};
+    for (const e of raw.oxford_5000_full){
+      const levels = new Set();
+      const pl = e.pos_levels || {};
+      for (const k in pl){ (pl[k]||[]).forEach(l=>levels.add(l)); }
+      let head = (e.lemma || e.head || "").toString().replace(/\d+$/,"").replace(/\s*\([^)]*\)\s*$/,"").trim();
+      if (!head) continue;
+      for (const lv of levels){ if (levelMap[lv]) levelMap[lv].push(head); }
+    }
+    for (const k in levelMap){ out.levels[k] = Array.from(new Set(levelMap[k])).sort((a,b)=>a.localeCompare(b)); }
+  } else if (raw.oxford_5000){
+    for (const k of ["A1","A2","B1","B2","C1","C2"]){
+      out.levels[k] = Array.from(new Set(raw.oxford_5000[k]||[])).sort((a,b)=>a.localeCompare(b));
     }
   }
-  // de-duplicate words within levels
-  for(const k in levelMap){
-    levelMap[k] = Array.from(new Set(levelMap[k])).sort((a,b)=>a.localeCompare(b));
+  // Clean topics: ensure every level exists
+  for (const cat in out.topics){
+    for (const t in out.topics[cat]){
+      const lvls = out.topics[cat][t];
+      for (const k of ["A1","A2","B1","B2","C1","C2"]){
+        lvls[k] = Array.from(new Set(lvls[k]||[])).sort((a,b)=>a.localeCompare(b));
+      }
+    }
   }
-  VOCAB = {levels: levelMap, topic_levels: {}};
+  return out;
 }
 
-// Load data
-async function loadData(){
-  // Try Oxford JSON first
-  try{
-    OXFORD = await fetch('./oxford_wordlists.json',{cache:'no-store'}).then(r=>r.json());
-    buildVocabFromOxford(OXFORD);
-    OXFORD_MODE = true;
-    // Minimal stub for questions/topics to keep UI happy
-    QUESTIONS = {questions: {"Oxford 5000": {easy:[], medium:[], hard:[]}}};
-    TOPICS = ["Oxford 5000"];
-    return;
-  }catch(_){ /* fall through to legacy mode */ }
-  // Legacy mode: original JSONs
-  QUESTIONS = await fetch('./questions.json',{cache:'no-store'}).then(r=>r.json());
-  TOPICS = Object.keys(QUESTIONS.questions);
-  try{
-    VOCAB = await fetch('./vocab.json',{cache:'no-store'}).then(r=>r.json());
-  }catch(_){
-    VOCAB = {levels:{B2:[],C1:[],C2:[]}, topic_levels:{}};
-  }
-}).then(r=>r.json());
-  TOPICS = Object.keys(QUESTIONS.questions);
-  try{
-    VOCAB = await fetch('./vocab.json',{cache:'no-store'}).then(r=>r.json());
-  }catch(_){
-    VOCAB = {levels:{B2:[],C1:[],C2:[]}, topic_levels:{}};
-  }
+// A tiny fallback dataset so UI works without Oxford files
+function demoData(){
+  return {
+    levels: {
+      A1:["apple","book","chair","dog","family","go","happy","in","job","kind"],
+      A2:["argue","castle","dangerous","else","friendly","garage","happen","idea","jeans","knowledge"],
+      B1:["analysis","budget","commit","debate","efficient","forecast","generate","highlight","implement","justify"],
+      B2:["accompany","beneficial","circumstance","devote","emerge","framework","guarantee","hypothesis","investigate","justify"],
+      C1:["advocate","coherent","discrepancy","elicit","feasible","inhibit","meticulous","paradigm","scrutiny","viable"],
+      C2:["apocryphal","demagogue","effulgent","grandiloquent","inchoate","insouciant","pellucid","recalcitrant","sycophant","vicissitude"]
+    },
+    topics: {
+      "Animals": {
+        "Pets": { A1:["cat","dog","fish","rabbit"], A2:["hamster","tortoise"] },
+        "Birds": { A1:["duck","hen"], B1:["sparrow","eagle"] }
+      },
+      "Food & Drink": {
+        "Fruit": { A1:["apple","banana","orange"], A2:["grape","pear"] },
+        "Cooking": { B1:["boil","grill","stir"], B2:["marinate","simmer"] }
+      }
+    }
+  };
 }
 
-// Depth
-const bandFromDepth = v => v<34 ? 'easy' : (v<67 ? 'medium' : 'hard');
-
-// Render
-function setTitle(topic){ $('#topicTitle').textContent = topic.toUpperCase(); }
-
-function renderQuestions(topic){
-  const list = $('#questionList'); list.innerHTML="";
-  const band = bandFromDepth( +$('#depthRange').value );
-  const set = QUESTIONS.questions[topic] || {easy:[],medium:[],hard:[]};
-  let qs = (set[band]||[]);
-  if (qs.length >= 10) qs = sample(qs,10);
-  else {
-    const rest = [...(set.easy||[]),...(set.medium||[]),...(set.hard||[])].filter(x=>!qs.includes(x));
-    qs = qs.concat(sample(rest, Math.max(0,10-qs.length)));
-  }
-  qs.forEach((q,i)=>{
-    const li = document.createElement('li');
-    li.textContent = q;
-    li.className = 'q-enter';
-    list.appendChild(li);
-  });
-}
-
-function getVocab(topic, level){
-  const tl = VOCAB?.topic_levels?.[topic]?.[level];
-  if (tl?.length) return tl;
-  const lvl = VOCAB?.levels?.[level] || [];
-  return lvl;
-}
-function renderVocab(topic, level=CURRENT_LEVEL){
+// ---------- UI helpers ----------
+function setActiveLevel(level){
   CURRENT_LEVEL = level;
-  $$('.btn-level').forEach(b=>b.classList.toggle('is-active', b.dataset.level===level));
-  const chips = $('#vocabChips'); chips.innerHTML="";
-  const words = getVocab(topic, level);
-  const show = sample(words, Math.min(10, words.length||0));
-  if(!show.length){ chips.innerHTML = '<span class="chip">No vocabulary available</span>'; return; }
-  show.forEach(w=>{
-    const el = document.createElement('span');
-    el.className='chip'; el.textContent=w; chips.appendChild(el);
-  });
+  $$('.btn-level').forEach(b=> b.classList.toggle('is-active', b.dataset.level===level));
+  $('#levelLabel').textContent = level;
 }
-
-// Topic picking
-function pickFromSearch(){
-  const val = $('#searchInput').value.trim().toLowerCase();
-  if(!val) return null;
-  const exact = TOPICS.find(t=>t.toLowerCase()===val);
-  if (exact) return exact;
-  const starts = TOPICS.find(t=>t.toLowerCase().startsWith(val));
-  if (starts) return starts;
-  const inc = TOPICS.find(t=>t.toLowerCase().includes(val));
-  return inc || null;
+function setSource(src){
+  CURRENT_SOURCE = src;
+  $$('.pill').forEach(b=> b.classList.toggle('is-active', b.dataset.source===src));
+  $('#src5000').setAttribute('aria-selected', src==='ox5000'?'true':'false');
+  $('#srcTopics').setAttribute('aria-selected', src==='topics'?'true':'false');
+  $('#topicsBar').hidden = (src!=='topics');
+  updateTitle();
 }
-function pickRandom(){
-  if (!TOPICS.length) return null;
-  let t = choice(TOPICS);
-  if (LAST_TOPIC && TOPICS.length>1){
-    let guard=0;
-    while(t===LAST_TOPIC && guard<20){ t=choice(TOPICS); guard++; }
+function updateTitle(){
+  if (CURRENT_SOURCE==='ox5000'){
+    $('#title').innerHTML = `Oxford 5000 — <span id="levelLabel">${CURRENT_LEVEL}</span>`;
+  } else {
+    const cat = CURRENT_CATEGORY || '—';
+    const t = CURRENT_TOPIC || '—';
+    $('#title').innerHTML = `Topic: ${cat} — ${t} — <span id="levelLabel">${CURRENT_LEVEL}</span>`;
   }
-  return t;
 }
-
-// Actions
-function generate(){
-  if (OXFORD_MODE){
-    const topic = "Oxford 5000";
-    CURRENT_TOPIC = LAST_TOPIC = topic;
-    setTitle(topic);
-    // no questions in Oxford mode
-    $('#questionList').innerHTML = "";
-    renderVocab(topic, CURRENT_LEVEL);
+function oaldLink(word){
+  const q = encodeURIComponent(word);
+  return `https://www.oxfordlearnersdictionaries.com/search/english/direct/?q=${q}`;
+}
+function renderWords(words){
+  CURRENT_WORDS = words;
+  const chips = $('#vocabChips'); chips.innerHTML="";
+  if (!words?.length){
+    chips.innerHTML = '<span class="chip">No words for this selection.</span>';
+    $('#countLabel').textContent = '';
     return;
   }
-  let topic = pickFromSearch() || pickRandom();
-  if(!topic){ alert('No topics available.'); return; }
-  CURRENT_TOPIC = LAST_TOPIC = topic;
-  setTitle(topic);
-  renderQuestions(topic);
-  renderVocab(topic, CURRENT_LEVEL);
-}
-function reshuffle(){
-  if(!CURRENT_TOPIC){ generate(); return; }
-  renderQuestions(CURRENT_TOPIC);
-  renderVocab(CURRENT_TOPIC, CURRENT_LEVEL);
+  $('#countLabel').textContent = `${words.length} shown`;
+  for (const w of words){
+    const el = document.createElement('span');
+    el.className='chip';
+    el.innerHTML = `${w} · <a href="${oaldLink(w)}" target="_blank" rel="noopener">define</a>`;
+    chips.appendChild(el);
+  }
 }
 
-// Search suggestions
-function updateSuggestions(){
-  const box = $('#searchBox'), sug = $('#suggestions');
-  const val = $('#searchInput').value.trim().toLowerCase();
-  if(!val){ box.setAttribute('aria-expanded','false'); sug.innerHTML=""; return; }
-  const items = TOPICS.filter(t=>t.toLowerCase().includes(val)).slice(0,8);
-  sug.innerHTML = items.map(t=>`<button type="button" data-sel="${t}">${t}</button>`).join('');
-  box.setAttribute('aria-expanded', items.length ? 'true' : 'false');
+// ---------- Word picking ----------
+function pickWords(k=10){
+  let pool = [];
+  if (CURRENT_SOURCE==='ox5000'){
+    pool = DATA.levels[CURRENT_LEVEL] || [];
+  } else {
+    const cat = CURRENT_CATEGORY;
+    const t = CURRENT_TOPIC;
+    pool = (DATA.topics?.[cat]?.[t]?.[CURRENT_LEVEL]) || [];
+  }
+  return sample(pool, Math.min(k, pool.length||0));
 }
-function bindSuggestionClicks(){
-  $('#suggestions').addEventListener('click', (e)=>{
-    const b = e.target.closest('button[data-sel]'); if(!b) return;
-    $('#searchInput').value = b.dataset.sel;
-    $('#searchBox').setAttribute('aria-expanded','false');
-    generate();
+
+// ---------- Topics dropdowns ----------
+function populateTopics(){
+  const catSel = $('#topicCategory');
+  const topicSel = $('#topicName');
+  const cats = Object.keys(DATA.topics||{}).sort((a,b)=>a.localeCompare(b));
+  catSel.innerHTML = cats.map(c=>`<option value="${c}">${c}</option>`).join('');
+  CURRENT_CATEGORY = cats[0] || null;
+  const topics = Object.keys((DATA.topics[CURRENT_CATEGORY]||{})).sort((a,b)=>a.localeCompare(b));
+  topicSel.innerHTML = topics.map(t=>`<option value="${t}">${t}</option>`).join('');
+  CURRENT_TOPIC = topics[0] || null;
+
+  catSel.addEventListener('change', ()=>{
+    CURRENT_CATEGORY = catSel.value;
+    const ts = Object.keys((DATA.topics[CURRENT_CATEGORY]||{})).sort((a,b)=>a.localeCompare(b));
+    topicSel.innerHTML = ts.map(t=>`<option value="${t}">${t}</option>`).join('');
+    CURRENT_TOPIC = ts[0] || null;
+    updateTitle();
+  });
+  topicSel.addEventListener('change', ()=>{
+    CURRENT_TOPIC = topicSel.value;
+    updateTitle();
   });
 }
 
-// Theme toggle with crisp SVG icons
+// ---------- Clipboard / CSV ----------
+function copyList(){
+  const text = CURRENT_WORDS.join(', ');
+  navigator.clipboard.writeText(text).then(()=>{
+    alert('Copied to clipboard!');
+  }, ()=> alert('Copy failed'));
+}
+function exportCSV(){
+  if (!CURRENT_WORDS.length){ alert('Nothing to export'); return; }
+  const rows = [['word','level','source','category','topic']];
+  for (const w of CURRENT_WORDS){
+    rows.push([w, CURRENT_LEVEL, CURRENT_SOURCE, CURRENT_CATEGORY||'', CURRENT_TOPIC||'']);
+  }
+  const csv = rows.map(r=> r.map(x=>`"${String(x).replace(/"/g,'""')}"`).join(',')).join('\n');
+  const blob = new Blob([csv], {type:'text/csv;charset=utf-8;'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = `vocab_${CURRENT_LEVEL}.csv`; a.click();
+  setTimeout(()=> URL.revokeObjectURL(url), 2000);
+}
+
+// ---------- Theme toggle ----------
 (function(){
-  const btn = $('#themeToggle'); if(!btn) return;
   const ICONS = {
     sun: `<svg class="icon-24" viewBox="0 0 24 24" aria-hidden="true">
             <circle cx="12" cy="12" r="4.2" fill="currentColor"/>
@@ -188,6 +196,7 @@ function bindSuggestionClicks(){
              <path d="M20.2 14.6a8.4 8.4 0 1 1-10.8-11A8.6 8.6 0 0 0 12 22a8.6 8.6 0 0 0 8.2-7.4z" fill="currentColor"/>
            </svg>`
   };
+  const btn = $('#themeToggle');
   function setIcon(theme){ btn.innerHTML = theme==='dark' ? ICONS.sun : ICONS.moon; }
   const saved = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -199,23 +208,23 @@ function bindSuggestionClicks(){
   });
 })();
 
-// Bind
+// ---------- Main ----------
 async function main(){
-  await loadData();
-  $('#generateBtn').addEventListener('click', generate);
-  $('#reshuffleBtn').addEventListener('click', reshuffle);
-  $('#depthRange').addEventListener('input', ()=> CURRENT_TOPIC && renderQuestions(CURRENT_TOPIC));
-  $$('.btn-level').forEach(b=> b.addEventListener('click', ()=> renderVocab(CURRENT_TOPIC || pickRandom(), b.dataset.level)));
-  $('#shuffleVocab').addEventListener('click', ()=> CURRENT_TOPIC && renderVocab(CURRENT_TOPIC, CURRENT_LEVEL));
-  $('#searchInput').addEventListener('input', updateSuggestions);
-  $('#searchClear').addEventListener('click', ()=>{ $('#searchInput').value=''; $('#searchBox').setAttribute('aria-expanded','false'); $('#suggestions').innerHTML=''; $('#searchInput').focus(); });
-  bindSuggestionClicks();
+  await loadOxford();
+  populateTopics();
+  setSource('ox5000');
+  setActiveLevel('A1');
+  updateTitle();
 
-  document.addEventListener('keydown', (e)=>{
-    if(e.key==='Enter' && !e.isComposing){ e.preventDefault(); generate(); }
-  });
+  $('#generateBtn').addEventListener('click', ()=> renderWords(pickWords(10)));
+  $('#reshuffleBtn').addEventListener('click', ()=> renderWords(pickWords(10)));
+  $$('.btn-level').forEach(b=> b.addEventListener('click', ()=>{ setActiveLevel(b.dataset.level); updateTitle(); }));
+  $$('.pill').forEach(b=> b.addEventListener('click', ()=> setSource(b.dataset.source)));
+  $('#copyBtn').addEventListener('click', copyList);
+  $('#csvBtn').addEventListener('click', exportCSV);
+  document.addEventListener('keydown', (e)=>{ if(e.key==='Enter' && !e.isComposing){ e.preventDefault(); renderWords(pickWords(10)); } });
 
-  generate();
+  // Initial list
+  renderWords(pickWords(10));
 }
-
 main();
