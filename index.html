@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Topic Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app__header">
+      <h1>Topic Generator</h1>
+      <p class="subtitle">Press <kbd>Enter</kbd> or click to get a topic with 5 prompts</p>
+    </header>
+
+    <section class="card">
+      <button type="button" class="btn" aria-label="Generate a random topic">Click to Generate</button>
+
+      <div class="result" role="status" aria-live="polite">
+        <h2 id="topic" class="topic"></h2>
+        <img id="image" src="img/trans.png" alt="" />
+        <ul id="questions" class="questions"></ul>
+      </div>
+    </section>
+
+    <footer class="app__footer">
+      <small>Built for quick classroom use · No tracking, no backend</small>
+    </footer>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

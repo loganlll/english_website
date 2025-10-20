@@ -1,0 +1,933 @@
+{
+  "meta": {
+    "version": 4,
+    "trimmed": true,
+    "note": "Conversation-first prompts. 5 tailored questions per topic."
+  },
+  "questions": {
+    "Getting to Know Each Other": [
+      "Tell a short story about getting to know each other that changed your perspective.",
+      "What are three green flags and three red flags in getting to know each other? Why each?",
+      "Design a tiny habit that would improve getting to know each other this week.",
+      "Give one respectful boundary you’d keep in getting to know each other and why.",
+      "Role‑play a tricky moment connected to getting to know each other—resolve it tactfully."
+    ],
+    "Family and Friends": [
+      "Tell a short story about family and friends that changed your perspective.",
+      "What are three green flags and three red flags in family and friends? Why each?",
+      "Design a tiny habit that would improve family and friends this week.",
+      "Give one respectful boundary you’d keep in family and friends and why.",
+      "Role‑play a tricky moment connected to family and friends—resolve it tactfully."
+    ],
+    "Relationships": [
+      "Tell a short story about relationships that changed your perspective.",
+      "What are three green flags and three red flags in relationships? Why each?",
+      "Design a tiny habit that would improve relationships this week.",
+      "Give one respectful boundary you’d keep in relationships and why.",
+      "Role‑play a tricky moment connected to relationships—resolve it tactfully."
+    ],
+    "Love": [
+      "Tell a short story about love that changed your perspective.",
+      "What are three green flags and three red flags in love? Why each?",
+      "Design a tiny habit that would improve love this week.",
+      "Give one respectful boundary you’d keep in love and why.",
+      "Role‑play a tricky moment connected to love—resolve it tactfully."
+    ],
+    "Happiness": [
+      "Run a 7‑day micro‑experiment (sleep, movement, sunlight, social). Predict the biggest effect and why.",
+      "Write a specific note of appreciation to someone (no clichés). What precisely are you thanking them for?",
+      "Design a ‘connection plan’ for a busy week: two micro‑moments that would feel genuine.",
+      "Choose an activity that puts you in flow. Engineer 30 minutes of it this week—how?",
+      "Hedonic adaptation: name something that lost its thrill. How could you make it fresh again?"
+    ],
+    "Life & Goals": [
+      "Tell a short story about life & goals that changed your perspective.",
+      "What are three green flags and three red flags in life & goals? Why each?",
+      "Design a tiny habit that would improve life & goals this week.",
+      "Give one respectful boundary you’d keep in life & goals and why.",
+      "Role‑play a tricky moment connected to life & goals—resolve it tactfully."
+    ],
+    "Childhood Memories": [
+      "Tell a short story about childhood memories that changed your perspective.",
+      "What are three green flags and three red flags in childhood memories? Why each?",
+      "Design a tiny habit that would improve childhood memories this week.",
+      "Give one respectful boundary you’d keep in childhood memories and why.",
+      "Role‑play a tricky moment connected to childhood memories—resolve it tactfully."
+    ],
+    "Dreams": [
+      "Tell a short story about dreams that changed your perspective.",
+      "What are three green flags and three red flags in dreams? Why each?",
+      "Design a tiny habit that would improve dreams this week.",
+      "Give one respectful boundary you’d keep in dreams and why.",
+      "Role‑play a tricky moment connected to dreams—resolve it tactfully."
+    ],
+    "Hobbies": [
+      "Tell a short story about hobbies that changed your perspective.",
+      "What are three green flags and three red flags in hobbies? Why each?",
+      "Design a tiny habit that would improve hobbies this week.",
+      "Give one respectful boundary you’d keep in hobbies and why.",
+      "Role‑play a tricky moment connected to hobbies—resolve it tactfully."
+    ],
+    "Pets": [
+      "Tell a short story about pets that changed your perspective.",
+      "What are three green flags and three red flags in pets? Why each?",
+      "Design a tiny habit that would improve pets this week.",
+      "Give one respectful boundary you’d keep in pets and why.",
+      "Role‑play a tricky moment connected to pets—resolve it tactfully."
+    ],
+    "Living Abroad": [
+      "Tell a short story about living abroad that changed your perspective.",
+      "What are three green flags and three red flags in living abroad? Why each?",
+      "Design a tiny habit that would improve living abroad this week.",
+      "Give one respectful boundary you’d keep in living abroad and why.",
+      "Role‑play a tricky moment connected to living abroad—resolve it tactfully."
+    ],
+    "Parties": [
+      "Tell a short story about parties that changed your perspective.",
+      "What are three green flags and three red flags in parties? Why each?",
+      "Design a tiny habit that would improve parties this week.",
+      "Give one respectful boundary you’d keep in parties and why.",
+      "Role‑play a tricky moment connected to parties—resolve it tactfully."
+    ],
+    "Weddings": [
+      "Tell a short story about weddings that changed your perspective.",
+      "What are three green flags and three red flags in weddings? Why each?",
+      "Design a tiny habit that would improve weddings this week.",
+      "Give one respectful boundary you’d keep in weddings and why.",
+      "Role‑play a tricky moment connected to weddings—resolve it tactfully."
+    ],
+    "Jobs and Occupations": [
+      "Write a 30‑second pitch: problem → solution → proof, related to jobs and occupations.",
+      "Define one KPI for jobs and occupations and a weekly ritual to review it.",
+      "Turn a complaint about jobs and occupations into a two‑line apology + fix.",
+      "Set roles, deadlines, and one conflict rule for a jobs and occupations task.",
+      "Draft a polite but clear request for help or clarity about jobs and occupations."
+    ],
+    "School/University": [
+      "Plan a semester system (notes, spaced review, weekly reset).",
+      "Write a respectful email to a professor requesting clarity or an extension.",
+      "Design a fair rubric for a 3‑minute presentation.",
+      "Group project: roles, deadlines, and a conflict rule in five lines.",
+      "Create a 10‑item checklist for exam‑week sanity."
+    ],
+    "Presentations & Public Speaking": [
+      "Write a 30‑second pitch: problem → solution → proof, related to presentations & public speaking.",
+      "Define one KPI for presentations & public speaking and a weekly ritual to review it.",
+      "Turn a complaint about presentations & public speaking into a two‑line apology + fix.",
+      "Set roles, deadlines, and one conflict rule for a presentations & public speaking task.",
+      "Draft a polite but clear request for help or clarity about presentations & public speaking."
+    ],
+    "Running a Business": [
+      "Write a 30‑second pitch: problem → solution → proof, related to running a business.",
+      "Define one KPI for running a business and a weekly ritual to review it.",
+      "Turn a complaint about running a business into a two‑line apology + fix.",
+      "Set roles, deadlines, and one conflict rule for a running a business task.",
+      "Draft a polite but clear request for help or clarity about running a business."
+    ],
+    "Entrepreneurship: Startups & Pitching": [
+      "Write a 30‑second pitch: problem → solution → proof, related to entrepreneurship: startups & pitching.",
+      "Define one KPI for entrepreneurship: startups & pitching and a weekly ritual to review it.",
+      "Turn a complaint about entrepreneurship: startups & pitching into a two‑line apology + fix.",
+      "Set roles, deadlines, and one conflict rule for a entrepreneurship: startups & pitching task.",
+      "Draft a polite but clear request for help or clarity about entrepreneurship: startups & pitching."
+    ],
+    "Remote Work & Gig Economy": [
+      "Write a 30‑second pitch: problem → solution → proof, related to remote work & gig economy.",
+      "Define one KPI for remote work & gig economy and a weekly ritual to review it.",
+      "Turn a complaint about remote work & gig economy into a two‑line apology + fix.",
+      "Set roles, deadlines, and one conflict rule for a remote work & gig economy task.",
+      "Draft a polite but clear request for help or clarity about remote work & gig economy."
+    ],
+    "Negotiation & Conflict Resolution": [
+      "Write a 30‑second pitch: problem → solution → proof, related to negotiation & conflict resolution.",
+      "Define one KPI for negotiation & conflict resolution and a weekly ritual to review it.",
+      "Turn a complaint about negotiation & conflict resolution into a two‑line apology + fix.",
+      "Set roles, deadlines, and one conflict rule for a negotiation & conflict resolution task.",
+      "Draft a polite but clear request for help or clarity about negotiation & conflict resolution."
+    ],
+    "Giving & Receiving Feedback": [
+      "Write a 30‑second pitch: problem → solution → proof, related to giving & receiving feedback.",
+      "Define one KPI for giving & receiving feedback and a weekly ritual to review it.",
+      "Turn a complaint about giving & receiving feedback into a two‑line apology + fix.",
+      "Set roles, deadlines, and one conflict rule for a giving & receiving feedback task.",
+      "Draft a polite but clear request for help or clarity about giving & receiving feedback."
+    ],
+    "Making Complaints & Apologies": [
+      "Write a 30‑second pitch: problem → solution → proof, related to making complaints & apologies.",
+      "Define one KPI for making complaints & apologies and a weekly ritual to review it.",
+      "Turn a complaint about making complaints & apologies into a two‑line apology + fix.",
+      "Set roles, deadlines, and one conflict rule for a making complaints & apologies task.",
+      "Draft a polite but clear request for help or clarity about making complaints & apologies."
+    ],
+    "Note-taking & Study Strategies": [
+      "Write a 30‑second pitch: problem → solution → proof, related to note-taking & study strategies.",
+      "Define one KPI for note-taking & study strategies and a weekly ritual to review it.",
+      "Turn a complaint about note-taking & study strategies into a two‑line apology + fix.",
+      "Set roles, deadlines, and one conflict rule for a note-taking & study strategies task.",
+      "Draft a polite but clear request for help or clarity about note-taking & study strategies."
+    ],
+    "Food and Nutrition": [
+      "Create a 5‑day, 5‑ingredient weekday plan with batch‑cook ideas.",
+      "Decode one nutrition label—what would make you buy or skip it?",
+      "Eating out on a budget: three specific rules that actually help.",
+      "Recommend one cultural dish and explain how to order it well.",
+      "Name a food myth you stopped believing—what changed your mind?"
+    ],
+    "Restaurants": [
+      "Recommend a ‘starter pack’ (3 items) for restaurants and justify each choice.",
+      "Describe a live moment in restaurants a recording can’t capture.",
+      "Compare two styles or traditions in restaurants using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience restaurants.",
+      "Write a fair, specific review related to restaurants (no spoilers/clichés)."
+    ],
+    "Coffee vs Tea": [
+      "Recommend a ‘starter pack’ (3 items) for coffee vs tea and justify each choice.",
+      "Describe a live moment in coffee vs tea a recording can’t capture.",
+      "Compare two styles or traditions in coffee vs tea using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience coffee vs tea.",
+      "Write a fair, specific review related to coffee vs tea (no spoilers/clichés)."
+    ],
+    "In the Kitchen": [
+      "Recommend a ‘starter pack’ (3 items) for in the kitchen and justify each choice.",
+      "Describe a live moment in in the kitchen a recording can’t capture.",
+      "Compare two styles or traditions in in the kitchen using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience in the kitchen.",
+      "Write a fair, specific review related to in the kitchen (no spoilers/clichés)."
+    ],
+    "Travel": [
+      "Recommend a ‘starter pack’ (3 items) for travel and justify each choice.",
+      "Describe a live moment in travel a recording can’t capture.",
+      "Compare two styles or traditions in travel using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience travel.",
+      "Write a fair, specific review related to travel (no spoilers/clichés)."
+    ],
+    "Vacation": [
+      "Recommend a ‘starter pack’ (3 items) for vacation and justify each choice.",
+      "Describe a live moment in vacation a recording can’t capture.",
+      "Compare two styles or traditions in vacation using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience vacation.",
+      "Write a fair, specific review related to vacation (no spoilers/clichés)."
+    ],
+    "Culture": [
+      "Recommend a ‘starter pack’ (3 items) for culture and justify each choice.",
+      "Describe a live moment in culture a recording can’t capture.",
+      "Compare two styles or traditions in culture using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience culture.",
+      "Write a fair, specific review related to culture (no spoilers/clichés)."
+    ],
+    "History": [
+      "Recommend a ‘starter pack’ (3 items) for history and justify each choice.",
+      "Describe a live moment in history a recording can’t capture.",
+      "Compare two styles or traditions in history using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience history.",
+      "Write a fair, specific review related to history (no spoilers/clichés)."
+    ],
+    "Books": [
+      "Recommend a ‘starter pack’ (3 items) for books and justify each choice.",
+      "Describe a live moment in books a recording can’t capture.",
+      "Compare two styles or traditions in books using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience books.",
+      "Write a fair, specific review related to books (no spoilers/clichés)."
+    ],
+    "Music": [
+      "Recommend a ‘starter pack’ (3 items) for music and justify each choice.",
+      "Describe a live moment in music a recording can’t capture.",
+      "Compare two styles or traditions in music using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience music.",
+      "Write a fair, specific review related to music (no spoilers/clichés)."
+    ],
+    "TV Series and Movies": [
+      "Recommend a ‘starter pack’ (3 items) for tv series and movies and justify each choice.",
+      "Describe a live moment in tv series and movies a recording can’t capture.",
+      "Compare two styles or traditions in tv series and movies using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience tv series and movies.",
+      "Write a fair, specific review related to tv series and movies (no spoilers/clichés)."
+    ],
+    "Photography": [
+      "Recommend a ‘starter pack’ (3 items) for photography and justify each choice.",
+      "Describe a live moment in photography a recording can’t capture.",
+      "Compare two styles or traditions in photography using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience photography.",
+      "Write a fair, specific review related to photography (no spoilers/clichés)."
+    ],
+    "Art": [
+      "Recommend a ‘starter pack’ (3 items) for art and justify each choice.",
+      "Describe a live moment in art a recording can’t capture.",
+      "Compare two styles or traditions in art using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience art.",
+      "Write a fair, specific review related to art (no spoilers/clichés)."
+    ],
+    "Board Games & Tabletop RPGs": [
+      "Recommend a ‘starter pack’ (3 items) for board games & tabletop rpgs and justify each choice.",
+      "Describe a live moment in board games & tabletop rpgs a recording can’t capture.",
+      "Compare two styles or traditions in board games & tabletop rpgs using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience board games & tabletop rpgs.",
+      "Write a fair, specific review related to board games & tabletop rpgs (no spoilers/clichés)."
+    ],
+    "Video Games": [
+      "Recommend a ‘starter pack’ (3 items) for video games and justify each choice.",
+      "Describe a live moment in video games a recording can’t capture.",
+      "Compare two styles or traditions in video games using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience video games.",
+      "Write a fair, specific review related to video games (no spoilers/clichés)."
+    ],
+    "Sports and Exercising": [
+      "Recommend a ‘starter pack’ (3 items) for sports and exercising and justify each choice.",
+      "Describe a live moment in sports and exercising a recording can’t capture.",
+      "Compare two styles or traditions in sports and exercising using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience sports and exercising.",
+      "Write a fair, specific review related to sports and exercising (no spoilers/clichés)."
+    ],
+    "Dancing": [
+      "Recommend a ‘starter pack’ (3 items) for dancing and justify each choice.",
+      "Describe a live moment in dancing a recording can’t capture.",
+      "Compare two styles or traditions in dancing using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience dancing.",
+      "Write a fair, specific review related to dancing (no spoilers/clichés)."
+    ],
+    "Gardening": [
+      "Plan a 2×3 m bed for spring: 5 plants, spacing, and why they belong together.",
+      "Only shade after 2 p.m.? What would you grow and how would you adapt?",
+      "Aphids + slugs appear. Propose two organic controls and one preventative step.",
+      "Design a balcony herb garden under $50—containers, soil mix, watering plan.",
+      "Make a 60‑second compost guide (greens : browns, moisture, common mistakes)."
+    ],
+    "Parks / National Parks": [
+      "Design a ½‑day route (3 stops + 1 viewpoint) for first‑time visitors and justify it.",
+      "Write a friendly sign that changes one behavior (feeding wildlife, off‑trail walking).",
+      "Access vs conservation: set a fair rule for a busy trail and explain the trade‑off.",
+      "Do an accessibility audit: 5 barriers wheelchair users might face and fixes.",
+      "Create a ‘leave no trace’ checklist for teens—five points with short reasons."
+    ],
+    "Urban Exploration & Street Art": [
+      "Recommend a ‘starter pack’ (3 items) for urban exploration & street art and justify each choice.",
+      "Describe a live moment in urban exploration & street art a recording can’t capture.",
+      "Compare two styles or traditions in urban exploration & street art using one lens (tone, pacing, color, rhythm).",
+      "Plan a 20‑minute activity for classmates to experience urban exploration & street art.",
+      "Write a fair, specific review related to urban exploration & street art (no spoilers/clichés)."
+    ],
+    "Technology": [
+      "Threat‑model one everyday app: what can go wrong and how would you reduce risk?",
+      "Draft a two‑sentence privacy notice a normal user would actually read.",
+      "Pick one feature and define success with a single clear metric.",
+      "Teach a concept with a non‑technical analogy.",
+      "Design an ‘attention off switch’ for your day."
+    ],
+    "AI in Daily Life": [
+      "Teach a non‑expert one core idea in ai in daily life using a simple analogy.",
+      "Set a privacy boundary for ai in daily life and explain why it matters.",
+      "Pick one feature in ai in daily life and define success with a single metric.",
+      "Name a realistic risk in ai in daily life and a guardrail that would help.",
+      "Design a tiny experiment to see if ai in daily life helps people."
+    ],
+    "Cybersecurity & Privacy": [
+      "Teach a non‑expert one core idea in cybersecurity & privacy using a simple analogy.",
+      "Set a privacy boundary for cybersecurity & privacy and explain why it matters.",
+      "Pick one feature in cybersecurity & privacy and define success with a single metric.",
+      "Name a realistic risk in cybersecurity & privacy and a guardrail that would help.",
+      "Design a tiny experiment to see if cybersecurity & privacy helps people."
+    ],
+    "Social Media": [
+      "Teach a non‑expert one core idea in social media using a simple analogy.",
+      "Set a privacy boundary for social media and explain why it matters.",
+      "Pick one feature in social media and define success with a single metric.",
+      "Name a realistic risk in social media and a guardrail that would help.",
+      "Design a tiny experiment to see if social media helps people."
+    ],
+    "Media Literacy & Misinformation": [
+      "Teach a non‑expert one core idea in media literacy & misinformation using a simple analogy.",
+      "Set a privacy boundary for media literacy & misinformation and explain why it matters.",
+      "Pick one feature in media literacy & misinformation and define success with a single metric.",
+      "Name a realistic risk in media literacy & misinformation and a guardrail that would help.",
+      "Design a tiny experiment to see if media literacy & misinformation helps people."
+    ],
+    "Smart Cities & Urban Planning": [
+      "Teach a non‑expert one core idea in smart cities & urban planning using a simple analogy.",
+      "Set a privacy boundary for smart cities & urban planning and explain why it matters.",
+      "Pick one feature in smart cities & urban planning and define success with a single metric.",
+      "Name a realistic risk in smart cities & urban planning and a guardrail that would help.",
+      "Design a tiny experiment to see if smart cities & urban planning helps people."
+    ],
+    "Inventions": [
+      "Teach a non‑expert one core idea in inventions using a simple analogy.",
+      "Set a privacy boundary for inventions and explain why it matters.",
+      "Pick one feature in inventions and define success with a single metric.",
+      "Name a realistic risk in inventions and a guardrail that would help.",
+      "Design a tiny experiment to see if inventions helps people."
+    ],
+    "Values": [
+      "Map the key stakeholders in values and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on values in two lines.",
+      "Write a neutral headline about values that informs, not inflames.",
+      "Choose a fairness principle to apply to values; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in values."
+    ],
+    "Ethics": [
+      "Map the key stakeholders in ethics and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on ethics in two lines.",
+      "Write a neutral headline about ethics that informs, not inflames.",
+      "Choose a fairness principle to apply to ethics; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in ethics."
+    ],
+    "Human Rights & Civic Engagement": [
+      "Map the key stakeholders in human rights & civic engagement and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on human rights & civic engagement in two lines.",
+      "Write a neutral headline about human rights & civic engagement that informs, not inflames.",
+      "Choose a fairness principle to apply to human rights & civic engagement; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in human rights & civic engagement."
+    ],
+    "Intercultural Communication & Etiquette": [
+      "Map the key stakeholders in intercultural communication & etiquette and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on intercultural communication & etiquette in two lines.",
+      "Write a neutral headline about intercultural communication & etiquette that informs, not inflames.",
+      "Choose a fairness principle to apply to intercultural communication & etiquette; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in intercultural communication & etiquette."
+    ],
+    "Immigration": [
+      "Map the key stakeholders in immigration and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on immigration in two lines.",
+      "Write a neutral headline about immigration that informs, not inflames.",
+      "Choose a fairness principle to apply to immigration; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in immigration."
+    ],
+    "Gender Roles": [
+      "Map the key stakeholders in gender roles and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on gender roles in two lines.",
+      "Write a neutral headline about gender roles that informs, not inflames.",
+      "Choose a fairness principle to apply to gender roles; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in gender roles."
+    ],
+    "Privacy": [
+      "Map the key stakeholders in privacy and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on privacy in two lines.",
+      "Write a neutral headline about privacy that informs, not inflames.",
+      "Choose a fairness principle to apply to privacy; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in privacy."
+    ],
+    "Stereotypes": [
+      "Map the key stakeholders in stereotypes and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on stereotypes in two lines.",
+      "Write a neutral headline about stereotypes that informs, not inflames.",
+      "Choose a fairness principle to apply to stereotypes; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in stereotypes."
+    ],
+    "Corruption": [
+      "Map the key stakeholders in corruption and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on corruption in two lines.",
+      "Write a neutral headline about corruption that informs, not inflames.",
+      "Choose a fairness principle to apply to corruption; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in corruption."
+    ],
+    "Influential Leaders": [
+      "Map the key stakeholders in influential leaders and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on influential leaders in two lines.",
+      "Write a neutral headline about influential leaders that informs, not inflames.",
+      "Choose a fairness principle to apply to influential leaders; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in influential leaders."
+    ],
+    "Politics": [
+      "Map stakeholders for one policy; note winners and losers.",
+      "Steel‑man the view you disagree with in two sentences.",
+      "Write a neutral headline that informs without inflaming.",
+      "Pick a metric you’d track to judge if a policy works.",
+      "Design one safeguard to prevent misuse."
+    ],
+    "Climate Change": [
+      "Choose one local action that would benefit climate change; outline clear steps.",
+      "Write a friendly sign that changes behavior about climate change without shaming.",
+      "Compare two solutions for climate change on cost, impact, and feasibility.",
+      "Plan a half‑day activity related to climate change with one wow‑moment view.",
+      "Explain a risk to wildlife/habitats tied to climate change and a better visitor habit."
+    ],
+    "Renewable Energy": [
+      "Choose one local action that would benefit renewable energy; outline clear steps.",
+      "Write a friendly sign that changes behavior about renewable energy without shaming.",
+      "Compare two solutions for renewable energy on cost, impact, and feasibility.",
+      "Plan a half‑day activity related to renewable energy with one wow‑moment view.",
+      "Explain a risk to wildlife/habitats tied to renewable energy and a better visitor habit."
+    ],
+    "Zero Waste Lifestyle": [
+      "Choose one local action that would benefit zero waste lifestyle; outline clear steps.",
+      "Write a friendly sign that changes behavior about zero waste lifestyle without shaming.",
+      "Compare two solutions for zero waste lifestyle on cost, impact, and feasibility.",
+      "Plan a half‑day activity related to zero waste lifestyle with one wow‑moment view.",
+      "Explain a risk to wildlife/habitats tied to zero waste lifestyle and a better visitor habit."
+    ],
+    "Food Systems & Sustainability": [
+      "Choose one local action that would benefit food systems & sustainability; outline clear steps.",
+      "Write a friendly sign that changes behavior about food systems & sustainability without shaming.",
+      "Compare two solutions for food systems & sustainability on cost, impact, and feasibility.",
+      "Plan a half‑day activity related to food systems & sustainability with one wow‑moment view.",
+      "Explain a risk to wildlife/habitats tied to food systems & sustainability and a better visitor habit."
+    ],
+    "Ocean & Biodiversity": [
+      "Choose one local action that would benefit ocean & biodiversity; outline clear steps.",
+      "Write a friendly sign that changes behavior about ocean & biodiversity without shaming.",
+      "Compare two solutions for ocean & biodiversity on cost, impact, and feasibility.",
+      "Plan a half‑day activity related to ocean & biodiversity with one wow‑moment view.",
+      "Explain a risk to wildlife/habitats tied to ocean & biodiversity and a better visitor habit."
+    ],
+    "Animal Welfare": [
+      "Choose one local action that would benefit animal welfare; outline clear steps.",
+      "Write a friendly sign that changes behavior about animal welfare without shaming.",
+      "Compare two solutions for animal welfare on cost, impact, and feasibility.",
+      "Plan a half‑day activity related to animal welfare with one wow‑moment view.",
+      "Explain a risk to wildlife/habitats tied to animal welfare and a better visitor habit."
+    ],
+    "Water": [
+      "Choose one local action that would benefit water; outline clear steps.",
+      "Write a friendly sign that changes behavior about water without shaming.",
+      "Compare two solutions for water on cost, impact, and feasibility.",
+      "Plan a half‑day activity related to water with one wow‑moment view.",
+      "Explain a risk to wildlife/habitats tied to water and a better visitor habit."
+    ],
+    "Pollution": [
+      "Choose one local action that would benefit pollution; outline clear steps.",
+      "Write a friendly sign that changes behavior about pollution without shaming.",
+      "Compare two solutions for pollution on cost, impact, and feasibility.",
+      "Plan a half‑day activity related to pollution with one wow‑moment view.",
+      "Explain a risk to wildlife/habitats tied to pollution and a better visitor habit."
+    ],
+    "Space": [
+      "Choose one local action that would benefit space; outline clear steps.",
+      "Write a friendly sign that changes behavior about space without shaming.",
+      "Compare two solutions for space on cost, impact, and feasibility.",
+      "Plan a half‑day activity related to space with one wow‑moment view.",
+      "Explain a risk to wildlife/habitats tied to space and a better visitor habit."
+    ],
+    "Sleep": [
+      "Audit a bedtime routine: keep, tweak, drop—and why.",
+      "Test one change for seven nights (light, caffeine, temperature). What will you measure?",
+      "Design a 10‑minute wind‑down ritual that’s realistic for you.",
+      "Phones in the bedroom: set a rule and a backup plan.",
+      "Explain why two people might need very different sleep plans."
+    ],
+    "Sleep Science & Productivity": [
+      "Audit one habit connected to sleep science & productivity: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for sleep science & productivity and a success signal.",
+      "Translate a scary headline about sleep science & productivity into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with sleep science & productivity (no unsolicited advice).",
+      "Explain why two people might need different plans for sleep science & productivity."
+    ],
+    "Mental Health": [
+      "Audit one habit connected to mental health: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for mental health and a success signal.",
+      "Translate a scary headline about mental health into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with mental health (no unsolicited advice).",
+      "Explain why two people might need different plans for mental health."
+    ],
+    "Dopamine": [
+      "Audit one habit connected to dopamine: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for dopamine and a success signal.",
+      "Translate a scary headline about dopamine into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with dopamine (no unsolicited advice).",
+      "Explain why two people might need different plans for dopamine."
+    ],
+    "Motivation": [
+      "Audit one habit connected to motivation: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for motivation and a success signal.",
+      "Translate a scary headline about motivation into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with motivation (no unsolicited advice).",
+      "Explain why two people might need different plans for motivation."
+    ],
+    "Stress and Anxiety": [
+      "Audit one habit connected to stress and anxiety: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for stress and anxiety and a success signal.",
+      "Translate a scary headline about stress and anxiety into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with stress and anxiety (no unsolicited advice).",
+      "Explain why two people might need different plans for stress and anxiety."
+    ],
+    "Diets": [
+      "Audit one habit connected to diets: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for diets and a success signal.",
+      "Translate a scary headline about diets into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with diets (no unsolicited advice).",
+      "Explain why two people might need different plans for diets."
+    ],
+    "Special Diets & Allergies": [
+      "Audit one habit connected to special diets & allergies: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for special diets & allergies and a success signal.",
+      "Translate a scary headline about special diets & allergies into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with special diets & allergies (no unsolicited advice).",
+      "Explain why two people might need different plans for special diets & allergies."
+    ],
+    "Medicine and Supplements": [
+      "Audit one habit connected to medicine and supplements: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for medicine and supplements and a success signal.",
+      "Translate a scary headline about medicine and supplements into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with medicine and supplements (no unsolicited advice).",
+      "Explain why two people might need different plans for medicine and supplements."
+    ],
+    "Vaccines": [
+      "Audit one habit connected to vaccines: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for vaccines and a success signal.",
+      "Translate a scary headline about vaccines into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with vaccines (no unsolicited advice).",
+      "Explain why two people might need different plans for vaccines."
+    ],
+    "Losing and Gaining Weight": [
+      "Audit one habit connected to losing and gaining weight: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for losing and gaining weight and a success signal.",
+      "Translate a scary headline about losing and gaining weight into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with losing and gaining weight (no unsolicited advice).",
+      "Explain why two people might need different plans for losing and gaining weight."
+    ],
+    "Healthcare Visits": [
+      "Audit one habit connected to healthcare visits: keep, tweak, or drop—with a reason.",
+      "Design a realistic 7‑day plan for healthcare visits and a success signal.",
+      "Translate a scary headline about healthcare visits into a balanced statement.",
+      "Write a supportive check‑in message to a friend dealing with healthcare visits (no unsolicited advice).",
+      "Explain why two people might need different plans for healthcare visits."
+    ],
+    "Money": [
+      "Map the key stakeholders in money and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on money in two lines.",
+      "Write a neutral headline about money that informs, not inflames.",
+      "Choose a fairness principle to apply to money; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in money."
+    ],
+    "Shopping": [
+      "Map the key stakeholders in shopping and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on shopping in two lines.",
+      "Write a neutral headline about shopping that informs, not inflames.",
+      "Choose a fairness principle to apply to shopping; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in shopping."
+    ],
+    "Consumer Rights": [
+      "Map the key stakeholders in consumer rights and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on consumer rights in two lines.",
+      "Write a neutral headline about consumer rights that informs, not inflames.",
+      "Choose a fairness principle to apply to consumer rights; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in consumer rights."
+    ],
+    "Advertising": [
+      "Map the key stakeholders in advertising and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on advertising in two lines.",
+      "Write a neutral headline about advertising that informs, not inflames.",
+      "Choose a fairness principle to apply to advertising; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in advertising."
+    ],
+    "Online Dating": [
+      "Map the key stakeholders in online dating and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on online dating in two lines.",
+      "Write a neutral headline about online dating that informs, not inflames.",
+      "Choose a fairness principle to apply to online dating; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in online dating."
+    ],
+    "Charity": [
+      "Map the key stakeholders in charity and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on charity in two lines.",
+      "Write a neutral headline about charity that informs, not inflames.",
+      "Choose a fairness principle to apply to charity; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in charity."
+    ],
+    "Tipping": [
+      "Map the key stakeholders in tipping and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on tipping in two lines.",
+      "Write a neutral headline about tipping that informs, not inflames.",
+      "Choose a fairness principle to apply to tipping; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in tipping."
+    ],
+    "Housing & Renting": [
+      "Make a 10‑point apartment‑viewing checklist with reasons.",
+      "Draft three smart questions for a landlord and expected answers.",
+      "Write a firm but polite maintenance‑request email.",
+      "Roommates: propose a utilities split and a late‑payment rule.",
+      "Negotiate one repair before signing—what’s your script?"
+    ],
+    "Transportation & Commuting": [
+      "Map the key stakeholders in transportation & commuting and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on transportation & commuting in two lines.",
+      "Write a neutral headline about transportation & commuting that informs, not inflames.",
+      "Choose a fairness principle to apply to transportation & commuting; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in transportation & commuting."
+    ],
+    "Driving": [
+      "Map the key stakeholders in driving and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on driving in two lines.",
+      "Write a neutral headline about driving that informs, not inflames.",
+      "Choose a fairness principle to apply to driving; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in driving."
+    ],
+    "Public Services": [
+      "Map the key stakeholders in public services and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on public services in two lines.",
+      "Write a neutral headline about public services that informs, not inflames.",
+      "Choose a fairness principle to apply to public services; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in public services."
+    ],
+    "Disaster Prep & Emergencies": [
+      "Map the key stakeholders in disaster prep & emergencies and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on disaster prep & emergencies in two lines.",
+      "Write a neutral headline about disaster prep & emergencies that informs, not inflames.",
+      "Choose a fairness principle to apply to disaster prep & emergencies; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in disaster prep & emergencies."
+    ],
+    "The Five Senses": [
+      "Share a personal story or belief about the five senses and why you hold it.",
+      "Invent a ‘what if’ scenario linked to the five senses and explore consequences.",
+      "Compare a skeptical view and a believer’s view of the five senses fairly.",
+      "Create two discussion questions about the five senses that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on the five senses."
+    ],
+    "Ghosts": [
+      "Share a personal story or belief about ghosts and why you hold it.",
+      "Invent a ‘what if’ scenario linked to ghosts and explore consequences.",
+      "Compare a skeptical view and a believer’s view of ghosts fairly.",
+      "Create two discussion questions about ghosts that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on ghosts."
+    ],
+    "Aliens": [
+      "Share a personal story or belief about aliens and why you hold it.",
+      "Invent a ‘what if’ scenario linked to aliens and explore consequences.",
+      "Compare a skeptical view and a believer’s view of aliens fairly.",
+      "Create two discussion questions about aliens that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on aliens."
+    ],
+    "Metaphysics": [
+      "Share a personal story or belief about metaphysics and why you hold it.",
+      "Invent a ‘what if’ scenario linked to metaphysics and explore consequences.",
+      "Compare a skeptical view and a believer’s view of metaphysics fairly.",
+      "Create two discussion questions about metaphysics that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on metaphysics."
+    ],
+    "What if...": [
+      "Share a personal story or belief about what if... and why you hold it.",
+      "Invent a ‘what if’ scenario linked to what if... and explore consequences.",
+      "Compare a skeptical view and a believer’s view of what if... fairly.",
+      "Create two discussion questions about what if... that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on what if...."
+    ],
+    "Mythology & Folklore": [
+      "Share a personal story or belief about mythology & folklore and why you hold it.",
+      "Invent a ‘what if’ scenario linked to mythology & folklore and explore consequences.",
+      "Compare a skeptical view and a believer’s view of mythology & folklore fairly.",
+      "Create two discussion questions about mythology & folklore that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on mythology & folklore."
+    ],
+    "Gambling": [
+      "Share a personal story or belief about gambling and why you hold it.",
+      "Invent a ‘what if’ scenario linked to gambling and explore consequences.",
+      "Compare a skeptical view and a believer’s view of gambling fairly.",
+      "Create two discussion questions about gambling that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on gambling."
+    ],
+    "Riddles": [
+      "Share a personal story or belief about riddles and why you hold it.",
+      "Invent a ‘what if’ scenario linked to riddles and explore consequences.",
+      "Compare a skeptical view and a believer’s view of riddles fairly.",
+      "Create two discussion questions about riddles that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on riddles."
+    ],
+    "Luck": [
+      "Share a personal story or belief about luck and why you hold it.",
+      "Invent a ‘what if’ scenario linked to luck and explore consequences.",
+      "Compare a skeptical view and a believer’s view of luck fairly.",
+      "Create two discussion questions about luck that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on luck."
+    ],
+    "Gossip": [
+      "Share a personal story or belief about gossip and why you hold it.",
+      "Invent a ‘what if’ scenario linked to gossip and explore consequences.",
+      "Compare a skeptical view and a believer’s view of gossip fairly.",
+      "Create two discussion questions about gossip that are respectful but provocative.",
+      "Design a simple test or experiment that could shed light on gossip."
+    ],
+    "Present Perfect": [
+      "Write six sentences: experience, change, and recent news (two each).",
+      "Transform past simple to present perfect where natural; explain why.",
+      "Make five ‘Have you ever…?’ questions that aren’t clichés.",
+      "Contrast with past simple using before/after timelines.",
+      "Spot three L1‑influenced errors and fix them."
+    ],
+    "Used To": [
+      "Write 8 ‘used to’ sentences about childhood routines.",
+      "Contrast ‘used to’ vs ‘would’ with 4 examples.",
+      "Turn 5 present habits into ‘didn’t use to’ statements.",
+      "Explain ‘be used to’ vs ‘used to’ with 3 examples.",
+      "Create 5 interview questions using ‘used to’."
+    ],
+    "For and Since and How Long": [
+      "Write 8 sentences with for/since + present perfect (mix long/short spans).",
+      "Convert 5 diary lines into for/since sentences.",
+      "Explain when present simple beats present perfect with for/since.",
+      "Correct 6 for/since errors.",
+      "Create 5 partner questions using for/since."
+    ],
+    "Already, Ever, Yet": [
+      "Write 8 mini Q&A pairs using already/ever/yet naturally.",
+      "Turn 5 past simple sentences into present perfect with already/ever/yet.",
+      "Create 5 ‘Have you ever…?’ questions that aren’t clichés.",
+      "Explain the difference between ‘already’ and ‘yet’ to a classmate.",
+      "Fix 6 ‘ever/never’ mistakes."
+    ],
+    "Comparatives": [
+      "Write 8 comparative sentences across two themes (health, work).",
+      "Turn 4 equality sentences into comparatives; explain the nuance.",
+      "Create 3 ‘double comparative’ slogans (e.g., the more you read…).",
+      "Correct 6 mistakes with irregular forms (better, worse).",
+      "Compare two cities with at least 6 different adjectives."
+    ],
+    "Superlatives": [
+      "Write 8 superlative sentences that aren’t about ‘best food’.",
+      "Build a 5‑item ‘top’ list and justify each superlative claim.",
+      "Turn 4 comparative sentences into superlatives where appropriate.",
+      "Fix 6 errors with articles in superlatives.",
+      "Invent 3 award titles using superlatives (fun + specific)."
+    ],
+    "Second Conditional pt.1": [
+      "Write 5 second‑conditional sentences in realistic contexts.",
+      "Create 3 ‘what if…?’ questions that invite second‑conditional answers.",
+      "Correct 5 typical second‑conditional errors.",
+      "Give two examples contrasting first vs second conditional.",
+      "Turn 3 real dilemmas into second‑conditional advice."
+    ],
+    "Second Conditional pt.2": [
+      "Write 5 second‑conditional sentences in realistic contexts.",
+      "Create 3 ‘what if…?’ questions that invite second‑conditional answers.",
+      "Correct 5 typical second‑conditional errors.",
+      "Give two examples contrasting first vs second conditional.",
+      "Turn 3 real dilemmas into second‑conditional advice."
+    ],
+    "Third Conditional pt.1": [
+      "Write 5 third‑conditional sentences about past hypotheticals you can’t change.",
+      "Rewrite 3 news headlines as third‑conditional reflections.",
+      "Spot and fix 5 common third‑conditional errors.",
+      "Blend with modals of deduction (could have / might have) in 3 sentences.",
+      "Explain the structure in 30 seconds: form + one exception."
+    ],
+    "Third Conditional pt.2": [
+      "Write 5 third‑conditional sentences about past hypotheticals you can’t change.",
+      "Rewrite 3 news headlines as third‑conditional reflections.",
+      "Spot and fix 5 common third‑conditional errors.",
+      "Blend with modals of deduction (could have / might have) in 3 sentences.",
+      "Explain the structure in 30 seconds: form + one exception."
+    ],
+    "Mixed Conditionals": [
+      "Write 6 mixed‑conditional sentences about present results of past causes.",
+      "Convert 4 stories into mixed‑conditionals where natural.",
+      "Explain two patterns (past→present, present→past) with examples.",
+      "Correct 6 errors learners make with mixed conditionals.",
+      "Create 5 ‘what if’ prompts that lead to mixed answers."
+    ],
+    "Phrasal Verbs by Theme": [
+      "Pick a theme (travel/work). Teach 8 phrasal verbs with tiny contexts.",
+      "Write 5 two‑part dialogues that hinge on a phrasal verb.",
+      "Sort 10 phrasal verbs into separable/inseparable.",
+      "Write a mini story using at least 6 phrasal verbs.",
+      "Design 5 cards for a classroom phrasal‑verb game."
+    ],
+    "Idioms & Metaphors": [
+      "Select 6 idioms for a theme and use each in a vivid sentence.",
+      "Rewrite 5 clichés as fresher metaphors.",
+      "Explain 3 idioms to a learner with short contexts.",
+      "Create a 6‑panel story that naturally uses idioms.",
+      "Find 5 idioms that don’t translate well to your L1 and explain."
+    ],
+    "Collocations": [
+      "List 10 high‑value collocations on one topic; use 5 in sentences.",
+      "Turn 6 unnatural phrases into natural collocations.",
+      "Create a short dialogue packed with 8 collocations.",
+      "Design a matching task (verb→noun) with 8 pairs.",
+      "Explain why two near‑synonyms collocate differently."
+    ],
+    "Word Formation": [
+      "Build a family of 8 words from 2 roots (noun/verb/adj/adv).",
+      "Fix 6 word‑formation mistakes in short sentences.",
+      "Create 5 test items (gap‑fill) for ‑tion/‑sion endings.",
+      "Turn neutral words into positive/negative via prefixes.",
+      "Explain two common suffix patterns and exceptions."
+    ],
+    "False Friends": [
+      "List 8 false friends in your L1 and write safe alternatives.",
+      "Write 6 mini‑dialogues where a false friend causes confusion—then fix.",
+      "Create a poster with 10 pairs (friend vs foe).",
+      "Explain why one false friend is so tempting in your L1.",
+      "Design a 5‑question quiz for classmates."
+    ],
+    "Intonation & Politeness": [
+      "Write 6 requests from blunt → polite; mark rising/falling tones.",
+      "Create 5 tag questions with natural intonation cues.",
+      "Mark scripts for 4 apology/thanks situations.",
+      "Rewrite 6 sentences to soften the tone without losing meaning.",
+      "Explain how intonation changes the same sentence’s intent."
+    ],
+    "Connected Speech & Weak Forms": [
+      "Mark weak forms in 6 sentences (to/of/and/for).",
+      "Write a tongue‑twister that forces linking; practice it.",
+      "Transform 4 careful sentences into casual speech with linking.",
+      "Transcribe 4 lines focusing on reductions.",
+      "Design a 5‑minute drill for /t/ + /j/ (‘did you’)."
+    ],
+    "Stress & Rhythm": [
+      "Underline content words in 8 sentences; clap the rhythm.",
+      "Rewrite 4 sentences to change emphasis; explain the effect.",
+      "Create a short chant that drills a tricky rhythm.",
+      "Add sentence‑stress marks to a mini paragraph.",
+      "Design a 3‑minute warm‑up to feel stress‑timed English."
+    ],
+    "Minimal Pairs": [
+      "Create 10 minimal pairs with pictures/emojis to cue sounds.",
+      "Write a 6‑line dialogue contrasting the pairs.",
+      "Design a call‑and‑response drill for /ɪ/ vs /iː/.",
+      "Spot 8 pairs your L1 learners often confuse.",
+      "Build 5 tongue‑twisters using the pairs."
+    ],
+    "Passive Voice": [
+      "Change 8 active sentences into passive; justify when passive helps.",
+      "Write 5 news‑style passives (allegedly/was reported).",
+      "Spot 6 clunky passives and rewrite to active.",
+      "Use the passive to avoid blame tactfully in 4 cases.",
+      "Blend passive with present perfect in 4 sentences."
+    ],
+    "Reported Speech": [
+      "Turn 8 direct quotes into reported speech with correct tense shifts.",
+      "Report 5 commands/requests politely using ask/tell.",
+      "Decide when no tense change is needed; give 4 examples.",
+      "Convert 4 news headlines into reported speech.",
+      "Create a phone‑call dialogue using reported questions."
+    ],
+    "Relative Clauses & Participles": [
+      "Write 8 defining/non‑defining examples; add commas correctly.",
+      "Reduce 5 relative clauses to participle phrases.",
+      "Fix 6 sentence fragments caused by reduced relatives.",
+      "Chain two relative clauses naturally in 4 sentences.",
+      "Explain when to drop ‘that’ without losing clarity."
+    ],
+    "Modal Verbs": [
+      "Write 10 sentences for ability, advice, obligation, deduction.",
+      "Turn 5 rules into softer modal advice.",
+      "Create 5 past deductions using must/can’t/might have.",
+      "Design a classroom ‘permission’ poster using modals.",
+      "Correct 6 modal errors from real speech."
+    ],
+    "Future Forms": [
+      "Write 10 sentences: will/going to/present continuous for future.",
+      "Invent 5 diary lines and choose the best future form for each.",
+      "Explain quick rules for prediction vs plan vs schedule.",
+      "Fix 6 future‑form mistakes.",
+      "Create 3 ‘weather forecast’ lines with different forms."
+    ],
+    "Articles & Quantifiers": [
+      "Write 10 sentences fixing a/an/the/zero article problems.",
+      "Turn 6 uncountable‑noun mistakes into correct versions.",
+      "Create 5 questions using some/any/much/many/enough.",
+      "Explain when to use ‘the’ with unique nouns; 4 examples.",
+      "Contrast few/a few and little/a little in 6 sentences."
+    ],
+    "Gerunds vs Infinitives": [
+      "Write 10 verb patterns (enjoy doing / want to do…) in real contexts.",
+      "Transform 6 sentences to the other form where meaning changes.",
+      "List 8 trigger verbs per pattern; add one example each.",
+      "Correct 6 common mistakes with -ing/to.",
+      "Write a mini story that naturally uses both patterns."
+    ],
+    "Narrative Tenses": [
+      "Write a 6‑sentence story mixing past simple, past continuous, past perfect.",
+      "Identify ‘background’ vs ‘main events’ in a 5‑line text.",
+      "Fix 6 tense‑sequence errors in a narrative.",
+      "Rewrite a paragraph to add suspense using past perfect.",
+      "Storyboard 6 frames and caption each with a different tense."
+    ]
+  }
+}
