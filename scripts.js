@@ -1,288 +1,264 @@
-// Topic Generator (dark-mode toggle + animated entry + colored buttons + 10 prompts)
-const btnGenerate   = document.querySelector('#btn-generate');
-const btnReshuffle  = document.querySelector('#btn-reshuffle');
-const btnVocabShuffle = document.querySelector('#btn-vocab-shuffle');
-const vLevelBtns = Array.from(document.querySelectorAll('.vbtn'));
-const btnTheme = document.querySelector('#btn-theme');
+/* Topic Generator – consolidated JS (search clear integrated) */
 
-const img     = document.querySelector('#image');
-const topicEl = document.querySelector('#topic');
-const listEl  = document.querySelector('#questions');
-const vocabEl = document.querySelector('#vocab');
+// ===== Utilities =====
+const $ = (sel, el=document) => el.querySelector(sel);
+const $$ = (sel, el=document) => Array.from(el.querySelectorAll(sel));
+const rand = (n) => Math.floor(Math.random()*n);
+const choice = (arr) => arr[rand(arr.length)];
+const shuffle = (arr) => arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(p=>p[1]);
+const sample = (arr, n) => shuffle(arr).slice(0, Math.min(n, arr.length));
 
-const searchWrap = document.querySelector('.search');
-const searchInput = document.querySelector('#search');
-const suggBox = document.querySelector('#topic-suggestions');
+// ===== State =====
+const state = {
+  questions: null,
+  vocab: null,
+  topics: [],
+  lastTopic: null,
+  currentTopic: null,
+  difficulty: localStorage.getItem('tg:difficulty') || 'medium', // easy/medium/hard
+  fontSize: localStorage.getItem('tg:qsize') || 'M',             // S/M/L
+  vocabLevel: localStorage.getItem('tg:vlevel') || 'C2',         // B2/C1/C2
+  theme: localStorage.getItem('tg:theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'),
+};
 
-// sliders
-const depthRange = document.querySelector('#depthRange');
-const depthLegend = document.querySelector('.depth__legend');
+// ===== Elements =====
+const el = {
+  generate: $('#generateBtn'),
+  reshuffle: $('#reshuffleBtn'),
+  searchWrap: $('.search'),
+  search: $('#searchInput'),
+  suggestions: $('.search__suggestions'),
+  depth: $('#depthRange'),
+  legends: {
+    easy: $('#legendEasy'), med: $('#legendMed'), hard: $('#legendHard')
+  },
+  sizeBtns: $$('.fs-btn'),
+  themeToggle: $('#themeToggle'),
+  title: $('#topicTitle'),
+  qlist: $('#questionsList'),
+  vBtns: $$('.vbtn'),
+  vChips: $('#vocabChips'),
+  shuffleVocab: $('#shuffleVocab'),
+};
 
-// text size
-const fsBtns = Array.from(document.querySelectorAll('.fs-btn'));
-const root = document.documentElement;
+// ===== Init =====
+async function boot(){
+  // theme
+  document.documentElement.setAttribute('data-theme', state.theme);
+  // text size
+  applyTextSize(state.fontSize);
 
-// State
-let QUESTIONS = null;
-let VOCAB     = null;
-let TOPICS    = [];
-let busy      = false;
-let lastTopic = null;
-let DIFF      = 'medium';
-let VOCAB_LEVEL = 0; // 0=B2,1=C1,2=C2
-let TEXT_SIZE = localStorage.getItem('tg_textsize') || 'm';
+  // difficulty slider
+  const dmap = {easy:0, medium:1, hard:2};
+  el.depth.value = dmap[state.difficulty] ?? 1;
+  setLegend();
 
-// Cache params
-const Q_VER = 'q31';
-const V_VER = 'v32';
-
-// Theme
-function applyTheme(mode){
-  document.documentElement.setAttribute('data-theme', mode);
-  localStorage.setItem('tg_theme', mode);
-  btnTheme.textContent = (mode === 'dark') ? '☀️' : '🌙';
-}
-(function initTheme(){
-  const saved = localStorage.getItem('tg_theme');
-  if (saved) applyTheme(saved);
-  else {
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    applyTheme(prefersDark ? 'dark' : 'light');
+  // fetch data
+  try {
+    const [qRes, vRes] = await Promise.all([fetch('questions.json'), fetch('vocab.json')]);
+    state.questions = await qRes.json();
+    state.vocab = await vRes.json();
+  } catch(e){
+    el.title.textContent = 'Error loading questions.';
+    console.error(e);
+    return;
   }
-})();
-btnTheme.addEventListener('click', () => {
-  const cur = document.documentElement.getAttribute('data-theme');
-  applyTheme(cur === 'dark' ? 'light' : 'dark');
-});
 
-Promise.all([
-  fetch('questions.json?' + Q_VER).then(r => r.json()),
-  fetch('vocab.json?'     + V_VER).then(r => r.json())
-]).then(([q, v]) => {
-  QUESTIONS = q.questions;
-  VOCAB     = v;
-  TOPICS    = Object.keys(QUESTIONS).sort((a,b)=>a.localeCompare(b));
-  if (searchInput.value.trim()) drawSuggestions(filterTopics(searchInput.value));
-  applyTextSize(TEXT_SIZE);
-  highlightFsButton(TEXT_SIZE);
-}).catch(err => {
-  console.error('Load error:', err);
-  topicEl.textContent = 'Error loading questions.';
-});
+  // topics list
+  state.topics = Object.keys(state.questions.questions);
 
-const pick  = arr => arr[Math.floor(Math.random()*arr.length)];
-function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-
-function pickNewTopic(){
-  if (!TOPICS.length) return null;
-  if (TOPICS.length === 1) return TOPICS[0];
-  let t=null, tries=0;
-  do { t = pick(TOPICS); tries++; } while (t === lastTopic && tries < 20);
-  return t;
-}
-
-// Questions
-const PROMPTS_TO_SHOW = 10;
-function sampleN(arr, n){
-  const a = [...arr];
-  for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
-  return a.slice(0, n);
-}
-function getPrompts(topic){
-  const entry = QUESTIONS[topic];
-  if (!entry) return [];
-  if (!Array.isArray(entry) && (entry.easy || entry.medium || entry.hard)){
-    const want = DIFF;
-    let pool = entry[want] && entry[want].length ? entry[want] : (entry.medium || entry.easy || entry.hard || []);
-    return sampleN(pool, PROMPTS_TO_SHOW);
-  }
-  return sampleN((entry || []), PROMPTS_TO_SHOW);
-}
-
-// Vocab helpers (topic-only list; bigger pools are in JSON)
-function takeN(topic, level, n=9){
-  const levelKey = ['B2','C1','C2'][level];
-  const base = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][levelKey]) || [];
-  const uniqWord = base[0] || null;
-  let pool = Array.from(new Set([...(uniqWord ? [uniqWord]:[]), ...base]));
-  pool = shuffle(pool);
-  let items = pool.slice(0,n);
-  if (uniqWord && !items.includes(uniqWord) && pool.length){
-    items[items.length-1] = uniqWord;
-  }
-  return {items, unique: uniqWord || null, level: levelKey};
-}
-
-// Render helpers (with staggered animations)
-function animateList(container){
-  Array.from(container.children).forEach((el, i) => {
-    el.classList.remove('q-enter');
-    // force reflow to restart animation
-    void el.offsetWidth;
-    el.style.animationDelay = (i * 40) + 'ms';
-    el.classList.add('q-enter');
+  wireEvents();
+  // keyboard
+  document.addEventListener('keydown', (e)=>{
+    if (e.key === 'Enter' && document.activeElement !== el.search) {
+      handleGenerate();
+    }
   });
 }
-function animateChips(container){
-  Array.from(container.children).forEach((el, i) => {
-    el.classList.remove('chip-enter');
-    void el.offsetWidth;
-    el.style.animationDelay = (i * 30) + 'ms';
-    el.classList.add('chip-enter');
+document.addEventListener('DOMContentLoaded', boot);
+
+// ===== Events =====
+function wireEvents(){
+  el.generate.addEventListener('click', handleGenerate);
+  el.reshuffle.addEventListener('click', ()=>{
+    if (state.currentTopic) renderTopic(state.currentTopic);
+  });
+
+  // search input + suggestions
+  el.search.addEventListener('input', onSearchInput);
+  el.search.addEventListener('focus', ()=> el.searchWrap.setAttribute('aria-expanded','true'));
+  el.search.addEventListener('blur', ()=> setTimeout(()=>el.searchWrap.setAttribute('aria-expanded','false'), 120));
+
+  // add clear [×] inside search
+  mountSearchClear();
+
+  el.depth.addEventListener('input', onDepthChange);
+
+  el.sizeBtns.forEach(btn=>btn.addEventListener('click', ()=>{
+    el.sizeBtns.forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    state.fontSize = btn.dataset.size;
+    localStorage.setItem('tg:qsize', state.fontSize);
+    applyTextSize(state.fontSize);
+  }));
+
+  el.themeToggle.addEventListener('click', ()=>{
+    state.theme = (state.theme==='dark'?'light':'dark');
+    document.documentElement.setAttribute('data-theme', state.theme);
+    localStorage.setItem('tg:theme', state.theme);
+  });
+
+  el.vBtns.forEach(b => b.addEventListener('click', ()=>{
+    el.vBtns.forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    state.vocabLevel = b.dataset.level;
+    localStorage.setItem('tg:vlevel', state.vocabLevel);
+    renderVocab(state.currentTopic);
+  }));
+
+  el.shuffleVocab.addEventListener('click', ()=> renderVocab(state.currentTopic));
+
+  // click suggestion
+  el.suggestions.addEventListener('click', (e)=>{
+    const li = e.target.closest('li');
+    if (!li) return;
+    const topic = li.dataset.topic;
+    el.search.value = topic;
+    el.searchWrap.setAttribute('aria-expanded','false');
+    renderTopic(topic);
   });
 }
 
-function currentTopic(){
-  const upper = topicEl.textContent.trim();
-  return TOPICS.find(t => t.toUpperCase() === upper) || null;
+function handleGenerate(){
+  // pick a new random topic not equal to lastTopic
+  let topic = choice(state.topics);
+  if (state.lastTopic && state.topics.length > 1){
+    let safety = 0;
+    while (topic === state.lastTopic && safety < 10){
+      topic = choice(state.topics); safety++;
+    }
+  }
+  renderTopic(topic);
 }
-function render(topic){
-  if (!topic || !QUESTIONS || !VOCAB) return;
-  lastTopic = topic;
-  if (img){ img.src = 'img/trans.png'; img.style.display='block'; }
-  topicEl.textContent = topic.toUpperCase();
-  btnReshuffle.disabled = false;
 
-  const qs = getPrompts(topic);
-  listEl.innerHTML = '';
-  qs.forEach(q => {
+// ===== Rendering =====
+function renderTopic(topic){
+  state.currentTopic = topic;
+  state.lastTopic = topic;
+  el.title.textContent = topic.toUpperCase();
+
+  // questions by difficulty
+  const band = getBand();
+  const allQs = state.questions.questions[topic]?.[band] || [];
+  const qs = sample(allQs, 10);
+
+  el.qlist.innerHTML = '';
+  qs.forEach((q, i)=>{
     const li = document.createElement('li');
     li.textContent = q;
-    listEl.appendChild(li);
+    li.classList.add('q-enter');
+    li.style.animationDelay = `${i*40}ms`;
+    el.qlist.appendChild(li);
   });
-  animateList(listEl);
+
   renderVocab(topic);
 }
 
 function renderVocab(topic){
-  vocabEl.innerHTML = '';
-  const pack = takeN(topic, VOCAB_LEVEL, 9);
-  (pack.items || []).forEach(w => {
-    const chip = document.createElement('span');
-    chip.className = 'chip' + (pack.unique && w === pack.unique ? ' unique' : '');
-    chip.textContent = w;
-    vocabEl.appendChild(chip);
+  el.vChips.innerHTML = '';
+  const lvl = state.vocabLevel;
+  const t = state.vocab.topic_levels?.[topic]?.[lvl];
+  const fallback = state.vocab.levels?.[lvl] || [];
+  const pool = (t && t.length? t: fallback);
+  const items = sample(pool, 12);
+  items.forEach((w, i)=>{
+    const span = document.createElement('span');
+    span.className = 'chip chip-enter';
+    span.style.animationDelay = `${i*35}ms`;
+    span.textContent = w;
+    el.vChips.appendChild(span);
   });
-  animateChips(vocabEl);
-  vLevelBtns.forEach((b,i)=>b.classList.toggle('active', i===VOCAB_LEVEL));
 }
 
-// Autocomplete
-let activeIndex = -1;
-function filterTopics(q){
-  const s = q.trim().toLowerCase();
-  if (!s) return [];
-  const starts = TOPICS.filter(t => t.toLowerCase().startsWith(s));
-  const contains = TOPICS.filter(t => !starts.includes(t) && t.toLowerCase().includes(s));
-  return [...starts, ...contains].slice(0, 8);
+function getBand(){
+  const val = Number(el.depth.value);
+  const band = (val===0)?'easy':(val===2)?'hard':'medium';
+  state.difficulty = band;
+  localStorage.setItem('tg:difficulty', band);
+  setLegend();
+  return band;
 }
-function drawSuggestions(items){
-  if(!suggBox) return;
-  suggBox.innerHTML = '';
-  activeIndex = -1;
-  if (!items.length){ searchWrap.setAttribute('aria-expanded','false'); suggBox.style.display='none'; return; }
-  items.forEach((t,i)=>{
-    const li = document.createElement('li');
-    li.id = `sugg-${i}`;
-    li.role = 'option';
-    li.textContent = t;
-    li.tabIndex = -1;
-    li.addEventListener('mousedown', e => { e.preventDefault(); choose(t); });
-    suggBox.appendChild(li);
-  });
-  searchWrap.setAttribute('aria-expanded','true'); suggBox.style.display='block';
+function setLegend(){
+  const val = Number(el.depth.value);
+  el.legends.easy.classList.toggle('active', val===0);
+  el.legends.med.classList.toggle('active', val===1);
+  el.legends.hard.classList.toggle('active', val===2);
 }
-function choose(topic){
-  lastTopic = topic;
-  if (suggBox){ suggBox.style.display='none'; suggBox.innerHTML=''; }
-  if (searchWrap){ searchWrap.setAttribute('aria-expanded','false'); }
-  activeIndex = -1; searchInput.setAttribute('aria-activedescendant','');
-  searchInput.value = topic;
-  render(topic);
-  searchInput.setSelectionRange(topic.length, topic.length);
-}
-searchInput.addEventListener('input', (e)=>{
-  if (!TOPICS.length){ drawSuggestions(['Loading…']); return; }
-  drawSuggestions(filterTopics(e.target.value));
-});
-searchInput.addEventListener('keydown', (e)=>{
-  const items = Array.from(suggBox.children);
-  if (e.key === 'ArrowDown' && items.length){
-    e.preventDefault(); activeIndex = (activeIndex + 1) % items.length;
-  } else if (e.key === 'ArrowUp' && items.length){
-    e.preventDefault(); activeIndex = (activeIndex - 1 + items.length) % items.length;
-  } else if (e.key === 'Enter'){
-    e.preventDefault();
-    if (items.length && activeIndex >= 0){
-      choose(items[activeIndex].textContent);
-    } else {
-      const exact = TOPICS.find(t => t.toLowerCase() === searchInput.value.trim().toLowerCase());
-      if (exact) choose(exact); else generateRandom();
-    }
-    if (suggBox){ suggBox.style.display='none'; }
-    searchWrap.setAttribute('aria-expanded','false');
-    activeIndex = -1; searchInput.setAttribute('aria-activedescendant','');
-    return;
-  } else if (e.key === 'Escape'){
-    searchWrap.setAttribute('aria-expanded','false'); if (suggBox){ suggBox.style.display='none'; } return;
-  } else { return; }
-  items.forEach((el,i)=>{ el.setAttribute('aria-selected', i===activeIndex ? 'true':'false'); });
-  const activeEl = items[activeIndex]; if (activeEl){ searchInput.setAttribute('aria-activedescendant', activeEl.id); activeEl.scrollIntoView({block:'nearest'}); }
-});
-document.addEventListener('click', (e)=>{
-  if (!searchWrap.contains(e.target)){
-    searchWrap.setAttribute('aria-expanded','false'); if (suggBox){ suggBox.style.display='none'; }
-  }
-});
+function onDepthChange(){ getBand(); if (state.currentTopic) renderTopic(state.currentTopic); }
 
-// Controls
-function generateRandom(){
-  if (busy || !TOPICS.length) return;
-  busy = true;
-  topicEl.textContent=''; listEl.innerHTML=''; vocabEl.innerHTML='';
-  if (img){ img.src = 'img/loader.gif'; img.style.display='block'; }
-  setTimeout(()=>{ render(pickNewTopic()); busy=false; }, 200);
-}
-
-btnGenerate.addEventListener('click', generateRandom);
-btnReshuffle.addEventListener('click', ()=>{
-  const t = currentTopic();
-  if (t) render(t);
-});
-btnVocabShuffle.addEventListener('click', ()=>{
-  const t = currentTopic();
-  if (t) renderVocab(t);
-});
-vLevelBtns.forEach(btn => btn.addEventListener('click', ()=>{
-  VOCAB_LEVEL = Number(btn.dataset.lvl);
-  const t = currentTopic(); if (t) renderVocab(t);
-  vLevelBtns.forEach(b => b.classList.toggle('active', b===btn));
-}));
-
-document.addEventListener('keydown', e => {
-  if (e.key === 'Enter' && document.activeElement !== searchInput) generateRandom();
-  if (e.key.toLowerCase() === 'r' && !e.ctrlKey && !e.metaKey){ const t = currentTopic(); if (t) render(t); }
-});
-
-depthRange.addEventListener('input', (e)=>{
-  const val = Number(e.target.value);
-  const map = ['easy','medium','hard'];
-  DIFF = map[val];
-  Array.from(depthLegend.children).forEach((el,i)=>{ el.classList.toggle('active', i===val); });
-  const t = currentTopic(); if (t) render(t);
-});
-
-// Text size
 function applyTextSize(size){
-  if (size === 's') root.style.setProperty('--qsize', '20px');
-  else if (size === 'l') root.style.setProperty('--qsize', '24px');
-  else root.style.setProperty('--qsize', '22px');
+  const map = {S:'20px', M:'22px', L:'26px'};
+  document.documentElement.style.setProperty('--qsize', map[size] || '22px');
+  el.sizeBtns.forEach(b=> b.classList.toggle('active', b.dataset.size===size));
 }
-function highlightFsButton(size){
-  fsBtns.forEach(b => b.classList.toggle('active', b.dataset.size === size));
+
+// ===== Search =====
+function onSearchInput(){
+  const q = el.search.value.trim().toLowerCase();
+  const ul = el.suggestions;
+  ul.innerHTML='';
+  if (!q){ el.searchWrap.setAttribute('aria-expanded','false'); return; }
+
+  const hits = state.topics.filter(t => t.toLowerCase().includes(q)).slice(0,12);
+  hits.forEach((t,i)=>{
+    const li = document.createElement('li');
+    li.textContent = t;
+    li.dataset.topic = t;
+    if (i===0) li.setAttribute('aria-selected','true');
+    ul.appendChild(li);
+  });
+  el.searchWrap.setAttribute('aria-expanded','true');
 }
-fsBtns.forEach(btn => btn.addEventListener('click', ()=>{
-  const size = btn.dataset.size;
-  TEXT_SIZE = size; localStorage.setItem('tg_textsize', size);
-  applyTextSize(size); highlightFsButton(size);
-}));
+
+// Add a clear “×” inside the search box; second click (when empty) clears the rendered topic.
+function mountSearchClear(){
+  const wrap = el.searchWrap;
+  let btn = wrap.querySelector('.search__clear');
+  if (!btn){
+    btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'search__clear';
+    btn.setAttribute('aria-label','Clear search');
+    btn.innerHTML = '&times;';
+    wrap.appendChild(btn);
+  }
+  const toggle = () => { btn.style.visibility = el.search.value ? 'visible':'hidden'; };
+  toggle();
+  el.search.addEventListener('input', toggle);
+
+  const clearTopicUI = () => {
+    el.title.textContent = '';
+    el.qlist.innerHTML = '';
+    el.vChips.innerHTML = '';
+  };
+  btn.addEventListener('click', ()=>{
+    if (el.search.value){
+      el.search.value='';
+      el.suggestions.innerHTML='';
+      wrap.setAttribute('aria-expanded','false');
+      toggle();
+      el.search.focus();
+    }else{
+      clearTopicUI();
+    }
+  });
+  el.search.addEventListener('keydown', (e)=>{
+    if (e.key==='Escape'){
+      if (el.search.value){
+        el.search.value=''; el.suggestions.innerHTML=''; wrap.setAttribute('aria-expanded','false'); toggle();
+      } else {
+        clearTopicUI();
+      }
+    }
+  });
+}

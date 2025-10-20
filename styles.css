@@ -157,3 +157,16 @@ html[data-theme="dark"] .depth__range::-moz-range-thumb{
 
 /* footer */
 .app__footer{margin-top:22px; text-align:center; color:var(--muted)}
+
+
+/* clear 'x' inside the search box */
+.search__clear{
+  position:absolute; right:8px; top:50%; transform:translateY(-50%);
+  width:28px; height:28px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  font-size:18px; line-height:1; cursor:pointer;
+  background:#fff; color:#333; border:1px solid #d4d7e3; box-shadow:0 1px 2px rgba(0,0,0,.04);
+  visibility:hidden;
+}
+html[data-theme="dark"] .search__clear{ background:#0f1220; color:#e7eaf3; border-color:#2a2f3d }
+.search__clear:hover{ filter:saturate(1.1) }
