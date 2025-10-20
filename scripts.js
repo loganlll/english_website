@@ -239,6 +239,11 @@ function drawSuggestions(items){
 
 function choose(topic){
   lastTopic = topic;
+  // hide suggestions immediately
+  if (suggBox){ suggBox.style.display='none'; suggBox.innerHTML=''; }
+  if (searchWrap){ searchWrap.setAttribute('aria-expanded','false'); }
+  activeIndex = -1;
+  searchInput.setAttribute('aria-activedescendant','');
   searchInput.value = topic;
   searchWrap.setAttribute('aria-expanded','false');
   render(topic);
@@ -269,10 +274,12 @@ searchInput.addEventListener('keydown', (e)=>{
     if (items.length && activeIndex >= 0){
       choose(items[activeIndex].textContent);
     } else {
-      // If user typed an exact topic, use it; otherwise random
       const exact = TOPICS.find(t => t.toLowerCase() === searchInput.value.trim().toLowerCase());
       if (exact) choose(exact); else generateRandom();
     }
+    if (suggBox){ suggBox.style.display='none'; }
+    searchWrap.setAttribute('aria-expanded','false');
+    activeIndex = -1; searchInput.setAttribute('aria-activedescendant','');
     return;
   } else if (e.key === 'Escape'){
     searchWrap.setAttribute('aria-expanded','false');
@@ -294,6 +301,7 @@ searchInput.addEventListener('keydown', (e)=>{
 document.addEventListener('click', (e)=>{
   if (!searchWrap.contains(e.target)){
     searchWrap.setAttribute('aria-expanded','false');
+    if (suggBox){ suggBox.style.display='none'; }
   }
 });
 
