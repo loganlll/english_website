@@ -8,12 +8,14 @@ const vocabEl = document.querySelector('#vocab');
 const searchWrap = document.querySelector('.search');
 const searchInput = document.querySelector('#search');
 const suggBox = document.querySelector('#topic-suggestions');
+const diffInputs = Array.from(document.querySelectorAll('input[name="difficulty"]'));
 
 let QUESTIONS = null;
 let VOCAB     = null;
 let TOPICS    = [];
 let busy      = false;
 let lastTopic = null;
+let DIFF = 'standard';
 
 // Bump these when you change JSON
 const Q_VER = 'q20';
@@ -96,7 +98,8 @@ function buildVocab(topic){
 function render(topic){
   if (topic) { lastTopic = topic; }
   if (!topic || !QUESTIONS || !VOCAB) return;
-  const qs = (QUESTIONS[topic] || []).slice(0, 10);
+  let qs = (QUESTIONS[topic] || []).slice(0, 10);
+  qs = transformByDifficulty(qs);
 
   img && (img.src = 'img/trans.png');
   topicEl.textContent = topic.toUpperCase();
@@ -154,6 +157,39 @@ function generateRandom(){
     render(pickNewTopic());
     busy = false;
   }, 200);
+}
+
+
+// ===== Difficulty transformers =====
+function simplifyPrompt(text){
+  if (!text) return text;
+  let t = text.replace(/[\(（][^\)]*[\)）]/g,''); // remove parentheticals
+  if (t.includes('—')) t = t.split('—')[0];
+  if (t.includes(':')) t = t.split(':')[0];
+  t = t.replace(/What’s/gi,'What is').replace(/That’s/gi,'That is');
+  t = t.replace(/How would you/gi,'How do you').replace(/How could you/gi,'How do you');
+  t = t.replace(/\?\s*$/,''); // strip trailing ?
+  t = t.trim();
+  if (t.length > 85){ t = t.slice(0,82).trim(); }
+  if (!/[\?\.!]$/.test(t)) t += '?';
+  return t;
+}
+const STRETCH_TAILS = [
+  ' Add one concrete example.',
+  ' Compare two options and choose one.',
+  ' Include one caveat or counter‑point.',
+  ' Describe a trade‑off.',
+  ' Explain your reasoning step by step.'
+];
+function deepenPrompt(text){
+  if (!text) return text;
+  const tail = STRETCH_TAILS[Math.floor(Math.random()*STRETCH_TAILS.length)];
+  return text.replace(/\s*$/,'') + tail;
+}
+function transformByDifficulty(qs){
+  if (DIFF === 'standard') return qs;
+  if (DIFF === 'easy')    return qs.map(simplifyPrompt);
+  return qs.map(deepenPrompt); // stretch
 }
 
 // ===== Autocomplete =====
@@ -249,3 +285,13 @@ btn.addEventListener('click', generateRandom);
 document.addEventListener('keydown', e => {
   if (e.key === 'Enter' && document.activeElement !== searchInput) generateRandom();
 });
+
+// Difficulty change handler
+diffInputs.forEach(r => r.addEventListener('change', (e)=>{
+  DIFF = e.target.value;
+  if (topicEl.textContent){
+    // topicEl is uppercase; find exact key ignoring case
+    const current = TOPICS.find(t => t.toUpperCase() === topicEl.textContent.trim());
+    if (current) render(current);
+  }
+}));

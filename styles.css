@@ -86,3 +86,19 @@ body{
 .vgroup h4{margin:0 0 6px; font-size:18px; color:var(--muted); letter-spacing:.08em; text-transform:uppercase; text-align:center}
 .vgroup .chips{margin:0; justify-content:center}
 @media (max-width:900px){ .vocab-groups{grid-template-columns:1fr;}} 
+
+
+/* difficulty segmented control */
+.diff{margin-top:8px; display:flex; align-items:center; gap:8px; flex-wrap:wrap}
+.diff legend{position:absolute; width:1px; height:1px; clip:rect(0 0 0 0); overflow:hidden; white-space:nowrap}
+.seg{display:inline-flex; align-items:center}
+.seg input{position:absolute; opacity:0; pointer-events:none}
+.seg span{
+  display:inline-block; padding:8px 12px; font-size:16px; border-radius:999px;
+  border:1px solid #dcdce0; background:#fff; cursor:pointer; user-select:none;
+}
+.seg input:checked + span{background:#111; color:#fff; border-color:#111}
+@media (prefers-color-scheme: dark){
+  .seg span{border-color:#2c2f36; background:#1a1f28}
+  .seg input:checked + span{background:#f2f3f5; color:#0e1014; border-color:#f2f3f5}
+}

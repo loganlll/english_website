@@ -36,6 +36,14 @@
           />
           <ul id="topic-suggestions" class="search__suggestions" role="listbox"></ul>
         </div>
+
+        <!-- Difficulty segmented control -->
+        <fieldset class="diff" aria-label="Difficulty">
+          <legend>Difficulty</legend>
+          <label class="seg"><input type="radio" name="difficulty" value="easy"><span>Easy</span></label>
+          <label class="seg"><input type="radio" name="difficulty" value="standard" checked><span>Standard</span></label>
+          <label class="seg"><input type="radio" name="difficulty" value="stretch"><span>Stretch</span></label>
+        </fieldset>
       </div>
 
       <div class="result" role="status" aria-live="polite">
@@ -54,6 +62,6 @@
   </main>
 
   <!-- bump version when you update JS -->
-  <script src="scripts.js?v=build16"></script>
+  <script src="scripts.js?v=build17"></script>
 </body>
 </html>
