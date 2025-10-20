@@ -44,7 +44,7 @@ body{
 html[data-theme="dark"] .search__input{background:#0f1220; border-color:#2a2f3d; color:var(--ink)}
 .search__input:focus{outline:none; box-shadow:var(--ring)}
 .search__suggestions{position:absolute; top:100%; left:0; right:0; z-index:9999; margin-top:6px; list-style:none; padding:6px; background:var(--card); border-radius:12px; box-shadow:var(--shadow); border:1px solid #e7e7ee; max-height:280px; overflow:auto; display:none}
-.search[aria-expanded="true"] .search__suggestions{display:block}
+
 .search__suggestions li{padding:10px 12px; font-size:18px; border-radius:10px; cursor:pointer}
 .search__suggestions li:hover{background:#eef0ff; color:#20244a}
 .search__clear{position:absolute; right:8px; top:50%; transform:translateY(-50%); width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:18px; line-height:1; cursor:pointer; background:#fff; color:#333; border:1px solid #d4d7e3; box-shadow:0 1px 2px rgba(0,0,0,.04); visibility:hidden}
