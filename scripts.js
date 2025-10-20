@@ -1,5 +1,6 @@
-// Topic Generator (readability refresh + slider + richer vocab sampling)
-const btn     = document.querySelector('.btn');
+// Topic Generator (unique chips + reshuffle + text size)
+const btnGenerate = document.querySelector('#btn-generate');
+const btnReshuffle = document.querySelector('#btn-reshuffle');
 const img     = document.querySelector('#image');
 const topicEl = document.querySelector('#topic');
 const listEl  = document.querySelector('#questions');
@@ -13,12 +14,17 @@ const suggBox = document.querySelector('#topic-suggestions');
 const depthRange = document.querySelector('#depthRange');
 const depthLegend = document.querySelector('.depth__legend');
 
+// text size
+const fsBtns = Array.from(document.querySelectorAll('.fs-btn'));
+const root = document.documentElement;
+
 let QUESTIONS = null;
 let VOCAB     = null;
 let TOPICS    = [];
 let busy      = false;
 let lastTopic = null;
 let DIFF      = 'medium';
+let TEXT_SIZE = localStorage.getItem('tg_textsize') || 'm';
 
 // Cache params for JSON
 const Q_VER = 'q30';
@@ -47,6 +53,8 @@ Promise.all([
     }
   }
   window.__RECENT_LEVEL__ = {B2:[], C1:[], C2:[]}; // FIFO of recently shown chips per level
+  applyTextSize(TEXT_SIZE);
+  highlightFsButton(TEXT_SIZE);
 }).catch(err => {
   console.error('Load error:', err);
   topicEl.textContent = 'Error loading questions.';
@@ -97,24 +105,21 @@ function pickUniqueForLevel(topic, level){
   return L[0] || null;
 }
 
-// Build a larger candidate pool per level, avoiding high-frequency and recently shown chips
 function buildLevelPool(topic, level){
   const base = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][level]) || [];
   const cat  = (VOCAB.topic_to_cat && VOCAB.topic_to_cat[topic]) || null;
   const freq = window.__LV_FREQ__ ? window.__LV_FREQ__[level] : new Map();
   const recent = new Set((window.__RECENT_LEVEL__ && window.__RECENT_LEVEL__[level]) || []);
 
-  // collect rare words from other topics in same category to enlarge pool (without destroying level)
   let extra = [];
   if (cat && VOCAB.topic_levels){
     for (const [t, L] of Object.entries(VOCAB.topic_levels)){
       if (t === topic) continue;
       if ((VOCAB.topic_to_cat && VOCAB.topic_to_cat[t]) !== cat) continue;
-      extra = extra.concat((L[level]||[]).filter(w => (freq.get(String(w).toLowerCase())||0) <= 2)); // take rarer ones
+      extra = extra.concat((L[level]||[]).filter(w => (freq.get(String(w).toLowerCase())||0) <= 2));
     }
   }
 
-  // Remove globally very frequent items (e.g., "caveat") unless they are the unique pick
   const COMMON_CUTOFF = 6;
   const common = new Set(Array.from(freq.entries()).filter(([w,c]) => c >= COMMON_CUTOFF).map(([w])=>w));
 
@@ -124,37 +129,46 @@ function buildLevelPool(topic, level){
 
 function take7WithRules(topic, level){
   let pool = buildLevelPool(topic, level);
-  // ensure a unique word is present
   const uniqWord = pickUniqueForLevel(topic, level);
   if (uniqWord){ pool = uniq([uniqWord, ...pool]); }
-  // if pool too small, fall back to base list
   if (pool.length < 7){
     const base = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][level]) || [];
     pool = uniq([...(uniqWord ? [uniqWord]:[]), ...base, ...pool]);
   }
-  pool = shuffle(pool).slice(0,7);
-  // update recent buffer (keep last 30 per level)
+  pool = shuffle(pool);
+  let items = pool.slice(0,7);
+  if (uniqWord && !items.includes(uniqWord)){
+    items[items.length-1] = uniqWord;
+  }
   const recent = window.__RECENT_LEVEL__[level];
-  pool.forEach(w => {
+  items.forEach(w => {
     recent.push(String(w).toLowerCase());
     if (recent.length > 30) recent.shift();
   });
-  return pool;
+  return {items, unique: uniqWord || null};
 }
 
 function buildVocabLevels(topic){
   if (!(VOCAB.topic_levels && VOCAB.topic_levels[topic])) return null;
-  return { B2: take7WithRules(topic,'B2'), C1: take7WithRules(topic,'C1'), C2: take7WithRules(topic,'C2') };
+  const b2 = take7WithRules(topic,'B2');
+  const c1 = take7WithRules(topic,'C1');
+  const c2 = take7WithRules(topic,'C2');
+  return { B2: b2, C1: c1, C2: c2 };
 }
 
 // ===== Render =====
+function currentTopic(){
+  const upper = topicEl.textContent.trim();
+  return TOPICS.find(t => t.toUpperCase() === upper) || null;
+}
+
 function render(topic){
   if (!topic || !QUESTIONS || !VOCAB) return;
   lastTopic = topic;
   img && (img.src = 'img/trans.png');
   topicEl.textContent = topic.toUpperCase();
+  btnReshuffle.disabled = false;
 
-  // Prompts
   const qs = getPrompts(topic);
   listEl.innerHTML = '';
   qs.forEach(q => {
@@ -163,7 +177,6 @@ function render(topic){
     listEl.appendChild(li);
   });
 
-  // Vocab (by level)
   vocabEl.innerHTML = '';
   const levels = buildVocabLevels(topic);
   if (levels){
@@ -177,9 +190,10 @@ function render(topic){
       g.appendChild(h);
       const row = document.createElement('div');
       row.className = 'chips';
-      (levels[key] || []).forEach(w => {
+      const pack = levels[key];
+      (pack.items || []).forEach(w => {
         const chip = document.createElement('span');
-        chip.className = 'chip';
+        chip.className = 'chip' + (pack.unique && w === pack.unique ? ' unique' : '');
         chip.textContent = w;
         row.appendChild(chip);
       });
@@ -267,9 +281,16 @@ function generateRandom(){
   setTimeout(()=>{ render(pickNewTopic()); busy=false; }, 200);
 }
 
-btn.addEventListener('click', generateRandom);
+btnGenerate.addEventListener('click', generateRandom);
+btnReshuffle.addEventListener('click', ()=>{
+  const t = currentTopic();
+  if (t) render(t);
+});
 document.addEventListener('keydown', e => {
   if (e.key === 'Enter' && document.activeElement !== searchInput) generateRandom();
+  if (e.key.toLowerCase() === 'r' && !e.ctrlKey && !e.metaKey){ // quick reshuffle
+    const t = currentTopic(); if (t) render(t);
+  }
 });
 
 // Slider events
@@ -280,8 +301,20 @@ depthRange.addEventListener('input', (e)=>{
   depthRange.setAttribute('aria-valuenow', String(val));
   depthRange.setAttribute('aria-label', `Depth: ${val===0?'Warm-up':val===1?'Standard':'Challenge'}`);
   Array.from(depthLegend.children).forEach((el,i)=>{ el.classList.toggle('active', i===val); });
-  if (topicEl.textContent){
-    const current = TOPICS.find(t => t.toUpperCase() === topicEl.textContent.trim());
-    if (current) render(current);
-  }
+  const t = currentTopic(); if (t) render(t);
 });
+
+// Text size
+function applyTextSize(size){
+  if (size === 's') root.style.setProperty('--qsize', '20px');
+  else if (size === 'l') root.style.setProperty('--qsize', '24px');
+  else root.style.setProperty('--qsize', '22px');
+}
+function highlightFsButton(size){
+  fsBtns.forEach(b => b.classList.toggle('active', b.dataset.size === size));
+}
+fsBtns.forEach(btn => btn.addEventListener('click', ()=>{
+  const size = btn.dataset.size;
+  TEXT_SIZE = size; localStorage.setItem('tg_textsize', size);
+  applyTextSize(size); highlightFsButton(size);
+}));

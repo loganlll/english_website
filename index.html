@@ -6,7 +6,7 @@
   <title>Topic Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Economica:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="stylesheet" href="styles.css?v=5" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -20,7 +20,8 @@
 
     <section class="card">
       <div class="controls">
-        <button type="button" class="btn" aria-label="Generate a random topic">Click to Generate</button>
+        <button type="button" class="btn" id="btn-generate" aria-label="Generate a random topic">Click to Generate</button>
+        <button type="button" class="btn btn-ghost" id="btn-reshuffle" aria-label="Reshuffle prompts for this topic" disabled>Reshuffle</button>
 
         <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="topic-suggestions" aria-expanded="false">
           <input
@@ -46,6 +47,14 @@
             <span data-val="2">Challenge</span>
           </div>
         </div>
+
+        <!-- Text size -->
+        <div class="fontsize" role="group" aria-label="Text size">
+          <span class="fontsize__label">Text</span>
+          <button class="fs-btn" data-size="s" aria-label="Small text">S</button>
+          <button class="fs-btn active" data-size="m" aria-label="Medium text">M</button>
+          <button class="fs-btn" data-size="l" aria-label="Large text">L</button>
+        </div>
       </div>
 
       <div class="result" role="status" aria-live="polite">
@@ -63,6 +72,6 @@
     </footer>
   </main>
 
-  <script src="scripts.js?v=build21"></script>
+  <script src="scripts.js?v=build22"></script>
 </body>
 </html>
