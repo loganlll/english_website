@@ -15,10 +15,10 @@ let VOCAB     = null;
 let TOPICS    = [];
 let busy      = false;
 let lastTopic = null;
-let DIFF = 'standard';
+let DIFF = 'medium';
 
 // Bump these when you change JSON
-const Q_VER = 'q20';
+const Q_VER = 'q30';
 const V_VER = 'v31';
 
 Promise.all([
@@ -63,6 +63,24 @@ function topicCategory(topic){
 }
 
 
+
+function getPrompts(topic){
+  const entry = QUESTIONS[topic];
+  if (!entry) return [];
+  // New format: object with {easy,medium,hard}
+  if (!Array.isArray(entry) && (entry.easy || entry.medium || entry.hard)){
+    const want = DIFF;
+    if (entry[want] && entry[want].length) return entry[want].slice(0,10);
+    if (entry.medium && entry.medium.length) return entry.medium.slice(0,10);
+    const first = Object.values(entry).find(a => Array.isArray(a) && a.length);
+    return first ? first.slice(0,10) : [];
+  }
+  // Old format: array of prompts
+  let qs = (entry || []).slice(0,10);
+  if (typeof transformByDifficulty === 'function') qs = transformByDifficulty(qs);
+  return qs;
+}
+
 function buildVocabLevels(topic){
   const L = (VOCAB.topic_levels && VOCAB.topic_levels[topic]) || null;
   if (!L) return null;
@@ -98,8 +116,7 @@ function buildVocab(topic){
 function render(topic){
   if (topic) { lastTopic = topic; }
   if (!topic || !QUESTIONS || !VOCAB) return;
-  let qs = (QUESTIONS[topic] || []).slice(0, 10);
-  qs = transformByDifficulty(qs);
+  let qs = getPrompts(topic);
 
   img && (img.src = 'img/trans.png');
   topicEl.textContent = topic.toUpperCase();
