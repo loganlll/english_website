@@ -36,3 +36,22 @@ body{
 .questions li{font-size:22px; line-height:1.35; margin:.5rem 0; opacity:.98}
 .app__footer{margin-top:20px; text-align:center; color:var(--muted)}
 @media (max-width:540px){.topic{font-size:40px}.btn{font-size:28px}.questions li{font-size:18px}#image{width:160px;height:160px}}
+
+.section-title{
+  margin:18px auto 6px;
+  font-size:20px;
+  color:#6b6b75;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  text-align:center;
+}
+
+.chips{
+  display:flex; flex-wrap:wrap; gap:10px;
+  justify-content:center; max-width:780px; margin:12px auto 10px;
+}
+.chips .chip{
+  font-size:18px; padding:8px 12px; border-radius:999px;
+  border:1px solid #dcdce0; background:#fff;
+}
+@media (prefers-color-scheme: dark){ .chips .chip{border-color:#2c2f36;background:#1a1f28} }
