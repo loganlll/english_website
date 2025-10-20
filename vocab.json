@@ -3863,6 +3863,182 @@
         "awkward",
         "resilience"
       ]
+    },
+    "Everyday Idioms (Part 1)": {
+      "B2": [
+        "literal meaning",
+        "figurative meaning",
+        "context clue",
+        "tone",
+        "nuance",
+        "casual register",
+        "formal register",
+        "overstate",
+        "understate",
+        "playful",
+        "sarcastic",
+        "hyperbolic"
+      ],
+      "C1": [
+        "idiomatic",
+        "connotation",
+        "collocation",
+        "register",
+        "subtext",
+        "inference",
+        "ambiguity",
+        "metaphorical",
+        "understatement",
+        "overstatement",
+        "euphemistic",
+        "vernacular"
+      ],
+      "C2": [
+        "pragmatics",
+        "semantics",
+        "metonymy",
+        "polysemy",
+        "pejorative",
+        "euphemism",
+        "dead metaphor",
+        "lexicalized",
+        "archetype",
+        "vernacularism",
+        "prosody",
+        "discourse marker"
+      ]
+    },
+    "Everyday Idioms (Part 2)": {
+      "B2": [
+        "literal vs figurative",
+        "contextualize",
+        "imagery",
+        "analogy",
+        "connotation (positive)",
+        "connotation (negative)",
+        "register shift",
+        "tone-deaf",
+        "cliché",
+        "freshness",
+        "emphasis",
+        "downtone"
+      ],
+      "C1": [
+        "colloquialism",
+        "idiomatic usage",
+        "metaphor family",
+        "mapping",
+        "construal",
+        "frame",
+        "entailment",
+        "hedging",
+        "mitigation",
+        "overgeneralization",
+        "pragmatic marker",
+        "salience"
+      ],
+      "C2": [
+        "vernacular speech",
+        "metaphorical entailment",
+        "dead metaphor",
+        "conventionalized",
+        "grammaticalization",
+        "metaphor blend",
+        "euphemistic frame",
+        "pejoration",
+        "amelioration",
+        "indexicality",
+        "polysemy network",
+        "metapragmatic awareness"
+      ]
+    },
+    "Phrasal Verbs (Daily Life)": {
+      "B2": [
+        "separable",
+        "inseparable",
+        "object",
+        "pronoun",
+        "literal use",
+        "figurative use",
+        "context clue",
+        "stress pattern",
+        "polite alternative",
+        "informal",
+        "formal",
+        "clarify"
+      ],
+      "C1": [
+        "collocation",
+        "register",
+        "ambiguity",
+        "pronoun placement",
+        "particle",
+        "substitution",
+        "paraphrase",
+        "discourse function",
+        "cohesion",
+        "turn‑taking",
+        "hedging",
+        "discourse marker"
+      ],
+      "C2": [
+        "grammaticalization",
+        "valency",
+        "polysemy",
+        "disambiguation",
+        "prosody",
+        "aspect",
+        "information structure",
+        "ellipsis",
+        "jargonization",
+        "vernacular",
+        "sense inventory",
+        "corpus evidence"
+      ]
+    },
+    "Phrasal Verbs (Work & Study)": {
+      "B2": [
+        "deadline language",
+        "briefing",
+        "handover",
+        "follow‑up",
+        "rollout context",
+        "template",
+        "outline",
+        "feedback loop",
+        "checklist",
+        "rehearsal",
+        "wrap‑up",
+        "clarity"
+      ],
+      "C1": [
+        "collocation strength",
+        "register shift",
+        "industry jargon",
+        "de‑jargonize",
+        "ambiguity check",
+        "contextual paraphrase",
+        "salient particle",
+        "cohesive device",
+        "stance",
+        "mitigation strategy",
+        "reader‑friendly",
+        "audience design"
+      ],
+      "C2": [
+        "taxonomy design",
+        "valency pattern",
+        "particle family",
+        "aspectual nuance",
+        "disambiguation strategy",
+        "sense disambiguation",
+        "prosodic cue",
+        "cross‑linguistic analogy",
+        "genre convention",
+        "corpus triangulation",
+        "usage note",
+        "style guide rationale"
+      ]
     }
   }
 }

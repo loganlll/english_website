@@ -61,19 +61,25 @@ function pickNewTopic(){
 }
 
 // ===== Questions helpers =====
+
+function sampleN(arr, n){
+  const a = [...arr];
+  for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a.slice(0, n);
+}
 function getPrompts(topic){
   const entry = QUESTIONS[topic];
   if (!entry) return [];
   if (!Array.isArray(entry) && (entry.easy || entry.medium || entry.hard)){
     const want = DIFF;
-    if (entry[want] && entry[want].length) return entry[want].slice(0,10);
-    if (entry.medium && entry.medium.length) return entry.medium.slice(0,10);
+    if (entry[want] && entry[want].length) return sampleN(entry[want], 10);
+    if (entry.medium && entry.medium.length) return sampleN(entry.medium, 10);
     const first = Object.values(entry).find(a => Array.isArray(a) && a.length);
-    return first ? first.slice(0,10) : [];
+    return first ? sampleN(first, 10) : [];
   }
-  // fallback old format
-  return (entry || []).slice(0,10);
+  return sampleN((entry || []), 10);
 }
+
 
 // ===== Vocab helpers =====
 function buildVocabLevels(topic){
