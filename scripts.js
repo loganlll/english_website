@@ -29,6 +29,20 @@ Promise.all([
   VOCAB     = v;
   TOPICS    = Object.keys(QUESTIONS).sort((a,b)=>a.localeCompare(b));
   if (searchInput.value.trim()) drawSuggestions(filterTopics(searchInput.value));
+  // Build global frequency maps per level to help pick unique chips
+  window.__LV_FREQ__ = {B2: new Map(), C1: new Map(), C2: new Map()};
+  if (VOCAB.topic_levels){
+    for (const [t, levels] of Object.entries(VOCAB.topic_levels)){
+      for (const k of ['B2','C1','C2']){
+        (levels[k]||[]).forEach(w=>{
+          const key = String(w).toLowerCase();
+          const m = window.__LV_FREQ__[k];
+          m.set(key, (m.get(key)||0)+1);
+        });
+      }
+    }
+  }
+
 }).catch(err => {
   console.error('Load error:', err);
   topicEl.textContent = 'Error loading questions.';
@@ -72,6 +86,24 @@ function buildVocabLevels(topic){
   return { B2: take7(L.B2||[]), C1: take7(L.C1||[]), C2: take7(L.C2||[]) };
 }
 
+
+function pickUniqueForLevel(topic, level){
+  const L = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][level]) || [];
+  const freq = (window.__LV_FREQ__ && window.__LV_FREQ__[level]) || new Map();
+  for (const w of L){
+    if ((freq.get(String(w).toLowerCase())||0) === 1) return w;
+  }
+  const cat = (VOCAB.topic_to_cat && VOCAB.topic_to_cat[topic]) || 'general';
+  let extras = [];
+  if (VOCAB.cat && VOCAB.cat[cat]) extras = extras.concat(VOCAB.cat[cat]);
+  if (VOCAB.cat && VOCAB.cat.general) extras = extras.concat(VOCAB.cat.general);
+  for (const w of extras){
+    const key = String(w).toLowerCase();
+    if (!freq.has(key)) return w;
+  }
+  return L[0] || null;
+}
+
 // ===== Render =====
 function render(topic){
   if (!topic || !QUESTIONS || !VOCAB) return;
@@ -102,7 +134,16 @@ function render(topic){
       g.appendChild(h);
       const row = document.createElement('div');
       row.className = 'chips';
-      (levels[key] || []).forEach(w => {
+      let arr = [...(levels[key] || [])];
+      if (arr.length){
+        const uniqWord = pickUniqueForLevel(topic, key);
+        if (uniqWord){
+          const set = new Set([uniqWord, ...arr]);
+          arr = Array.from(set);
+        }
+      }
+      for (let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}
+      arr.slice(0,7).forEach(w=>{
         const chip = document.createElement('span');
         chip.className = 'chip';
         chip.textContent = w;

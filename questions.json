@@ -1,7 +1,16 @@
 {
   "meta": {
     "version": 30,
-    "note": "Three difficulty bands per topic: easy/medium/hard; hard nudges include C2 terms."
+    "note": "Three difficulty bands per topic: easy/medium/hard; hard nudges include C2 terms.",
+    "removed_grammar_topics": [
+      "Already, Ever, Yet",
+      "Articles & Quantifiers",
+      "Comparatives",
+      "For and Since and How Long",
+      "Present Perfect",
+      "Superlatives",
+      "Used To"
+    ]
   },
   "questions": {
     "Relationships (Part 1)": {
@@ -3956,234 +3965,6 @@
         "What small change would you test for a week connected to healthcare visits? Explain your reasoning step by step."
       ]
     },
-    "Present Perfect": {
-      "easy": [
-        "Where do you actually hear present perfect in everyday conversation?",
-        "What mistake with present perfect do speakers of your language often make?",
-        "Which sentence using present perfect sounds most natural to you?",
-        "What is confusing about present perfect that textbooks gloss over?",
-        "How does your first language handle what present perfect does in English?",
-        "When would present perfect sound odd?",
-        "What quick rule of thumb helps you choose present perfect correctly?",
-        "What two forms compete with present perfect? How do you decide between them?",
-        "What is a funny or painful memory linked to learning present perfect?",
-        "What real situation recently made you use present perfect without thinking?"
-      ],
-      "medium": [
-        "Where do you actually hear present perfect in everyday conversation?",
-        "What mistake with present perfect do speakers of your language often make—and why?",
-        "Which sentence using present perfect sounds most natural to you?",
-        "What’s confusing about present perfect that textbooks gloss over?",
-        "How does your first language handle what present perfect does in English?",
-        "When would present perfect sound odd—even if it’s technically correct?",
-        "What quick rule of thumb helps you choose present perfect correctly?",
-        "What two forms compete with present perfect? How do you decide between them?",
-        "What’s a funny or painful memory linked to learning present perfect?",
-        "What real situation recently made you use present perfect without thinking?"
-      ],
-      "hard": [
-        "Where do you actually hear present perfect in everyday conversation? Include one caveat or counterpoint. Try to work in the term “scenario” naturally.",
-        "What mistake with present perfect do speakers of your language often make—and why? Compare two plausible options and choose one.",
-        "Which sentence using present perfect sounds most natural to you? Describe a meaningful trade‑off. Try to work in the term “caveat” naturally.",
-        "What’s confusing about present perfect that textbooks gloss over? Add one concrete example.",
-        "How does your first language handle what present perfect does in English? Add one concrete example. Try to work in the term “assumption” naturally.",
-        "When would present perfect sound odd—even if it’s technically correct? Include one caveat or counterpoint.",
-        "What quick rule of thumb helps you choose present perfect correctly? Explain your reasoning step by step. Try to work in the term “perspective” naturally.",
-        "What two forms compete with present perfect? How do you decide between them? Add one concrete example.",
-        "What’s a funny or painful memory linked to learning present perfect? Compare two plausible options and choose one.",
-        "What real situation recently made you use present perfect without thinking? Add one concrete example."
-      ]
-    },
-    "Used To": {
-      "easy": [
-        "Where do you actually hear used to in everyday conversation?",
-        "What mistake with used to do speakers of your language often make?",
-        "Which sentence using used to sounds most natural to you?",
-        "What is confusing about used to that textbooks gloss over?",
-        "How does your first language handle what used to does in English?",
-        "When would used to sound odd?",
-        "What quick rule of thumb helps you choose used to correctly?",
-        "What two forms compete with used to? How do you decide between them?",
-        "What is a funny or painful memory linked to learning used to?",
-        "What real situation recently made you use used to without thinking?"
-      ],
-      "medium": [
-        "Where do you actually hear used to in everyday conversation?",
-        "What mistake with used to do speakers of your language often make—and why?",
-        "Which sentence using used to sounds most natural to you?",
-        "What’s confusing about used to that textbooks gloss over?",
-        "How does your first language handle what used to does in English?",
-        "When would used to sound odd—even if it’s technically correct?",
-        "What quick rule of thumb helps you choose used to correctly?",
-        "What two forms compete with used to? How do you decide between them?",
-        "What’s a funny or painful memory linked to learning used to?",
-        "What real situation recently made you use used to without thinking?"
-      ],
-      "hard": [
-        "Where do you actually hear used to in everyday conversation? Describe a meaningful trade‑off. Try to work in the term “scenario” naturally.",
-        "What mistake with used to do speakers of your language often make—and why? Describe a meaningful trade‑off.",
-        "Which sentence using used to sounds most natural to you? Describe a meaningful trade‑off. Try to work in the term “caveat” naturally.",
-        "What’s confusing about used to that textbooks gloss over? Compare two plausible options and choose one.",
-        "How does your first language handle what used to does in English? Compare two plausible options and choose one. Try to work in the term “assumption” naturally.",
-        "When would used to sound odd—even if it’s technically correct? Compare two plausible options and choose one.",
-        "What quick rule of thumb helps you choose used to correctly? Describe a meaningful trade‑off. Try to work in the term “perspective” naturally.",
-        "What two forms compete with used to? How do you decide between them? Describe a meaningful trade‑off.",
-        "What’s a funny or painful memory linked to learning used to? Explain your reasoning step by step.",
-        "What real situation recently made you use used to without thinking? Compare two plausible options and choose one."
-      ]
-    },
-    "For and Since and How Long": {
-      "easy": [
-        "Where do you actually hear for and since and how long in everyday conversation?",
-        "What mistake with for and since and how long do speakers of your language often make?",
-        "Which sentence using for and since and how long sounds most natural to you?",
-        "What is confusing about for and since and how long that textbooks gloss over?",
-        "How does your first language handle what for and since and how long does in English?",
-        "When would for and since and how long sound odd?",
-        "What quick rule of thumb helps you choose for and since and how long correctly?",
-        "What two forms compete with for and since and how long? How do you decide between them?",
-        "What is a funny or painful memory linked to learning for and since and how long?",
-        "What real situation recently made you use for and since and how long without thinking?"
-      ],
-      "medium": [
-        "Where do you actually hear for and since and how long in everyday conversation?",
-        "What mistake with for and since and how long do speakers of your language often make—and why?",
-        "Which sentence using for and since and how long sounds most natural to you?",
-        "What’s confusing about for and since and how long that textbooks gloss over?",
-        "How does your first language handle what for and since and how long does in English?",
-        "When would for and since and how long sound odd—even if it’s technically correct?",
-        "What quick rule of thumb helps you choose for and since and how long correctly?",
-        "What two forms compete with for and since and how long? How do you decide between them?",
-        "What’s a funny or painful memory linked to learning for and since and how long?",
-        "What real situation recently made you use for and since and how long without thinking?"
-      ],
-      "hard": [
-        "Where do you actually hear for and since and how long in everyday conversation? Explain your reasoning step by step. Try to work in the term “scenario” naturally.",
-        "What mistake with for and since and how long do speakers of your language often make—and why? Add one concrete example.",
-        "Which sentence using for and since and how long sounds most natural to you? Include one caveat or counterpoint. Try to work in the term “caveat” naturally.",
-        "What’s confusing about for and since and how long that textbooks gloss over? Include one caveat or counterpoint.",
-        "How does your first language handle what for and since and how long does in English? Include one caveat or counterpoint. Try to work in the term “assumption” naturally.",
-        "When would for and since and how long sound odd—even if it’s technically correct? Explain your reasoning step by step.",
-        "What quick rule of thumb helps you choose for and since and how long correctly? Include one caveat or counterpoint. Try to work in the term “perspective” naturally.",
-        "What two forms compete with for and since and how long? How do you decide between them? Include one caveat or counterpoint.",
-        "What’s a funny or painful memory linked to learning for and since and how long? Include one caveat or counterpoint.",
-        "What real situation recently made you use for and since and how long without thinking? Include one caveat or counterpoint."
-      ]
-    },
-    "Already, Ever, Yet": {
-      "easy": [
-        "Where do you actually hear already, ever, yet in everyday conversation?",
-        "What mistake with already, ever, yet do speakers of your language often make?",
-        "Which sentence using already, ever, yet sounds most natural to you?",
-        "What is confusing about already, ever, yet that textbooks gloss over?",
-        "How does your first language handle what already, ever, yet does in English?",
-        "When would already, ever, yet sound odd?",
-        "What quick rule of thumb helps you choose already, ever, yet correctly?",
-        "What two forms compete with already, ever, yet? How do you decide between them?",
-        "What is a funny or painful memory linked to learning already, ever, yet?",
-        "What real situation recently made you use already, ever, yet without thinking?"
-      ],
-      "medium": [
-        "Where do you actually hear already, ever, yet in everyday conversation?",
-        "What mistake with already, ever, yet do speakers of your language often make—and why?",
-        "Which sentence using already, ever, yet sounds most natural to you?",
-        "What’s confusing about already, ever, yet that textbooks gloss over?",
-        "How does your first language handle what already, ever, yet does in English?",
-        "When would already, ever, yet sound odd—even if it’s technically correct?",
-        "What quick rule of thumb helps you choose already, ever, yet correctly?",
-        "What two forms compete with already, ever, yet? How do you decide between them?",
-        "What’s a funny or painful memory linked to learning already, ever, yet?",
-        "What real situation recently made you use already, ever, yet without thinking?"
-      ],
-      "hard": [
-        "Where do you actually hear already, ever, yet in everyday conversation? Compare two plausible options and choose one. Try to work in the term “scenario” naturally.",
-        "What mistake with already, ever, yet do speakers of your language often make—and why? Describe a meaningful trade‑off.",
-        "Which sentence using already, ever, yet sounds most natural to you? Compare two plausible options and choose one. Try to work in the term “caveat” naturally.",
-        "What’s confusing about already, ever, yet that textbooks gloss over? Compare two plausible options and choose one.",
-        "How does your first language handle what already, ever, yet does in English? Compare two plausible options and choose one. Try to work in the term “assumption” naturally.",
-        "When would already, ever, yet sound odd—even if it’s technically correct? Compare two plausible options and choose one.",
-        "What quick rule of thumb helps you choose already, ever, yet correctly? Compare two plausible options and choose one. Try to work in the term “perspective” naturally.",
-        "What two forms compete with already, ever, yet? How do you decide between them? Include one caveat or counterpoint.",
-        "What’s a funny or painful memory linked to learning already, ever, yet? Explain your reasoning step by step.",
-        "What real situation recently made you use already, ever, yet without thinking? Compare two plausible options and choose one."
-      ]
-    },
-    "Comparatives": {
-      "easy": [
-        "Where do you actually hear comparatives in everyday conversation?",
-        "What mistake with comparatives do speakers of your language often make?",
-        "Which sentence using comparatives sounds most natural to you?",
-        "What is confusing about comparatives that textbooks gloss over?",
-        "How does your first language handle what comparatives does in English?",
-        "When would comparatives sound odd?",
-        "What quick rule of thumb helps you choose comparatives correctly?",
-        "What two forms compete with comparatives? How do you decide between them?",
-        "What is a funny or painful memory linked to learning comparatives?",
-        "What real situation recently made you use comparatives without thinking?"
-      ],
-      "medium": [
-        "Where do you actually hear comparatives in everyday conversation?",
-        "What mistake with comparatives do speakers of your language often make—and why?",
-        "Which sentence using comparatives sounds most natural to you?",
-        "What’s confusing about comparatives that textbooks gloss over?",
-        "How does your first language handle what comparatives does in English?",
-        "When would comparatives sound odd—even if it’s technically correct?",
-        "What quick rule of thumb helps you choose comparatives correctly?",
-        "What two forms compete with comparatives? How do you decide between them?",
-        "What’s a funny or painful memory linked to learning comparatives?",
-        "What real situation recently made you use comparatives without thinking?"
-      ],
-      "hard": [
-        "Where do you actually hear comparatives in everyday conversation? Include one caveat or counterpoint. Try to work in the term “scenario” naturally.",
-        "What mistake with comparatives do speakers of your language often make—and why? Add one concrete example.",
-        "Which sentence using comparatives sounds most natural to you? Describe a meaningful trade‑off. Try to work in the term “caveat” naturally.",
-        "What’s confusing about comparatives that textbooks gloss over? Include one caveat or counterpoint.",
-        "How does your first language handle what comparatives does in English? Compare two plausible options and choose one. Try to work in the term “assumption” naturally.",
-        "When would comparatives sound odd—even if it’s technically correct? Explain your reasoning step by step.",
-        "What quick rule of thumb helps you choose comparatives correctly? Explain your reasoning step by step. Try to work in the term “perspective” naturally.",
-        "What two forms compete with comparatives? How do you decide between them? Compare two plausible options and choose one.",
-        "What’s a funny or painful memory linked to learning comparatives? Add one concrete example.",
-        "What real situation recently made you use comparatives without thinking? Describe a meaningful trade‑off."
-      ]
-    },
-    "Superlatives": {
-      "easy": [
-        "Where do you actually hear superlatives in everyday conversation?",
-        "What mistake with superlatives do speakers of your language often make?",
-        "Which sentence using superlatives sounds most natural to you?",
-        "What is confusing about superlatives that textbooks gloss over?",
-        "How does your first language handle what superlatives does in English?",
-        "When would superlatives sound odd?",
-        "What quick rule of thumb helps you choose superlatives correctly?",
-        "What two forms compete with superlatives? How do you decide between them?",
-        "What is a funny or painful memory linked to learning superlatives?",
-        "What real situation recently made you use superlatives without thinking?"
-      ],
-      "medium": [
-        "Where do you actually hear superlatives in everyday conversation?",
-        "What mistake with superlatives do speakers of your language often make—and why?",
-        "Which sentence using superlatives sounds most natural to you?",
-        "What’s confusing about superlatives that textbooks gloss over?",
-        "How does your first language handle what superlatives does in English?",
-        "When would superlatives sound odd—even if it’s technically correct?",
-        "What quick rule of thumb helps you choose superlatives correctly?",
-        "What two forms compete with superlatives? How do you decide between them?",
-        "What’s a funny or painful memory linked to learning superlatives?",
-        "What real situation recently made you use superlatives without thinking?"
-      ],
-      "hard": [
-        "Where do you actually hear superlatives in everyday conversation? Add one concrete example. Try to work in the term “scenario” naturally.",
-        "What mistake with superlatives do speakers of your language often make—and why? Add one concrete example.",
-        "Which sentence using superlatives sounds most natural to you? Add one concrete example. Try to work in the term “caveat” naturally.",
-        "What’s confusing about superlatives that textbooks gloss over? Describe a meaningful trade‑off.",
-        "How does your first language handle what superlatives does in English? Compare two plausible options and choose one. Try to work in the term “assumption” naturally.",
-        "When would superlatives sound odd—even if it’s technically correct? Describe a meaningful trade‑off.",
-        "What quick rule of thumb helps you choose superlatives correctly? Include one caveat or counterpoint. Try to work in the term “perspective” naturally.",
-        "What two forms compete with superlatives? How do you decide between them? Add one concrete example.",
-        "What’s a funny or painful memory linked to learning superlatives? Include one caveat or counterpoint.",
-        "What real situation recently made you use superlatives without thinking? Compare two plausible options and choose one."
-      ]
-    },
     "Second Conditional pt.1": {
       "easy": [
         "Where do you actually hear second conditional pt.1 in everyday conversation?",
@@ -4904,44 +4685,6 @@
         "What two forms compete with future forms? How do you decide between them? Add one concrete example.",
         "What’s a funny or painful memory linked to learning future forms? Add one concrete example.",
         "What real situation recently made you use future forms without thinking? Explain your reasoning step by step."
-      ]
-    },
-    "Articles & Quantifiers": {
-      "easy": [
-        "Where do you actually hear articles & quantifiers in everyday conversation?",
-        "What mistake with articles & quantifiers do speakers of your language often make?",
-        "Which sentence using articles & quantifiers sounds most natural to you?",
-        "What is confusing about articles & quantifiers that textbooks gloss over?",
-        "How does your first language handle what articles & quantifiers does in English?",
-        "When would articles & quantifiers sound odd?",
-        "What quick rule of thumb helps you choose articles & quantifiers correctly?",
-        "What two forms compete with articles & quantifiers? How do you decide between them?",
-        "What is a funny or painful memory linked to learning articles & quantifiers?",
-        "What real situation recently made you use articles & quantifiers without thinking?"
-      ],
-      "medium": [
-        "Where do you actually hear articles & quantifiers in everyday conversation?",
-        "What mistake with articles & quantifiers do speakers of your language often make—and why?",
-        "Which sentence using articles & quantifiers sounds most natural to you?",
-        "What’s confusing about articles & quantifiers that textbooks gloss over?",
-        "How does your first language handle what articles & quantifiers does in English?",
-        "When would articles & quantifiers sound odd—even if it’s technically correct?",
-        "What quick rule of thumb helps you choose articles & quantifiers correctly?",
-        "What two forms compete with articles & quantifiers? How do you decide between them?",
-        "What’s a funny or painful memory linked to learning articles & quantifiers?",
-        "What real situation recently made you use articles & quantifiers without thinking?"
-      ],
-      "hard": [
-        "Where do you actually hear articles & quantifiers in everyday conversation? Add one concrete example. Try to work in the term “scenario” naturally.",
-        "What mistake with articles & quantifiers do speakers of your language often make—and why? Compare two plausible options and choose one.",
-        "Which sentence using articles & quantifiers sounds most natural to you? Compare two plausible options and choose one. Try to work in the term “caveat” naturally.",
-        "What’s confusing about articles & quantifiers that textbooks gloss over? Describe a meaningful trade‑off.",
-        "How does your first language handle what articles & quantifiers does in English? Include one caveat or counterpoint. Try to work in the term “assumption” naturally.",
-        "When would articles & quantifiers sound odd—even if it’s technically correct? Compare two plausible options and choose one.",
-        "What quick rule of thumb helps you choose articles & quantifiers correctly? Compare two plausible options and choose one. Try to work in the term “perspective” naturally.",
-        "What two forms compete with articles & quantifiers? How do you decide between them? Add one concrete example.",
-        "What’s a funny or painful memory linked to learning articles & quantifiers? Include one caveat or counterpoint.",
-        "What real situation recently made you use articles & quantifiers without thinking? Explain your reasoning step by step."
       ]
     },
     "Gerunds vs Infinitives": {
