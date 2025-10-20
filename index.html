@@ -20,8 +20,15 @@
 
       <div class="result" role="status" aria-live="polite">
         <h2 id="topic" class="topic"></h2>
-        <img id="image" src="img/trans.png" alt="" />
+
+        <!-- The image is optional. If it fails to load, we hide it. -->
+        <img id="image" src="img/trans.png" alt="" onerror="this.style.display='none'" />
+
+        <h3 class="section-title">Discussion Prompts</h3>
         <ul id="questions" class="questions"></ul>
+
+        <h3 class="section-title">Advanced Vocabulary (B2–C2)</h3>
+        <div id="vocab" class="chips"></div>
       </div>
     </section>
 
