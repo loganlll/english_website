@@ -1,4 +1,4 @@
-// Topic Generator (vocab level buttons + bigger pools support)
+// Topic Generator (10 prompts, vocab level buttons, dark-mode chip contrast)
 const btnGenerate   = document.querySelector('#btn-generate');
 const btnReshuffle  = document.querySelector('#btn-reshuffle');
 const btnVocabShuffle = document.querySelector('#btn-vocab-shuffle');
@@ -62,6 +62,7 @@ function pickNewTopic(){
 }
 
 // Questions
+const PROMPTS_TO_SHOW = 10;
 function sampleN(arr, n){
   const a = [...arr];
   for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
@@ -73,20 +74,16 @@ function getPrompts(topic){
   if (!Array.isArray(entry) && (entry.easy || entry.medium || entry.hard)){
     const want = DIFF;
     let pool = entry[want] && entry[want].length ? entry[want] : (entry.medium || entry.easy || entry.hard || []);
-    return sampleN(pool, 15); // show 15 now
+    return sampleN(pool, PROMPTS_TO_SHOW);
   }
-  return sampleN((entry || []), 15);
+  return sampleN((entry || []), PROMPTS_TO_SHOW);
 }
 
 // Vocab helpers (topic-only list; bigger pools are in JSON)
-function takeN(topic, level, n=7){
+function takeN(topic, level, n=9){
   const levelKey = ['B2','C1','C2'][level];
   const base = (VOCAB.topic_levels && VOCAB.topic_levels[topic] && VOCAB.topic_levels[topic][levelKey]) || [];
-  const uniqWord = (()=>{
-    // choose a word seen only in this topic-level: approximate by checking for topic's unique tag
-    // If JSON doesn't mark it, just pick first as anchor
-    return base[0] || null;
-  })();
+  const uniqWord = base[0] || null;
   let pool = Array.from(new Set([...(uniqWord ? [uniqWord]:[]), ...base]));
   pool = shuffle(pool);
   let items = pool.slice(0,n);
@@ -104,7 +101,7 @@ function currentTopic(){
 function render(topic){
   if (!topic || !QUESTIONS || !VOCAB) return;
   lastTopic = topic;
-  img && (img.src = 'img/trans.png');
+  if (img){ img.src = 'img/trans.png'; img.style.display='block'; }
   topicEl.textContent = topic.toUpperCase();
   btnReshuffle.disabled = false;
 
@@ -120,7 +117,7 @@ function render(topic){
 
 function renderVocab(topic){
   vocabEl.innerHTML = '';
-  const pack = takeN(topic, VOCAB_LEVEL, 9); // show 9 chips now
+  const pack = takeN(topic, VOCAB_LEVEL, 9);
   (pack.items || []).forEach(w => {
     const chip = document.createElement('span');
     chip.className = 'chip' + (pack.unique && w === pack.unique ? ' unique' : '');
@@ -203,7 +200,7 @@ function generateRandom(){
   if (busy || !TOPICS.length) return;
   busy = true;
   topicEl.textContent=''; listEl.innerHTML=''; vocabEl.innerHTML='';
-  if (img) img.src = 'img/loader.gif';
+  if (img){ img.src = 'img/loader.gif'; img.style.display='block'; }
   setTimeout(()=>{ render(pickNewTopic()); busy=false; }, 200);
 }
 

@@ -3,10 +3,11 @@
   --ring:0 0 0 3px rgba(0,0,0,.10); --shadow:0 12px 36px rgba(0,0,0,.08);
   --radius:20px; --accent:#111;
   --qsize: 22px;
+  --chip-ink:#111;
 }
 @media (prefers-color-scheme: dark){
   :root{ --bg:#0f1117; --card:#141922; --ink:#f1f3f7; --muted:#9aa3b5;
-    --ring:0 0 0 3px rgba(255,255,255,.14); --shadow:0 12px 36px rgba(0,0,0,.5); --accent:#f2f3f5;}
+    --ring:0 0 0 3px rgba(255,255,255,.14); --shadow:0 12px 36px rgba(0,0,0,.5); --accent:#f2f3f5; --chip-ink:#111; }
 }
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -84,7 +85,7 @@ body{
 
 /* vocab chips */
 .chips{display:flex; flex-wrap:wrap; gap:12px; justify-content:center; max-width:960px; margin:0 auto 0}
-.chips .chip{font-size:17px; padding:9px 13px; border-radius:999px; border:1px solid #dcdce0; background:#fff; position:relative}
+.chips .chip{font-size:17px; padding:9px 13px; border-radius:999px; border:1px solid #dcdce0; background:#fff; color:var(--chip-ink); position:relative}
 .chips .chip.unique::after{content:"★"; font-size:.9em; color:#e39a00; margin-left:6px;}
 
 @media (max-width:1100px){ .controls{grid-template-columns:1fr .8fr 1fr 1fr .6fr;} }
