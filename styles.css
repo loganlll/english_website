@@ -110,3 +110,9 @@ html[data-theme="dark"] .depth__range::-webkit-slider-thumb{ background:#fff; bo
 /* Improve depth legend spacing and prevent mashed labels */
 .depth__legend{display:flex; justify-content:space-between; gap:12px; font-size:13px; color:var(--muted); width:100%}
 .depth__legend span{white-space:nowrap; padding:0 2px;}
+
+/* q-animate start */
+.questions li{opacity:0; transform:translateY(6px); will-change:transform, opacity}
+@keyframes fadeSlide{from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:translateY(0)}}
+.questions li.q-enter{animation:fadeSlide .28s ease forwards}
+/* q-animate end */

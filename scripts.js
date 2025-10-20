@@ -68,8 +68,15 @@ function renderTopic(topic){
   state.currentTopic=topic; state.lastTopic=topic;
   el.title.textContent = topic.toUpperCase();
   const band=getBand(); const all=state.questions.questions[topic]?.[band]||[]; const qs=sample(all,10);
-  el.qlist.innerHTML=''; qs.forEach(q=>{ const li=document.createElement('li'); li.textContent=q; el.qlist.appendChild(li); });
-  renderVocab(topic);
+  el.qlist.innerHTML='';
+qs.forEach((q,i)=>{
+  const li=document.createElement('li');
+  li.textContent=q;
+  li.classList.add('q-enter');
+  li.style.animationDelay = `${i*40}ms`;
+  el.qlist.appendChild(li);
+});
+renderVocab(topic);
 }
 
 function renderVocab(topic){
