@@ -1,8 +1,9 @@
-// Topic Generator (10 prompts, vocab level buttons, dark-mode chip contrast)
+// Topic Generator (dark-mode toggle + animated entry + colored buttons + 10 prompts)
 const btnGenerate   = document.querySelector('#btn-generate');
 const btnReshuffle  = document.querySelector('#btn-reshuffle');
 const btnVocabShuffle = document.querySelector('#btn-vocab-shuffle');
 const vLevelBtns = Array.from(document.querySelectorAll('.vbtn'));
+const btnTheme = document.querySelector('#btn-theme');
 
 const img     = document.querySelector('#image');
 const topicEl = document.querySelector('#topic');
@@ -34,6 +35,25 @@ let TEXT_SIZE = localStorage.getItem('tg_textsize') || 'm';
 // Cache params
 const Q_VER = 'q31';
 const V_VER = 'v32';
+
+// Theme
+function applyTheme(mode){
+  document.documentElement.setAttribute('data-theme', mode);
+  localStorage.setItem('tg_theme', mode);
+  btnTheme.textContent = (mode === 'dark') ? '☀️' : '🌙';
+}
+(function initTheme(){
+  const saved = localStorage.getItem('tg_theme');
+  if (saved) applyTheme(saved);
+  else {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(prefersDark ? 'dark' : 'light');
+  }
+})();
+btnTheme.addEventListener('click', () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  applyTheme(cur === 'dark' ? 'light' : 'dark');
+});
 
 Promise.all([
   fetch('questions.json?' + Q_VER).then(r => r.json()),
@@ -93,7 +113,25 @@ function takeN(topic, level, n=9){
   return {items, unique: uniqWord || null, level: levelKey};
 }
 
-// Render
+// Render helpers (with staggered animations)
+function animateList(container){
+  Array.from(container.children).forEach((el, i) => {
+    el.classList.remove('q-enter');
+    // force reflow to restart animation
+    void el.offsetWidth;
+    el.style.animationDelay = (i * 40) + 'ms';
+    el.classList.add('q-enter');
+  });
+}
+function animateChips(container){
+  Array.from(container.children).forEach((el, i) => {
+    el.classList.remove('chip-enter');
+    void el.offsetWidth;
+    el.style.animationDelay = (i * 30) + 'ms';
+    el.classList.add('chip-enter');
+  });
+}
+
 function currentTopic(){
   const upper = topicEl.textContent.trim();
   return TOPICS.find(t => t.toUpperCase() === upper) || null;
@@ -112,6 +150,7 @@ function render(topic){
     li.textContent = q;
     listEl.appendChild(li);
   });
+  animateList(listEl);
   renderVocab(topic);
 }
 
@@ -124,6 +163,7 @@ function renderVocab(topic){
     chip.textContent = w;
     vocabEl.appendChild(chip);
   });
+  animateChips(vocabEl);
   vLevelBtns.forEach((b,i)=>b.classList.toggle('active', i===VOCAB_LEVEL));
 }
 
