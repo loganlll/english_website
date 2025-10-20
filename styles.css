@@ -67,27 +67,6 @@ body{
 .chips .chip{font-size:19px; padding:9px 13px; border-radius:999px; border:1px solid #dcdce0; background:#fff;}
 @media (prefers-color-scheme: dark){ .chips .chip{border-color:#2c2f36; background:#1a1f28} }
 
-/* footer */
-.app__footer{margin-top:22px; text-align:center; color:var(--muted)}
-
-/* mobile */
-@media (max-width:720px){
-  .controls{grid-template-columns:1fr; gap:10px}
-  .btn{font-size:28px}
-  .topic{font-size:46px}
-  .questions li{font-size:20px; line-height:1.5}
-  #image{width:170px; height:170px}
-}
-
-
-/* level groups */
-.vocab-groups{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:10px}
-.vgroup{background:transparent; border-radius:12px; padding:8px 6px;}
-.vgroup h4{margin:0 0 6px; font-size:18px; color:var(--muted); letter-spacing:.08em; text-transform:uppercase; text-align:center}
-.vgroup .chips{margin:0; justify-content:center}
-@media (max-width:900px){ .vocab-groups{grid-template-columns:1fr;}} 
-
-
 /* difficulty segmented control */
 .diff{margin-top:8px; display:flex; align-items:center; gap:8px; flex-wrap:wrap}
 .diff legend{position:absolute; width:1px; height:1px; clip:rect(0 0 0 0); overflow:hidden; white-space:nowrap}
@@ -101,4 +80,23 @@ body{
 @media (prefers-color-scheme: dark){
   .seg span{border-color:#2c2f36; background:#1a1f28}
   .seg input:checked + span{background:#f2f3f5; color:#0e1014; border-color:#f2f3f5}
+}
+
+/* level groups */
+.vocab-groups{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:10px}
+.vgroup{background:transparent; border-radius:12px; padding:8px 6px;}
+.vgroup h4{margin:0 0 6px; font-size:18px; color:var(--muted); letter-spacing:.08em; text-transform:uppercase; text-align:center}
+.vgroup .chips{margin:0; justify-content:center}
+@media (max-width:900px){ .vocab-groups{grid-template-columns:1fr;} } 
+
+/* footer */
+.app__footer{margin-top:22px; text-align:center; color:var(--muted)}
+
+/* mobile */
+@media (max-width:720px){
+  .controls{grid-template-columns:1fr; gap:10px}
+  .btn{font-size:28px}
+  .topic{font-size:46px}
+  .questions li{font-size:20px; line-height:1.5}
+  #image{width:170px; height:170px}
 }

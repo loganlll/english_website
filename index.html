@@ -6,7 +6,7 @@
   <title>Topic Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=3" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -22,7 +22,6 @@
       <div class="controls">
         <button type="button" class="btn" aria-label="Generate a random topic">Click to Generate</button>
 
-        <!-- Search with suggestions -->
         <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="topic-suggestions" aria-expanded="false">
           <input
             id="search"
@@ -37,8 +36,7 @@
           <ul id="topic-suggestions" class="search__suggestions" role="listbox"></ul>
         </div>
 
-        <!-- Difficulty segmented control -->
-        <fieldset class="diff" aria-label="Difficulty">
+        <fieldset class="diff" aria-label="Depth">
           <legend>Depth</legend>
           <label class="seg"><input type="radio" name="difficulty" value="easy"><span>Warm‑up</span></label>
           <label class="seg"><input type="radio" name="difficulty" value="medium" checked><span>Standard</span></label>
@@ -61,7 +59,6 @@
     </footer>
   </main>
 
-  <!-- bump version when you update JS -->
-  <script src="scripts.js?v=build18"></script>
+  <script src="scripts.js?v=build19"></script>
 </body>
 </html>
