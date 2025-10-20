@@ -64,6 +64,24 @@ function generate(){
   renderTopic(t);
 }
 
+
+function adjustTopicCasing(q, topic){
+  // Replace occurrences of the exact topic inside the sentence with lowercase,
+  // except when it appears at the very beginning.
+  const lc = topic.toLowerCase();
+  let out = q;
+  let i = out.indexOf(topic);
+  while (i !== -1){
+    if (i > 0){
+      out = out.slice(0, i) + lc + out.slice(i + topic.length);
+      i = out.indexOf(topic, i + lc.length);
+    } else {
+      i = out.indexOf(topic, i + topic.length);
+    }
+  }
+  return out;
+}
+
 function renderTopic(topic){
   state.currentTopic=topic; state.lastTopic=topic;
   el.title.textContent = topic.toUpperCase();

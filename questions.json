@@ -988,6 +988,82 @@
         "Where do people talk past each other about Health & Wellness? How could you reframe the question?",
         "If you had to teach Health & Wellness in 3 minutes, what would you focus on—and what would you leave out?"
       ]
+    },
+    "Furniture": {
+      "easy": [
+        "What lives permanently on your nightstand—and what should be evicted?",
+        "Which do you actually use more: the coffee table or the side table? Why?",
+        "When did a comfy recliner save your back or your mood? Tell the story.",
+        "Do you keep books on a ladder shelf or a bookcase—what feels better?",
+        "What do you stash in your ottoman, and when does it turn into a black hole?",
+        "Which suits a small room better for two people: a loveseat or a compact sectional?",
+        "How often does the dining table become your office—and what’s the fix?",
+        "Do you prefer a desk with drawers or a clean standing desk? Why?",
+        "Which seat do guests fight over in your home: the armchair or the window bench?",
+        "What’s your entryway rule for the hall tree or shoe rack—how do you keep it sane?"
+      ],
+      "medium": [
+        "Open storage on a credenza vs closed storage in a sideboard—which works better for you?",
+        "If your sofa had a built‑in chaise, how would it change the way you host?",
+        "In a tiny kitchen, which layout wins: an island with bar stools or a fold‑down table?",
+        "How do you choose between a Murphy bed and a sofa bed for guests?",
+        "What belongs on a console table by the door, and what definitely doesn’t?",
+        "High shelves vs a low bookcase—what’s safer and tidier in your space?",
+        "When does a media console beat wall‑mounting the TV—and when is it the opposite?",
+        "What makes an ergonomic office chair “good enough” for long calls?",
+        "If a hutch crowds the dining room, what would you replace it with—and why?",
+        "What small upgrade to your wardrobe or armoire made mornings easier?"
+      ],
+      "hard": [
+        "If you redesigned the kitchen from the range to the sink, where would the island go—and why?",
+        "Gas cooktop or induction cooktop—what would you bet on for the next decade?",
+        "Should a standing desk replace a conference table for small teams? When would it backfire?",
+        "Bunk bed or trundle bed for kids—what’s the smarter long‑term choice?",
+        "Open shelving instead of upper cabinets—how would it change your dish rack and pantry routine?",
+        "Built‑in bookshelves or a moveable bookcase—which keeps a room more flexible over time?",
+        "If you had to sell one piece—the recliner, the chaise, or the sectional—which goes first and why?",
+        "What policy for the entry bench and coat rack would actually keep clutter down?",
+        "If the soundbar sits on the media console, where should the subwoofer live—inside the console or on a stand?",
+        "How would you divide a studio with a room divider or tall shelving unit without making it feel cramped?"
+      ]
+    },
+    "Special Effects / VFX": {
+      "easy": [
+        "What VFX shot made you say, “How did they do that?”",
+        "Do you notice wire removal or clean‑up shots, or do they stay invisible for you?",
+        "Which do you enjoy more to spot: practical effects like miniatures or digital VFX?",
+        "What’s a clever transition or match cut you’ve seen that felt like magic?",
+        "When did a simple screen replacement totally sell a scene for you?",
+        "What VFX moment from a movie trailer stuck in your mind?",
+        "Which superhero power looks best on screen thanks to VFX?",
+        "When do CG creatures feel real enough for you—and when do they pull you out?",
+        "What’s a small detail (like reflections or shadows) that makes VFX believable?",
+        "Which movie would you show someone as a starter for great VFX?"
+      ],
+      "medium": [
+        "Where do you draw the line between good compositing and obvious green‑screen?",
+        "When does digital de‑aging work for you—and when does it get distracting?",
+        "What’s the best balance between practical effects and CG in action scenes?",
+        "How much VFX can a drama use before it starts to feel like a blockbuster?",
+        "What’s a matte painting or environment build that you still think about?",
+        "In creature work, what matters more to you: animation performance or shading/lighting?",
+        "Which is trickier for filmmakers: water simulations, fire, or crowds—and why?",
+        "What’s a great invisible effect (like set extensions) that most viewers miss?",
+        "How do color grading and VFX support each other—or clash—on the final look?",
+        "When do high‑frame‑rate shots help VFX, and when do they expose flaws?"
+      ],
+      "hard": [
+        "If you had to cut the VFX budget in half, what would you keep—and what would you change in the story to hide the rest?",
+        "When should directors shoot LED volume instead of greenscreen—and when is location still better?",
+        "Which pipeline step would you automate first: rotoscoping, tracking, or clean‑up? Why?",
+        "What ethical lines matter in VFX: deepfakes, digital doubles, or de‑aging? Where’s your limit?",
+        "If you had one week to sell a creature close‑up, how would you split time among modeling, rigging, animation, grooming, and comp?",
+        "Which would you prioritize for realism: accurate global illumination or perfect camera tracking?",
+        "How could AI tools save time in VFX without flattening style? Give one concrete example.",
+        "When is it smarter to design shots around simulation limits instead of pushing hardware?",
+        "What’s the most meaningful metric to judge VFX quality on a tight schedule?",
+        "If you could rewrite one VFX brief to avoid a mess later, what would you write instead?"
+      ]
     }
   }
 }
