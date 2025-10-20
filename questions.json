@@ -1,8 +1,7 @@
 {
   "meta": {
-    "version": 4,
-    "trimmed": true,
-    "note": "Conversation-first prompts. 5 tailored questions per topic."
+    "version": 7,
+    "note": "Conversation-first prompts. 5 per topic."
   },
   "questions": {
     "Getting to Know Each Other": [
@@ -426,11 +425,11 @@
       "Propose one safeguard that reduces misuse or harm in influential leaders."
     ],
     "Politics": [
-      "Map stakeholders for one policy; note winners and losers.",
-      "Steel‑man the view you disagree with in two sentences.",
-      "Write a neutral headline that informs without inflaming.",
-      "Pick a metric you’d track to judge if a policy works.",
-      "Design one safeguard to prevent misuse."
+      "Map the key stakeholders in politics and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on politics in two lines.",
+      "Write a neutral headline about politics that informs, not inflames.",
+      "Choose a fairness principle to apply to politics; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in politics."
     ],
     "Climate Change": [
       "Choose one local action that would benefit climate change; outline clear steps.",
@@ -629,11 +628,11 @@
       "Propose one safeguard that reduces misuse or harm in tipping."
     ],
     "Housing & Renting": [
-      "Make a 10‑point apartment‑viewing checklist with reasons.",
-      "Draft three smart questions for a landlord and expected answers.",
-      "Write a firm but polite maintenance‑request email.",
-      "Roommates: propose a utilities split and a late‑payment rule.",
-      "Negotiate one repair before signing—what’s your script?"
+      "Map the key stakeholders in housing & renting and one trade‑off for each.",
+      "Steel‑man the strongest opposing view on housing & renting in two lines.",
+      "Write a neutral headline about housing & renting that informs, not inflames.",
+      "Choose a fairness principle to apply to housing & renting; defend your boundary.",
+      "Propose one safeguard that reduces misuse or harm in housing & renting."
     ],
     "Transportation & Commuting": [
       "Map the key stakeholders in transportation & commuting and one trade‑off for each.",
@@ -741,193 +740,193 @@
       "Spot three L1‑influenced errors and fix them."
     ],
     "Used To": [
-      "Write 8 ‘used to’ sentences about childhood routines.",
-      "Contrast ‘used to’ vs ‘would’ with 4 examples.",
-      "Turn 5 present habits into ‘didn’t use to’ statements.",
-      "Explain ‘be used to’ vs ‘used to’ with 3 examples.",
-      "Create 5 interview questions using ‘used to’."
+      "Write five clear examples explaining used to.",
+      "Create three mini‑exercises to practice used to.",
+      "Explain one common mistake with used to and fix it.",
+      "Design a 5‑minute classroom activity using used to.",
+      "Make a simple explanation of used to for a beginner."
     ],
     "For and Since and How Long": [
-      "Write 8 sentences with for/since + present perfect (mix long/short spans).",
-      "Convert 5 diary lines into for/since sentences.",
-      "Explain when present simple beats present perfect with for/since.",
-      "Correct 6 for/since errors.",
-      "Create 5 partner questions using for/since."
+      "Write five clear examples explaining for and since and how long.",
+      "Create three mini‑exercises to practice for and since and how long.",
+      "Explain one common mistake with for and since and how long and fix it.",
+      "Design a 5‑minute classroom activity using for and since and how long.",
+      "Make a simple explanation of for and since and how long for a beginner."
     ],
     "Already, Ever, Yet": [
-      "Write 8 mini Q&A pairs using already/ever/yet naturally.",
-      "Turn 5 past simple sentences into present perfect with already/ever/yet.",
-      "Create 5 ‘Have you ever…?’ questions that aren’t clichés.",
-      "Explain the difference between ‘already’ and ‘yet’ to a classmate.",
-      "Fix 6 ‘ever/never’ mistakes."
+      "Write five clear examples explaining already, ever, yet.",
+      "Create three mini‑exercises to practice already, ever, yet.",
+      "Explain one common mistake with already, ever, yet and fix it.",
+      "Design a 5‑minute classroom activity using already, ever, yet.",
+      "Make a simple explanation of already, ever, yet for a beginner."
     ],
     "Comparatives": [
-      "Write 8 comparative sentences across two themes (health, work).",
-      "Turn 4 equality sentences into comparatives; explain the nuance.",
-      "Create 3 ‘double comparative’ slogans (e.g., the more you read…).",
-      "Correct 6 mistakes with irregular forms (better, worse).",
-      "Compare two cities with at least 6 different adjectives."
+      "Write five clear examples explaining comparatives.",
+      "Create three mini‑exercises to practice comparatives.",
+      "Explain one common mistake with comparatives and fix it.",
+      "Design a 5‑minute classroom activity using comparatives.",
+      "Make a simple explanation of comparatives for a beginner."
     ],
     "Superlatives": [
-      "Write 8 superlative sentences that aren’t about ‘best food’.",
-      "Build a 5‑item ‘top’ list and justify each superlative claim.",
-      "Turn 4 comparative sentences into superlatives where appropriate.",
-      "Fix 6 errors with articles in superlatives.",
-      "Invent 3 award titles using superlatives (fun + specific)."
+      "Write five clear examples explaining superlatives.",
+      "Create three mini‑exercises to practice superlatives.",
+      "Explain one common mistake with superlatives and fix it.",
+      "Design a 5‑minute classroom activity using superlatives.",
+      "Make a simple explanation of superlatives for a beginner."
     ],
     "Second Conditional pt.1": [
-      "Write 5 second‑conditional sentences in realistic contexts.",
-      "Create 3 ‘what if…?’ questions that invite second‑conditional answers.",
-      "Correct 5 typical second‑conditional errors.",
-      "Give two examples contrasting first vs second conditional.",
-      "Turn 3 real dilemmas into second‑conditional advice."
+      "Write five clear examples explaining second conditional pt.1.",
+      "Create three mini‑exercises to practice second conditional pt.1.",
+      "Explain one common mistake with second conditional pt.1 and fix it.",
+      "Design a 5‑minute classroom activity using second conditional pt.1.",
+      "Make a simple explanation of second conditional pt.1 for a beginner."
     ],
     "Second Conditional pt.2": [
-      "Write 5 second‑conditional sentences in realistic contexts.",
-      "Create 3 ‘what if…?’ questions that invite second‑conditional answers.",
-      "Correct 5 typical second‑conditional errors.",
-      "Give two examples contrasting first vs second conditional.",
-      "Turn 3 real dilemmas into second‑conditional advice."
+      "Write five clear examples explaining second conditional pt.2.",
+      "Create three mini‑exercises to practice second conditional pt.2.",
+      "Explain one common mistake with second conditional pt.2 and fix it.",
+      "Design a 5‑minute classroom activity using second conditional pt.2.",
+      "Make a simple explanation of second conditional pt.2 for a beginner."
     ],
     "Third Conditional pt.1": [
-      "Write 5 third‑conditional sentences about past hypotheticals you can’t change.",
-      "Rewrite 3 news headlines as third‑conditional reflections.",
-      "Spot and fix 5 common third‑conditional errors.",
-      "Blend with modals of deduction (could have / might have) in 3 sentences.",
-      "Explain the structure in 30 seconds: form + one exception."
+      "Write five clear examples explaining third conditional pt.1.",
+      "Create three mini‑exercises to practice third conditional pt.1.",
+      "Explain one common mistake with third conditional pt.1 and fix it.",
+      "Design a 5‑minute classroom activity using third conditional pt.1.",
+      "Make a simple explanation of third conditional pt.1 for a beginner."
     ],
     "Third Conditional pt.2": [
-      "Write 5 third‑conditional sentences about past hypotheticals you can’t change.",
-      "Rewrite 3 news headlines as third‑conditional reflections.",
-      "Spot and fix 5 common third‑conditional errors.",
-      "Blend with modals of deduction (could have / might have) in 3 sentences.",
-      "Explain the structure in 30 seconds: form + one exception."
+      "Write five clear examples explaining third conditional pt.2.",
+      "Create three mini‑exercises to practice third conditional pt.2.",
+      "Explain one common mistake with third conditional pt.2 and fix it.",
+      "Design a 5‑minute classroom activity using third conditional pt.2.",
+      "Make a simple explanation of third conditional pt.2 for a beginner."
     ],
     "Mixed Conditionals": [
-      "Write 6 mixed‑conditional sentences about present results of past causes.",
-      "Convert 4 stories into mixed‑conditionals where natural.",
-      "Explain two patterns (past→present, present→past) with examples.",
-      "Correct 6 errors learners make with mixed conditionals.",
-      "Create 5 ‘what if’ prompts that lead to mixed answers."
+      "Write five clear examples explaining mixed conditionals.",
+      "Create three mini‑exercises to practice mixed conditionals.",
+      "Explain one common mistake with mixed conditionals and fix it.",
+      "Design a 5‑minute classroom activity using mixed conditionals.",
+      "Make a simple explanation of mixed conditionals for a beginner."
     ],
     "Phrasal Verbs by Theme": [
-      "Pick a theme (travel/work). Teach 8 phrasal verbs with tiny contexts.",
-      "Write 5 two‑part dialogues that hinge on a phrasal verb.",
-      "Sort 10 phrasal verbs into separable/inseparable.",
-      "Write a mini story using at least 6 phrasal verbs.",
-      "Design 5 cards for a classroom phrasal‑verb game."
+      "Write five clear examples explaining phrasal verbs by theme.",
+      "Create three mini‑exercises to practice phrasal verbs by theme.",
+      "Explain one common mistake with phrasal verbs by theme and fix it.",
+      "Design a 5‑minute classroom activity using phrasal verbs by theme.",
+      "Make a simple explanation of phrasal verbs by theme for a beginner."
     ],
     "Idioms & Metaphors": [
-      "Select 6 idioms for a theme and use each in a vivid sentence.",
-      "Rewrite 5 clichés as fresher metaphors.",
-      "Explain 3 idioms to a learner with short contexts.",
-      "Create a 6‑panel story that naturally uses idioms.",
-      "Find 5 idioms that don’t translate well to your L1 and explain."
+      "Write five clear examples explaining idioms & metaphors.",
+      "Create three mini‑exercises to practice idioms & metaphors.",
+      "Explain one common mistake with idioms & metaphors and fix it.",
+      "Design a 5‑minute classroom activity using idioms & metaphors.",
+      "Make a simple explanation of idioms & metaphors for a beginner."
     ],
     "Collocations": [
-      "List 10 high‑value collocations on one topic; use 5 in sentences.",
-      "Turn 6 unnatural phrases into natural collocations.",
-      "Create a short dialogue packed with 8 collocations.",
-      "Design a matching task (verb→noun) with 8 pairs.",
-      "Explain why two near‑synonyms collocate differently."
+      "Write five clear examples explaining collocations.",
+      "Create three mini‑exercises to practice collocations.",
+      "Explain one common mistake with collocations and fix it.",
+      "Design a 5‑minute classroom activity using collocations.",
+      "Make a simple explanation of collocations for a beginner."
     ],
     "Word Formation": [
-      "Build a family of 8 words from 2 roots (noun/verb/adj/adv).",
-      "Fix 6 word‑formation mistakes in short sentences.",
-      "Create 5 test items (gap‑fill) for ‑tion/‑sion endings.",
-      "Turn neutral words into positive/negative via prefixes.",
-      "Explain two common suffix patterns and exceptions."
+      "Write five clear examples explaining word formation.",
+      "Create three mini‑exercises to practice word formation.",
+      "Explain one common mistake with word formation and fix it.",
+      "Design a 5‑minute classroom activity using word formation.",
+      "Make a simple explanation of word formation for a beginner."
     ],
     "False Friends": [
-      "List 8 false friends in your L1 and write safe alternatives.",
-      "Write 6 mini‑dialogues where a false friend causes confusion—then fix.",
-      "Create a poster with 10 pairs (friend vs foe).",
-      "Explain why one false friend is so tempting in your L1.",
-      "Design a 5‑question quiz for classmates."
+      "Write five clear examples explaining false friends.",
+      "Create three mini‑exercises to practice false friends.",
+      "Explain one common mistake with false friends and fix it.",
+      "Design a 5‑minute classroom activity using false friends.",
+      "Make a simple explanation of false friends for a beginner."
     ],
     "Intonation & Politeness": [
-      "Write 6 requests from blunt → polite; mark rising/falling tones.",
-      "Create 5 tag questions with natural intonation cues.",
-      "Mark scripts for 4 apology/thanks situations.",
-      "Rewrite 6 sentences to soften the tone without losing meaning.",
-      "Explain how intonation changes the same sentence’s intent."
+      "Write five clear examples explaining intonation & politeness.",
+      "Create three mini‑exercises to practice intonation & politeness.",
+      "Explain one common mistake with intonation & politeness and fix it.",
+      "Design a 5‑minute classroom activity using intonation & politeness.",
+      "Make a simple explanation of intonation & politeness for a beginner."
     ],
     "Connected Speech & Weak Forms": [
-      "Mark weak forms in 6 sentences (to/of/and/for).",
-      "Write a tongue‑twister that forces linking; practice it.",
-      "Transform 4 careful sentences into casual speech with linking.",
-      "Transcribe 4 lines focusing on reductions.",
-      "Design a 5‑minute drill for /t/ + /j/ (‘did you’)."
+      "Write five clear examples explaining connected speech & weak forms.",
+      "Create three mini‑exercises to practice connected speech & weak forms.",
+      "Explain one common mistake with connected speech & weak forms and fix it.",
+      "Design a 5‑minute classroom activity using connected speech & weak forms.",
+      "Make a simple explanation of connected speech & weak forms for a beginner."
     ],
     "Stress & Rhythm": [
-      "Underline content words in 8 sentences; clap the rhythm.",
-      "Rewrite 4 sentences to change emphasis; explain the effect.",
-      "Create a short chant that drills a tricky rhythm.",
-      "Add sentence‑stress marks to a mini paragraph.",
-      "Design a 3‑minute warm‑up to feel stress‑timed English."
+      "Write five clear examples explaining stress & rhythm.",
+      "Create three mini‑exercises to practice stress & rhythm.",
+      "Explain one common mistake with stress & rhythm and fix it.",
+      "Design a 5‑minute classroom activity using stress & rhythm.",
+      "Make a simple explanation of stress & rhythm for a beginner."
     ],
     "Minimal Pairs": [
-      "Create 10 minimal pairs with pictures/emojis to cue sounds.",
-      "Write a 6‑line dialogue contrasting the pairs.",
-      "Design a call‑and‑response drill for /ɪ/ vs /iː/.",
-      "Spot 8 pairs your L1 learners often confuse.",
-      "Build 5 tongue‑twisters using the pairs."
+      "Write five clear examples explaining minimal pairs.",
+      "Create three mini‑exercises to practice minimal pairs.",
+      "Explain one common mistake with minimal pairs and fix it.",
+      "Design a 5‑minute classroom activity using minimal pairs.",
+      "Make a simple explanation of minimal pairs for a beginner."
     ],
     "Passive Voice": [
-      "Change 8 active sentences into passive; justify when passive helps.",
-      "Write 5 news‑style passives (allegedly/was reported).",
-      "Spot 6 clunky passives and rewrite to active.",
-      "Use the passive to avoid blame tactfully in 4 cases.",
-      "Blend passive with present perfect in 4 sentences."
+      "Write five clear examples explaining passive voice.",
+      "Create three mini‑exercises to practice passive voice.",
+      "Explain one common mistake with passive voice and fix it.",
+      "Design a 5‑minute classroom activity using passive voice.",
+      "Make a simple explanation of passive voice for a beginner."
     ],
     "Reported Speech": [
-      "Turn 8 direct quotes into reported speech with correct tense shifts.",
-      "Report 5 commands/requests politely using ask/tell.",
-      "Decide when no tense change is needed; give 4 examples.",
-      "Convert 4 news headlines into reported speech.",
-      "Create a phone‑call dialogue using reported questions."
+      "Write five clear examples explaining reported speech.",
+      "Create three mini‑exercises to practice reported speech.",
+      "Explain one common mistake with reported speech and fix it.",
+      "Design a 5‑minute classroom activity using reported speech.",
+      "Make a simple explanation of reported speech for a beginner."
     ],
     "Relative Clauses & Participles": [
-      "Write 8 defining/non‑defining examples; add commas correctly.",
-      "Reduce 5 relative clauses to participle phrases.",
-      "Fix 6 sentence fragments caused by reduced relatives.",
-      "Chain two relative clauses naturally in 4 sentences.",
-      "Explain when to drop ‘that’ without losing clarity."
+      "Write five clear examples explaining relative clauses & participles.",
+      "Create three mini‑exercises to practice relative clauses & participles.",
+      "Explain one common mistake with relative clauses & participles and fix it.",
+      "Design a 5‑minute classroom activity using relative clauses & participles.",
+      "Make a simple explanation of relative clauses & participles for a beginner."
     ],
     "Modal Verbs": [
-      "Write 10 sentences for ability, advice, obligation, deduction.",
-      "Turn 5 rules into softer modal advice.",
-      "Create 5 past deductions using must/can’t/might have.",
-      "Design a classroom ‘permission’ poster using modals.",
-      "Correct 6 modal errors from real speech."
+      "Write five clear examples explaining modal verbs.",
+      "Create three mini‑exercises to practice modal verbs.",
+      "Explain one common mistake with modal verbs and fix it.",
+      "Design a 5‑minute classroom activity using modal verbs.",
+      "Make a simple explanation of modal verbs for a beginner."
     ],
     "Future Forms": [
-      "Write 10 sentences: will/going to/present continuous for future.",
-      "Invent 5 diary lines and choose the best future form for each.",
-      "Explain quick rules for prediction vs plan vs schedule.",
-      "Fix 6 future‑form mistakes.",
-      "Create 3 ‘weather forecast’ lines with different forms."
+      "Write five clear examples explaining future forms.",
+      "Create three mini‑exercises to practice future forms.",
+      "Explain one common mistake with future forms and fix it.",
+      "Design a 5‑minute classroom activity using future forms.",
+      "Make a simple explanation of future forms for a beginner."
     ],
     "Articles & Quantifiers": [
-      "Write 10 sentences fixing a/an/the/zero article problems.",
-      "Turn 6 uncountable‑noun mistakes into correct versions.",
-      "Create 5 questions using some/any/much/many/enough.",
-      "Explain when to use ‘the’ with unique nouns; 4 examples.",
-      "Contrast few/a few and little/a little in 6 sentences."
+      "Write five clear examples explaining articles & quantifiers.",
+      "Create three mini‑exercises to practice articles & quantifiers.",
+      "Explain one common mistake with articles & quantifiers and fix it.",
+      "Design a 5‑minute classroom activity using articles & quantifiers.",
+      "Make a simple explanation of articles & quantifiers for a beginner."
     ],
     "Gerunds vs Infinitives": [
-      "Write 10 verb patterns (enjoy doing / want to do…) in real contexts.",
-      "Transform 6 sentences to the other form where meaning changes.",
-      "List 8 trigger verbs per pattern; add one example each.",
-      "Correct 6 common mistakes with -ing/to.",
-      "Write a mini story that naturally uses both patterns."
+      "Write five clear examples explaining gerunds vs infinitives.",
+      "Create three mini‑exercises to practice gerunds vs infinitives.",
+      "Explain one common mistake with gerunds vs infinitives and fix it.",
+      "Design a 5‑minute classroom activity using gerunds vs infinitives.",
+      "Make a simple explanation of gerunds vs infinitives for a beginner."
     ],
     "Narrative Tenses": [
-      "Write a 6‑sentence story mixing past simple, past continuous, past perfect.",
-      "Identify ‘background’ vs ‘main events’ in a 5‑line text.",
-      "Fix 6 tense‑sequence errors in a narrative.",
-      "Rewrite a paragraph to add suspense using past perfect.",
-      "Storyboard 6 frames and caption each with a different tense."
+      "Write five clear examples explaining narrative tenses.",
+      "Create three mini‑exercises to practice narrative tenses.",
+      "Explain one common mistake with narrative tenses and fix it.",
+      "Design a 5‑minute classroom activity using narrative tenses.",
+      "Make a simple explanation of narrative tenses for a beginner."
     ]
   }
 }
