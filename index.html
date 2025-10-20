@@ -7,56 +7,61 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Topic Generator</h1>
-    <div class="header-sub">Click or press <b>Enter</b> to get a topic</div>
+  <main class="container">
+    <header class="header">
+      <h1 class="app-title">Topic Generator</h1>
+      <p class="subtitle">Click or press <b>Enter</b> to get a topic</p>
+    </header>
 
-    <div class="card controls">
+    <section class="card controls">
       <button id="generateBtn" class="btn btn--primary">Click to Generate</button>
       <button id="reshuffleBtn" class="btn">Reshuffle</button>
 
       <div class="search" id="searchBox" aria-expanded="false">
         <input id="searchInput" type="text" placeholder="Search topics…" autocomplete="off" />
+        <button id="searchClear" class="search__clear" aria-label="Clear search">×</button>
         <div class="search__suggestions" id="suggestions"></div>
       </div>
 
       <div class="depth">
-        <span>Depth</span>
-        <div class="range"><input type="range" id="depthRange" min="0" max="100" value="50" /></div>
-        <div class="depth-labels"><span id="depthWarm">Warm-up</span> <b id="depthStd">Standard</b> <span id="depthChal">Challenge</span></div>
-        <div class="pills" style="margin-left:12px">
-          <span>Text</span>
-          <button class="pill is-active" data-size="s">S</button>
-          <button class="pill" data-size="m">M</button>
-          <button class="pill" data-size="l">L</button>
+        <span class="depth__label">Depth</span>
+        <input class="depth__range" type="range" id="depthRange" min="0" max="100" value="50" />
+        <div class="depth__stops">
+          <span id="depthWarm">Warm‑up</span>
+          <b id="depthStd">Standard</b>
+          <span id="depthChal">Challenge</span>
         </div>
-        <button id="themeToggle" title="Toggle theme"></button>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="title">
-        <h2 id="topicTitle">—</h2>
       </div>
 
-      <section class="questions">
-        <ul id="questionList"></ul>
-      </section>
+      <div class="pills">
+        <span class="pill__label">Text</span>
+        <button class="pill is-active" data-size="s">S</button>
+        <button class="pill" data-size="m">M</button>
+        <button class="pill" data-size="l">L</button>
+      </div>
 
-      <section class="vocab">
-        <h3>Vocabulary (choose level)</h3>
-        <div class="levels">
-          <button class="btn-level is-active" data-level="B2">B2</button>
-          <button class="btn-level" data-level="C1">C1</button>
-          <button class="btn-level" data-level="C2">C2</button>
-          <button id="shuffleVocab" class="btn" style="margin-left:auto">Shuffle vocab</button>
+      <button id="themeToggle" class="theme-toggle" title="Toggle theme"></button>
+    </section>
+
+    <section class="card stage">
+      <h2 id="topicTitle" class="topic-title">—</h2>
+
+      <ul id="questionList" class="questions"></ul>
+
+      <div class="vocab">
+        <div class="vocab__header">
+          <h3>Vocabulary (choose level)</h3>
+          <div class="levels">
+            <button class="btn-level is-active" data-level="B2">B2</button>
+            <button class="btn-level" data-level="C1">C1</button>
+            <button class="btn-level" data-level="C2">C2</button>
+          </div>
+          <button id="shuffleVocab" class="btn btn--ghost">Shuffle vocab</button>
         </div>
-        <div class="chips" id="vocabChips"></div>
-      </section>
-    </div>
-
-    <div class="footer" id="footer"></div>
-  </div>
+        <div id="vocabChips" class="chips"></div>
+      </div>
+    </section>
+  </main>
 
   <script src="./scripts.js"></script>
 </body>
