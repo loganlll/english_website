@@ -1,0 +1,1532 @@
+[
+  {
+    "term": "abide by",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "abrogate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "abrogation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "accede",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "accept",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "acceptable",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "acceptably",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "acceptance",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "accommodate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "accommodation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "accord",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "acquiesce",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "acquiescence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "acquiescent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "a done deal",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "agree",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "agreed",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "agreement",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "agree to differ/disagree",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "alliance",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "allow",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "all right",
+    "type": "exclamation",
+    "level": "A2"
+  },
+  {
+    "term": "ally",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "alright",
+    "type": "exclamation",
+    "level": "A2"
+  },
+  {
+    "term": "appeal",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "appeal",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "arbitrate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "arbitration",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "arbitrator",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "argue",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "argue into doing",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "argue out of doing",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "arm-twisting",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "arrangement",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "as one",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "as one man",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "bargain",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "bargain",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "bargaining",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "bargaining chip",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "bargaining power",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "be (a) party to something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "beat down",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "(be) at one (with somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "bend to",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "be with somebody (on something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "blag",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "blandishments",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "bow to",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "breach",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "breach",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "bribe",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "bribe",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "bring A and B together",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "bring round",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "buy-in",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "call it quits",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "cancel",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "capitulate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "capitulation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "carrot",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "cement",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "coax",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "coaxing",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "coaxing",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "collaborate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "collaboration",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "collaborative",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "collective",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "collude",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "collusion",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "collusive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "come to heel",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "come to terms (with somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "commit",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "commitment",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "common ground",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "compact",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "complaisance",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "complaisant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "compliance",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "compliant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "compromise",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "compromise",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "concede",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "concession",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "conclude",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "concord",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "concordant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "concordat",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "condition",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "confirm",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "consensual",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "consensus",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "consent",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "consent",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "contract",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "contract",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "contract in",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "contract out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "contractual",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "contractually",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "convention",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "convince",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "cooling-off period",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "cooperate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "cooperation",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "cooperative",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "coordinate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "coordination",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "countenance",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "covenant",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "covenant",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "dangle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "deal",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "defer to",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "dialogue",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "discuss",
+    "type": "verb",
+    "level": "A1"
+  },
+  {
+    "term": "discussion",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "dishonour",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "dissolution",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dissolve",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "dissuade",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "drive/strike a hard bargain",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "encourage",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "entice",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "exhort",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "exhortation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "expire",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "expiry",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fence-mending",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fine print",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gentleman’s agreement",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "get",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "get around",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "get out of",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "get round",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "give",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "give in",
+    "type": "phrasal verb",
+    "level": "B2"
+  },
+  {
+    "term": "give way (to somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "go along with",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "go with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "hammer out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "handshake",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "harangue",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "harangue",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hash out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "hold out for",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "hold with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "honest broker",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "honor",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "honor system",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "honour",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "horse-trading",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "humour",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "induce",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "inducement",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "in sync",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "intercede",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "intercession",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "interest in",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "intermediary",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "intermediary",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "intervene",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "intervention",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "joint",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "jointly",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "jolly into",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "jolly into doing",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "lobby",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "lobbyist",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "lure",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "make common cause with somebody",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "make up",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "make (your) peace with somebody",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "mediate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "mediation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "mediator",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "meet somebody halfway",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "mend",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "mend (your) fences (with somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "middle ground",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "moderator",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "modus vivendi",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "nail down",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "negotiable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "negotiate",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "negotiating table",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "negotiation",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "nobble",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "nullify",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "OK",
+    "type": "exclamation",
+    "level": "A1"
+  },
+  {
+    "term": "oneness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "on the same page",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "on the understanding that…",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "pact",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "parley",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "parley",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "party",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "patch up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "peacekeeper",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "peacemaker",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "peace offering",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "persuade",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "persuasion",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "persuasive",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "pour oil on troubled water(s)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "prenuptial agreement",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "press",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "pressure",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "pressure",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "pressurize",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "prevail on to do",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "prevail upon to do",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "protocol",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "proviso",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "push",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "put aside",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "ratification",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ratify",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "realign",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "realignment",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "reason with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "reconcilable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "reconcile",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "reconciliation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "red line",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "referee",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "relent",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "renege",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "rescind",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "rescission",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "resolution",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "resolve",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "retract",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "right",
+    "type": "exclamation",
+    "level": "B2"
+  },
+  {
+    "term": "run out",
+    "type": "phrasal verb",
+    "level": "B2"
+  },
+  {
+    "term": "rupture",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "rupture",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "seal",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "seduce",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "settle",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "settlement",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "sign",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "signatory",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sign on",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "sign on the dotted line",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "sign up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "sign up to",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "silver tongue",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "silver-tongued",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sink your differences",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "small print",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "smooth-talking",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "soften up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "strike a bargain/deal (with somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "submission",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "submissive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "submissively",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "submit",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "subscribe to",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "surely",
+    "type": "adverb",
+    "level": "B1"
+  },
+  {
+    "term": "sway",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "sweeten",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "talk into",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "talk out of",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "talk over",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "talk round",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "tempt",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "term",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "terms",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "terms and conditions",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "the gift of the gab",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "tie-up",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "together",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "tolerance",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "tolerant",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "tolerantly",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "toleration",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "treaty",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "truce",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "Ts and Cs",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "twist somebody’s arm",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "uncontentious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "uncontroversial",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "understand",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "understanding",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "undertake",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "undertaking",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "united",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "unity",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "urge",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "violate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "violation",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "violator",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "warranty",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "wheedle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "win around",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "win over",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "win round",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "wipe the slate clean",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "work on",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "wrap up",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "write into",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "yes-man",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "yield",
+    "type": "verb",
+    "level": "C1"
+  }
+]

@@ -1,68 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Oxford Vocabulary Trainer</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <title>Word Generator</title>
+  <meta name="description" content="Generate CEFR-aligned vocabulary by topic and level. Favorite, hide, copy, and export." />
+  <meta property="og:title" content="Word Generator" />
+  <meta property="og:description" content="Generate CEFR-aligned vocabulary by topic and level. Favorite, hide, copy, and export." />
+  <meta property="og:type" content="website" />
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="container">
-    <header class="header">
-      <h1 class="app-title">Oxford Vocabulary Trainer</h1>
-      <p class="subtitle">Click or press <b>Enter</b> to get 10 words. Choose a CEFR level (A1–C2) and source.</p>
+  <div class="wrap">
+    <header class="app-header">
+      <h1>Word Generator</h1>
+      <p class="muted">CEFR levels • Topics • Favorites • Offline-ready</p>
     </header>
 
-    <section class="card controls">
-      <button id="generateBtn" class="btn btn--primary">Get words</button>
-      <button id="reshuffleBtn" class="btn">Reshuffle</button>
+    <section class="controls" aria-label="Controls">
+      <fieldset class="levels" role="group" aria-label="CEFR levels">
+        <legend class="sr-only">CEFR level filter</legend>
+        <label><input type="checkbox" class="level" value="A1" checked> A1</label>
+        <label><input type="checkbox" class="level" value="A2" checked> A2</label>
+        <label><input type="checkbox" class="level" value="B1" checked> B1</label>
+        <label><input type="checkbox" class="level" value="B2" checked> B2</label>
+        <label><input type="checkbox" class="level" value="C1" checked> C1</label>
+        <label><input type="checkbox" class="level" value="C2" checked> C2</label>
+        <button id="toggleAny" type="button" class="btn small" aria-pressed="true" aria-label="Any level">Any level</button>
+      </fieldset>
 
-      <div class="pills" role="tablist" aria-label="Source">
-        <span class="pill__label">Source</span>
-        <button id="src5000" class="pill is-active" data-source="ox5000" role="tab" aria-selected="true">Oxford 5000</button>
-        <button id="srcTopics" class="pill" data-source="topics" role="tab" aria-selected="false">Oxford Topics</button>
+      <div class="row">
+        <label for="topic">Topic</label>
+        <select id="topic" class="select"></select>
       </div>
 
-      <div class="levels">
-        <button class="btn-level is-active" data-level="A1">A1</button>
-        <button class="btn-level" data-level="A2">A2</button>
-        <button class="btn-level" data-level="B1">B1</button>
-        <button class="btn-level" data-level="B2">B2</button>
-        <button class="btn-level" data-level="C1">C1</button>
-        <button class="btn-level" data-level="C2">C2</button>
+      <div class="row">
+        <label for="count">How many</label>
+        <input id="count" type="range" min="1" max="30" value="10" />
+        <output id="countOut" for="count">10</output>
       </div>
 
-      <div id="topicsBar" class="topics-bar" hidden>
-        <label>
-          <span class="muted">Category</span>
-          <select id="topicCategory"></select>
+      <div class="row">
+        <label class="switch">
+          <input id="favoritesOnly" type="checkbox" />
+          <span class="slider"></span>
         </label>
-        <label>
-          <span class="muted">Topic</span>
-          <select id="topicName"></select>
-        </label>
+        <span>Favorites only</span>
       </div>
 
-      <div class="actions">
-        <button id="copyBtn" class="btn btn--ghost">Copy list</button>
-        <button id="csvBtn" class="btn btn--ghost">Export CSV</button>
-        <button id="themeToggle" class="theme-toggle" title="Toggle theme"></button>
+      <div class="row buttons">
+        <button id="generate" class="btn primary">Generate</button>
+        <button id="copySet" class="btn">Copy set</button>
+        <button id="exportFav" class="btn">Export favorites</button>
+        <button id="clearHidden" class="btn danger">Unhide all</button>
       </div>
+
+      <div id="summary" class="summary" aria-live="polite"></div>
     </section>
 
-    <section class="card stage">
-      <h2 id="title" class="topic-title">Oxford 5000 — <span id="levelLabel">A1</span></h2>
-
-      <div class="vocab">
-        <div class="vocab__header">
-          <h3>Words</h3>
-          <span id="countLabel" class="muted"></span>
-        </div>
-        <div id="vocabChips" class="chips"></div>
-      </div>
+    <section>
+      <div id="list" class="list" aria-live="polite" aria-busy="false"></div>
     </section>
-  </main>
+  </div>
 
-  <script src="./scripts.js"></script>
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js').catch(()=>{});
+    }
+  </script>
 </body>
 </html>

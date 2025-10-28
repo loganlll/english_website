@@ -1,0 +1,4907 @@
+[
+  {
+    "term": "a bone of contention",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "about-turn",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "absolutely",
+    "type": "adverb",
+    "level": "B1"
+  },
+  {
+    "term": "according to",
+    "type": "preposition",
+    "level": "A2"
+  },
+  {
+    "term": "accord with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "account",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "a chink in somebody’s armour",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "ad hominem",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "adversary",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "advice",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "advise",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "advocate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "affirmative",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "affirmative",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "affirmatively",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "again",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "against",
+    "type": "preposition",
+    "level": "A2"
+  },
+  {
+    "term": "agnostic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "agree",
+    "type": "verb",
+    "level": "A1"
+  },
+  {
+    "term": "ah",
+    "type": "exclamation",
+    "level": "A2"
+  },
+  {
+    "term": "air",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "airing",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "align yourself with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "a link in the chain",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "all hell broke loose",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "all right",
+    "type": "exclamation",
+    "level": "A2"
+  },
+  {
+    "term": "alright",
+    "type": "exclamation",
+    "level": "A2"
+  },
+  {
+    "term": "altercation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "a man/woman after your own heart",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "ammunition",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "a moot point/question",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "anodyne",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "answer for",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "anti",
+    "type": "preposition",
+    "level": "C1"
+  },
+  {
+    "term": "anyway",
+    "type": "adverb",
+    "level": "A2"
+  },
+  {
+    "term": "apologia",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "aporia",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "appraise",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "approbation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "approval",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "approval rating",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "approve",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "arguable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "arguably",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "argue",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "argue the toss",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "argue with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "argument",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "argumentation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "argumentative",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "argy-bargy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "a rod/stick to beat somebody with",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "as a matter of fact",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "assent",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "assent",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "assert",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "assertion",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "assertive",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "assertively",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "assess",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "assessment",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "associate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "as/so far as I am concerned",
+    "type": "idiom",
+    "level": "B2"
+  },
+  {
+    "term": "as/so far as somebody/something is concerned",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "at best",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "athwart",
+    "type": "preposition",
+    "level": "C2"
+  },
+  {
+    "term": "at loggerheads (with somebody) (over something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "at the same time",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "attitude",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "at variance (with somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "avow",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "avowal",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "avowed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "a war of words",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "back-pedal",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "backtrack",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "bad/ill feeling",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "badly",
+    "type": "adverb",
+    "level": "B1"
+  },
+  {
+    "term": "balls",
+    "type": "exclamation",
+    "level": "C2"
+  },
+  {
+    "term": "bandy words (with somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "bang/knock your/their heads together",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "barney",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "basically",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "battle",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "battleground",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "be asking for trouble",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be at each other’s throats",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be at odds (with somebody) (over/on something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be having a moment",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be in a minority of one",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be in/out of tune (with somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "belabour the point",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "belief",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "believe",
+    "type": "verb",
+    "level": "A1"
+  },
+  {
+    "term": "bellicose",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bellicosity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "be of one/the same mind (about somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be of the opinion that…",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "be on a collision course (with somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be on firm/solid ground",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be on somebody’s side",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be set in your ways",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "bet",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "bet",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "be worlds apart",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "bias",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "bias",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "biased",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "bicker",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "bickering",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "bite your tongue",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "blow hot and cold (about something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "bollocks",
+    "type": "exclamation",
+    "level": "C2"
+  },
+  {
+    "term": "bolshie",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "budge",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "bumptious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bunfight",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "bust-up",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "bust up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "but",
+    "type": "conjunction",
+    "level": "A1"
+  },
+  {
+    "term": "but",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "by extension",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "calculate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "calculation",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "call a spade a spade",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "can’t be bad",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "carry",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "carry on",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "case",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "casuistry",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "challenging",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "chameleon",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "change your/somebody’s mind",
+    "type": "idiom",
+    "level": "B1"
+  },
+  {
+    "term": "change your tune",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "check",
+    "type": "exclamation",
+    "level": "C2"
+  },
+  {
+    "term": "chime with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "circular",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "circularity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "claim",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "claim",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "clash",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "clash",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "climb down",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "climbdown",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "clincher",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "collide",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "collision",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "combative",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "come around",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "come off it",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "come out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "come out on top",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "come over",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "come round",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "comment",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "comment",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "commit",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "compliant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "concede",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "concur",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "concurrence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "confer",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "conflict",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "conform",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "conformability",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "conformable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "conformance",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "conformity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "confrontation",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "confrontational",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "confute",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "conjecture",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "conjecture",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "consciousness",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "consensus",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "consistency",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "consistent",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "consistently",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "consonance",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "consonant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "contend",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "contention",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "contentious",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "contradict",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "contradiction",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "contradictory",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "contrarian",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "contretemps",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "controversial",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "controversially",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "controversy",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "convert",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "convert",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "conviction",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "cool",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "corollary",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "count",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "counterargument",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "counter-attack",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "counter-attack",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "counterexample",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "credible",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "critic",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "criticism",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "criticize",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "critique",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "critique",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "cross swords (with somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "current",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "deadlock",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "deadlocked",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "debatable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "debate",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "debate",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "decided",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "declamation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "declamatory",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "deduce",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "deem",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "deep",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "deep-dyed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "defence",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "defend",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "defense",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "defensible",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "delude",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "delusion",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "demur",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "deplatform",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "devil’s advocate",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dialectic",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dialectical",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dicker",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "differ",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "difference",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "different",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "ding-dong",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "disagree",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "disagreement",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "disassociate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "discord",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "discordant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "discuss",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "discussion",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "disharmony",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "disposed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disputable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disputation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dispute",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "dispute",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "dissension",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dissent",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dissent",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "dissenter",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dissenting",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dissidence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dissident",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dissident",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dissociate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "dissociation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dissonance",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dissonant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disunite",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "disunity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "diverge",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "divergence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "divergent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "divide",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "divide and rule",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "divided",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "division",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "divisive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "divisively",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "divisiveness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "do battle (with somebody) (over something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "dogma",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dogmatic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dogmatically",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "don’t judge a book by its cover",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "don’t-know",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "doublethink",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "downvote",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "downvote",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "duke it out",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "dust-up",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dyed in the wool",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "echo",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "echo",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "editorial",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "editorialize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "eloquence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "eloquent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "eloquently",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "embroil",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "esteem",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "esteem",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "estimate",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "estimate",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "estimation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "evaluate",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "evaluation",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "evaluative",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "evangelical",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "evangelicalism",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "evidence",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "exactly",
+    "type": "adverb",
+    "level": "B1"
+  },
+  {
+    "term": "examination",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "examine",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "exchange",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "excuse me",
+    "type": "idiom",
+    "level": "A1"
+  },
+  {
+    "term": "exponent",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "expostulate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "expostulation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "express",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "expression",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "extrapolate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "extrapolation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "face-off",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "face off",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "faction",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "falling-out",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fall in with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "fall out",
+    "type": "phrasal verb",
+    "level": "B2"
+  },
+  {
+    "term": "far be it from me to do something (but…)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "favourability",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "favourable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "favourably",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "feed back",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "feel",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "feeling",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "feisty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "feud",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "feud",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "feuding",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fiddlesticks",
+    "type": "exclamation",
+    "level": "C2"
+  },
+  {
+    "term": "fight",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "fight",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "fight fire with fire",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "fighting",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "fight it out",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "fight out",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "fight your own battles",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "find",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "find your voice/tongue",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "fist bump",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fist-bump",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "fit",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "flap",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "flat",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "flatten",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flatter",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flesh out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "flip-flop",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flip-flopper",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "football",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "for a start",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "forceful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "forcefulness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "force/thrust/ram something down somebody’s throat",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "for my money",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "for starters",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "for that matter",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "forum",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "for what it’s worth",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "fracas",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fray",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "free-for-all",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "freethinker",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "freethinking",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "frenemy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "friction",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "furthermore",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "gag",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gag",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "gainsay",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "Gallup poll™",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gap",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "generalize",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "get above yourself",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "get/be on your soapbox",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "get/take/have the measure of somebody/something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "given that",
+    "type": "conjunction",
+    "level": "C1"
+  },
+  {
+    "term": "(give somebody) a fair hearing",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "give somebody/something the nod",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "give voice to something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "go against",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "go-around",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "go by",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "good name",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "go on",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "go-round",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "go, swim, etc. with/against the tide",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "go to law",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "go to the mat (with somebody) (for somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "great minds think alike",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "gridlock",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "guess",
+    "type": "verb",
+    "level": "A1"
+  },
+  {
+    "term": "guess",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "haggle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "hair-splitting",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hammer and tongs",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "happen",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "harmonious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "harmoniously",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "harmony",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "harrumph",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "harrumph",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "hassle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "have",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "have a down on somebody/something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have a good, bad, high, low, etc. opinion of somebody/something",
+    "type": "idiom",
+    "level": "B2"
+  },
+  {
+    "term": "have a mind of your own",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have a problem with something/somebody",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "have/exchange words (with somebody) (about something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have it your own way!",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "have second thoughts",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "having said that",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "head-to-head",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "head-to-head",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "hear! hear!",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "hearing",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hedge your bets",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "heresy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "heretical",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "heterodox",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "heterodoxy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "high ground",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hogwash",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hokum",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hold",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "hold against",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "hold/stand your ground",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "hold your peace/tongue",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "hostile",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "hostility",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "hot button",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hot stuff",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "how’s that?",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "hue",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hunker down",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "I beg to differ",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "idea",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "I don’t think so",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "if",
+    "type": "conjunction",
+    "level": "B1"
+  },
+  {
+    "term": "if anything",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "if you ask me",
+    "type": "idiom",
+    "level": "B2"
+  },
+  {
+    "term": "if you like",
+    "type": "idiom",
+    "level": "B1"
+  },
+  {
+    "term": "I know",
+    "type": "idiom",
+    "level": "A2"
+  },
+  {
+    "term": "ill/bad feeling",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "IMHO",
+    "type": "abbreviation",
+    "level": "C2"
+  },
+  {
+    "term": "IMO",
+    "type": "abbreviation",
+    "level": "C2"
+  },
+  {
+    "term": "impasse",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "implicit bias",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "impression",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "I must say",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "in accordance with something",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "in accord (with something/somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "in (all) honesty",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "incident",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "incline",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "inclined",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "in conformity with something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "inconsistency",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "inconsistent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "inconsistently",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "incontestable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "incontestably",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "incontrovertible",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "incontrovertibly",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "indisputable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "indisputably",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "in effect",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "in favour (of somebody/something)",
+    "type": "idiom",
+    "level": "B1"
+  },
+  {
+    "term": "infer",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "inference",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "infighting",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "inflexibility",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "inflexible",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "inflexibly",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "in keeping (with something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "in my book",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "in opposition to somebody/something",
+    "type": "idiom",
+    "level": "B2"
+  },
+  {
+    "term": "in somebody’s eyes",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "interject",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "in the first, second, etc. place",
+    "type": "idiom",
+    "level": "B2"
+  },
+  {
+    "term": "in the sight of somebody/in somebody’s sight",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "in the wrong",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "intransigence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "intransigent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "invalidate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "invalidation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "invoke",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "irreconcilable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "issue",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "(it) sounds like a plan (to me)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "I’m easy",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "I’m sorry",
+    "type": "idiom",
+    "level": "A1"
+  },
+  {
+    "term": "joust",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "joust",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "judge",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "judge",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "judgement",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "just",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "keep your own counsel",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "keystone",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "knock-down-drag-out",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "lay out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "leading article",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "leaning",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "lean to",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "lean toward",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "lean towards",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "left field",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "lend your name to something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "like",
+    "type": "preposition",
+    "level": "A1"
+  },
+  {
+    "term": "like",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "like",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "lock",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "lock horns (with somebody) (over something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "look for trouble",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "mainstream",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "mainstream",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "maintain",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "make mincemeat of somebody",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "make your voice heard",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "mano a mano",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "mano-a-mano",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "match",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "match",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "maverick",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "maverick",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "may",
+    "type": "modal verb",
+    "level": "B2"
+  },
+  {
+    "term": "maybe",
+    "type": "adverb",
+    "level": "A1"
+  },
+  {
+    "term": "middle ground",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "minority report",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "misjudge",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "misjudgement",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "mistake",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "mistaken",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "mistakenly",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "misunderstanding",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "mix it (with somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "moderate",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "moderate",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "mold",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "monkey in the middle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "moralize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "mould",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "mouthy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "muzzle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "my way or the highway",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "name",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "negation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "negative",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "negative",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "niggle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "no",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "nod",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "no hard feelings",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "no kidding",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "non-committal",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "non-committally",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "non-controversial",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "nor",
+    "type": "conjunction",
+    "level": "B1"
+  },
+  {
+    "term": "not at all",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "not half",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "not hold water",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "notice",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "not likely!",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "object",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "objective",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "objectivity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "of",
+    "type": "preposition",
+    "level": "A1"
+  },
+  {
+    "term": "of course",
+    "type": "idiom",
+    "level": "A2"
+  },
+  {
+    "term": "OK",
+    "type": "exclamation",
+    "level": "A1"
+  },
+  {
+    "term": "OK",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "okey-doke",
+    "type": "exclamation",
+    "level": "C2"
+  },
+  {
+    "term": "on second thoughts",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "(on) the balance of evidence/probability",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "on the face of it",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "opine",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "opinion",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "opinionated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "opinion poll",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "opponent",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "oppose",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "opposed",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "opposition",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "oppositional",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "or what",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "out of hand",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "out of keeping (with something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "out of kilter",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "out of sympathy with somebody/something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "out of sync",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "out of whack",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "overrate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "pace",
+    "type": "preposition",
+    "level": "C2"
+  },
+  {
+    "term": "part company (with/from somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "party",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "perception",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "perhaps",
+    "type": "adverb",
+    "level": "A2"
+  },
+  {
+    "term": "personally",
+    "type": "adverb",
+    "level": "B1"
+  },
+  {
+    "term": "pick a fight/quarrel (with somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "piggy in the middle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "pig-headed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pig-headedness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "pitch",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "platform",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "play along",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "play your ace",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "ple",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "point",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "point",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "point of view",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "point out",
+    "type": "phrasal verb",
+    "level": "B1"
+  },
+  {
+    "term": "point taken",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "polarity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "polarization",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "polarize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "polemic",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "polemical",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "poll",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "pontificate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "posit",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "position",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "positive",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "positively",
+    "type": "adverb",
+    "level": "B1"
+  },
+  {
+    "term": "pour/heap scorn on somebody/something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "precisely",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "preconception",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "prejudice",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "prejudice",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "prejudiced",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "premise",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "press something home",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "presupposition",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "prognosis",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "prong",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "pronouncement",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "pronounce on",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "pronounce upon",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "proof",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "proposition",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "protest",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "protest",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "prove",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "provocation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "provocative",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "provocatively",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "provoke",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "public opinion",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "pugnacious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pugnaciously",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "pugnacity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "pussyfoot",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "put in your two cents’ worth",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "put in your two penn'orth",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "put in your two pennyworth",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "put it to somebody that…",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "put/stick your oar in",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "quarrel",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "quarrel",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "quarrelsome",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "quarrel with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "quibble",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "quite",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "ram something 󿿱 home",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "rather",
+    "type": "exclamation",
+    "level": "C2"
+  },
+  {
+    "term": "ratiocination",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "really",
+    "type": "adverb",
+    "level": "A1"
+  },
+  {
+    "term": "reappraise",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "reason",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "reasoning",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "reassess",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "reassessment",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "reckon",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "reconsider",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "reconsideration",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "re-evaluate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "re-evaluation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "re-examination",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "re-examine",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "register",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "rehearse",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "remark",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "remark",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "rep",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "represent",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "representation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "reputation",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "repute",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "reputed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "reputedly",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "reserve",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "reserved",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "resolution",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "respect",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "review",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "review",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "reviewer",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "revise",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "rift",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "right",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "right",
+    "type": "exclamation",
+    "level": "B2"
+  },
+  {
+    "term": "right-minded",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "right-on",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "right-thinking",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "riven",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "row",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "row",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "row back",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "rowback",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ruckus",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ructions",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "run-in",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "say",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "say",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "scene",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "scheme",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "schism",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "schizophrenic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "score a point/points (off/against/over somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "score off",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "scorn",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "scorn",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "scrap",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "see",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "see-saw",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "self-image",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "self-opinionated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-regard",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-regarding",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sentiment",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "set-to",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "shade",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "shake",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "shift",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "shift your ground",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "shindy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "shit stirrer",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "shit stirring",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "shitstorm",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "shoot down",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "shot",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "should",
+    "type": "modal verb",
+    "level": "B2"
+  },
+  {
+    "term": "shoulder to shoulder (with somebody)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "shouting match",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "showdown",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "shrewish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "side",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "side with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "signal",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "signpost",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "signposting",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "sing a different tune",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "sing from the same hymn/song sheet",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "size up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "skirmish",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "skirmish",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "skirmishing",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "slanging match",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "slant",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "slant",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "slugfest",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "slur",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "small-minded",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "small-mindedness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "so",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "solid",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "solidarity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "solidly",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "some",
+    "type": "determiner",
+    "level": "C2"
+  },
+  {
+    "term": "somebody can take it or leave it",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "somebody isn’t having any (of it)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "somebody’s blood is up",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "sophist",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sophistry",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sound off",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "sound/strike a note (of something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "spar",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "spark up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "sparring partner",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "spat",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "speaking as something",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "speak out",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "speak/talk the same language",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "special pleading",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "speculate",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "speculation",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "speculative",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "speculatively",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "split",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "split",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "split hairs",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "squabble",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "squabble",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "square",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "square with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "stake out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "stalemate",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "stance",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "stand",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "stand",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "stand by",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "stand fast/firm",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "stand-off",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "stand pat",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "standpoint",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "stand-up",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stand up and be counted",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "statement",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "sticking point",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "stir",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "stir up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "stormy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "straw poll",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "street",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "strife",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "stripe",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "strong",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "strongly",
+    "type": "adverb",
+    "level": "B1"
+  },
+  {
+    "term": "strong-minded",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "struggle",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "struggle",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "stubborn",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "stubbornly",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "stubbornness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "subjective",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "subjectively",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "subjectivity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "suggest",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "suggestion",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "summing-up",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sum up",
+    "type": "phrasal verb",
+    "level": "B2"
+  },
+  {
+    "term": "support",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "suppose",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "surely",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "survey",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "survey",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "sustain",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "swing",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "swing",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "syllogism",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sympathetic",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "sympathetically",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "sympathize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "syndrome",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "take",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "take",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "take a dim view of somebody/something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "take, claim, seize, etc. the moral high ground",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "takedown",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "take issue with somebody (about/on/over something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "take sides",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "take somebody/something to the mat",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "take something into consideration",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "talking point",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "tangle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tangle with",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "tear apart",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "tell me about it",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "tendentious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tendentiously",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "tendentiousness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "that makes two of us",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "that said",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "the battle lines are drawn",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "the gloves are off",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "theory",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "there",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "there’s something, not much, etc. to be said for something/doing something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "thesis",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "think",
+    "type": "verb",
+    "level": "A1"
+  },
+  {
+    "term": "think for yourself",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "thinking",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "think (the) better of somebody",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "think the world, highly, a lot, poorly, little, etc. of somebody/something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "thorny",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "thoughtcrime",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "thought police",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "thrust",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tide",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "tie in",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "tiff",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "to beard the lion in his den",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "to my mind",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "to my way of thinking",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "to start with",
+    "type": "idiom",
+    "level": "B2"
+  },
+  {
+    "term": "touché",
+    "type": "exclamation",
+    "level": "C2"
+  },
+  {
+    "term": "troublemaker",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "true",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "tub-thumping",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tub-thumping",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "turbulence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "turbulent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "turf war",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "turnaround",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "turnround",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tussle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tussle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "unanimity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "unanimous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unanswerable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unarguable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unarguably",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "unbending",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unbridgeable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unchallengeable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "uncommunicative",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unconscious bias",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "uncontested",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "underpin",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "underpinning",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "under protest",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "unequivocal",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unlike",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "unpleasantness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "unprejudiced",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unsettled",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unspoken",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "unstated",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "unsympathetic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unsympathetically",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "uproar",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "upvote",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "upvote",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "vacillate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "vacillation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "value-free",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "value judgement",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "value-laden",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vendetta",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ventilate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "verdict",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "view",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "virtue signalling",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "vocal",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "vociferous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "voice",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "voice",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "volte-face",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "vox pop",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "wade in",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "wade into",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "weak",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "weigh in",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "weigh up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "welcome",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "well",
+    "type": "exclamation",
+    "level": "A1"
+  },
+  {
+    "term": "well said!",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "whatever you say",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "while",
+    "type": "conjunction",
+    "level": "B1"
+  },
+  {
+    "term": "whilst",
+    "type": "conjunction",
+    "level": "C1"
+  },
+  {
+    "term": "who says (…)?",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "wilco",
+    "type": "exclamation",
+    "level": "C2"
+  },
+  {
+    "term": "wipe/mop the floor with somebody",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "with one accord",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "with one voice",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "without/beyond (a) doubt",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "with pleasure",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "with respect",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "worst",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "would",
+    "type": "modal verb",
+    "level": "B2"
+  },
+  {
+    "term": "wrangle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "wrangle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "wrangling",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "write in",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "…my foot!",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "yeah",
+    "type": "exclamation",
+    "level": "A1"
+  },
+  {
+    "term": "yeah, right",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "yes",
+    "type": "exclamation",
+    "level": "A1"
+  },
+  {
+    "term": "yes",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "yessir",
+    "type": "exclamation",
+    "level": "C2"
+  },
+  {
+    "term": "you can say that again",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "you, he, she, etc. started it",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "you know something/what?",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "your considered opinion",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "you said it!",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "you’re telling me!",
+    "type": "idiom",
+    "level": "C2"
+  }
+]

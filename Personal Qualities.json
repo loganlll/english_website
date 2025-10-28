@@ -1,0 +1,4007 @@
+[
+  {
+    "term": "able",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "above yourself",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "abrasive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "abrupt",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "abusive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "academic",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "accommodating",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "accomplished",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "acid",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "active",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "adept",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "adroit",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "affability",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "affable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "affection",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "affectionate",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "agile",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "a live wire",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "aloof",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "ambitious",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "amiable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "amicable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "amoral",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "angel",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "angelic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "animated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "annoying",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "approachable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "argumentative",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "arrogance",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "arrogant",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "artful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "articulate",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "artistic",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "artless",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "assertive",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "assiduous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "assured",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "astute",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "attentive",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "attitude",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "at (your) ease",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "audacious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "audacity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "authenticity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "autocrat",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "autocratic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "autonomous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "backbiting",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "backsliding",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "bad",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "badness",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "bad-tempered",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "balls",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ballsy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "base",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "be/get too big for your boots",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "belligerent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "benevolent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "benign",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "(be) on the ball",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be puffed up with pride, etc.",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be the limit",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "big-head",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "big-headed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "big-hearted",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "bigot",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "bigoted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bitchy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "blabber",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "bleeding heart",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "blimp",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "blimpish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bluff",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "bluster",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "boast",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "boastful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bogus",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "boisterous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bold",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "bone idle",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "boss",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "bottle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "bounce",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "bouncing",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bouncy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "boy wonder",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "brag",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "braggart",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "brainbox",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "brainy",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "brash",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "brave",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "breeze",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "bright",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "brilliant",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "brisk",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "broad-minded",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "brute",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "brutish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bubbly",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bullheaded",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bullish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bum",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "busybody",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "calm",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "canny",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "careful",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "caring",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "catty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "caution",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "cautious",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "character",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "charitable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "chatty",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "cheap",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "cheat",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "cheek",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "cheeky",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "chicken",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "chicken out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "chirpy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "chivalrous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "chivalry",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "churlish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "chutzpah",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "clean-cut",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "clean-living",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "clever",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "coarse",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "cocky",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "cold-hearted",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "Colonel Blimp",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "coltish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "come out of yourself",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "comfort",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "comfortable",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "committed",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "companionable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "compassionate",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "competent",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "conceit",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "conceited",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "conciliate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "confidence",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "confident",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "conniving",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "conscience",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "conscientious",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "considerate",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "contrary",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "cool",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "corrupt",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "corruption",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "courage",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "courageous",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "courteous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "covidiot",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "coward",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "cowardice",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "cowardly",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "coy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "crafty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "craven",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "creative",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "criminal",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "crisp",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "crude",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "cruel",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "cunning",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "cunning",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "cutie",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "cutting",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dare",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "daring",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "daring",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "darling",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "dashing",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "deadbeat",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dear",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "debauched",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "debonair",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "deceit",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "deceitful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "deceive",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "decency",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "decent",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "deception",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "dependable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "depraved",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "depravity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "derring-do",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "devilish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "devious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "diabolical",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "difficult",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "dignified",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "diligent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disagreeable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "discreet",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "discretion",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "dishonest",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "dishonesty",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "dishonour",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dishonourable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disobedient",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dissolute",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "domineering",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "do somebody’s head in",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "dosser",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "doughty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dour",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "drive",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "drone",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dubious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "duplicity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dutiful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "duty",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "dynamic",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "dynamism",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "easy",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "easy-going",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "ebullience",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ebullient",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "effervescent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "efficient",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "effrontery",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "egocentric",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "egoism",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "empathy",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "energetic",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "energize",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "enterprising",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "enthusiastic",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "ethic",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "ethical",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "ethos",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "evil",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "exasperating",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "excel",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "experienced",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "extravert",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "extrovert",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "exuberant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "faint-hearted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "faithful",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "fake",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "fake",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "false",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "familiarity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fickle",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "flamboyant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "flaunt",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "fool",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "forced",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "forthright",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "fortitude",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "forward",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "foul-mouthed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "frank",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "fresh",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "friendly",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "frisky",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "frolic",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "frolic",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "frolicsome",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "front",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "full of yourself",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "gallant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "gallantry",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gamely",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "generous",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "genial",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "genius",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "gentle",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "genuine",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "get on",
+    "type": "phrasal verb",
+    "level": "B1"
+  },
+  {
+    "term": "get on with",
+    "type": "phrasal verb",
+    "level": "B1"
+  },
+  {
+    "term": "get-up-and-go",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gibe",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "go",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "God-fearing",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "godly",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "good",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "good-for-nothing",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "good-for-nothing",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "good-hearted",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "good nature",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "good-natured",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "good sense",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "goodwill",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "graceful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "gracious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "grasping",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "grateful",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "greedy",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "greedy guts",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "gregarious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "gripe",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "grit",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gritty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "grouse",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "grubby",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "guile",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "guileless",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "gumption",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gusto",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gut",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "gutless",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "gutsy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hard-working",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "harsh",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "hateful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "have a big mouth",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have a heart of gold",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have/lack the courage of your convictions",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have no stomach for something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "hearty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "heinous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "helpful",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "henpecked",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hero",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "heroic",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "heroics",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "heroine",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "heroism",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "highbrow",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "high-handed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "high-minded",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "high-spirited",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "holy",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "honest",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "honesty",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "honor",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "honorable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "honour",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "honourable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "horrible",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "horrid",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hospitable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "hubris",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "humanity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "hyper",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "icy",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "idler",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ill-treat",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "ill-treatment",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ill will",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "imaginative",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "immodest",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "immoral",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "impertinence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "impertinent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "importunate",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "importune",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "impudence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "impudent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "impure",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "incisive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "incivility",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "inconstancy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "inconstant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "indecency",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "indecent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "indefensible",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "independent",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "indomitable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "infamous",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "infamy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "infernal",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "ingenious",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "ingenuity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ingenuous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "insensitive",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "insolence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "insolent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "inspo",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "insufferable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "integrity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "intellect",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "intelligent",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "interfering",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "intolerant",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "intrepid",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "introvert",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "introverted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "invent",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "invest in",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "irrepressible",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "irritable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "jaunty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "jealous",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "jibe",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "jilt",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "jolly",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "jovial",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "judgemental",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "just",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "keen",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "kid",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "kind",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "kind-hearted",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "kindly",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "kindness",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "knowledgeable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "laggard",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "laid-back",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "layabout",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "laze",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "laze away",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "lazy",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "leadership",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "lead on",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "libertine",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "licentious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "lie",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "lie around",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "lily-livered",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "lively",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "loafer",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "lofty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "loll",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "loose",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "loud",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "loudmouth",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "lounge",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "lovely",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "loving",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "loyal",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "lump",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "macho",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "magnanimous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "magnetism",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "make fun of somebody/something",
+    "type": "idiom",
+    "level": "B2"
+  },
+  {
+    "term": "malefactor",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "malicious",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "man",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "manful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "mastermind",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "mature",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "mean",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "menace",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "mercenary",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "merciful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "mercurial",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "mercy",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "meticulous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "mild",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "milksop",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "mischief",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "mischievous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "miser",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "miserable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "misle",
+    "type": "adverb",
+    "level": "B2"
+  },
+  {
+    "term": "misleading",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "misrepresent",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "mistreat",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "moan",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "mock",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "modest",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "monstrous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "moral",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "moral fibre",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "moralist",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "morality",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "moralize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "mordant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "motivate",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "mouthy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "musical",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "muster",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "narcissism",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "narrow-minded",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "nasty",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "needy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "nefarious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "nerve",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "nervous",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "ne’er-do-well",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "nice",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "nobility",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "noble",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "nosey",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "nosy",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "nosy parker",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "nuisance",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "number one",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "obstinate",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "offensive",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "open",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "open-hearted",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "open-minded",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "openness",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "opportunism",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "opportunist",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "opportunist",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "optimism",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "optimistic",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "organized",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "outface",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "outgoing",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "overconfident",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "over-optimistic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "overweening",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pain",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "panache",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "passionate",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "past master",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "patience",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "patient",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "people skills",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "pep",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "peppy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "perk up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "perky",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "personable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "petty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "phoney",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "phony",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pig-headed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pizzazz",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "plain",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "pleasant",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "pluck",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "plucky",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "poise",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "poised",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "poke fun at somebody/something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "polished",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "polite",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "positive",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "positivity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "possessive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "potential",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "powerhouse",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "practical",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "preach",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "preen",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "prejudiced",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "presumption",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "presumptuous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pretend",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "pride",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "Prince Charming",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "principle",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "principled",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "proactive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "prodigy",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "profess",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "professional",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "proper",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "proud",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "prude",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "prudish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "punky",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "puritan",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "puritanical",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pushy",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "pussycat",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "quality",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "quick-witted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "raffish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "rambunctious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "rational",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "razor-sharp",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "rebel",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "rebel",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "rebellious",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "rebuff",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "rebuff",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "rectitude",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "relatable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "relaxed",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "reliable",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "Renaissance man",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "Renaissance woman",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "reprobate",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "reprobate",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "resentful",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "responsible",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "ridicule",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "ridicule",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "rogue",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "rude",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "rumbustious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "saint",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "sangfroid",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sanguine",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sap",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sarcasm",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sassy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "scorn",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "scoundrel",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "scrupulous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "secretive",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "secure",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "seedy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-absorbed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-assertive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-assurance",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-assured",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-centred",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "self-confidence",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "self-confident",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "self-congratulation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-congratulatory",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-deprecating",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-indulgence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-indulgent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "selfish",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "self-motivated",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "self-motivation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-pity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "self-possessed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-possession",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-regard",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-regarding",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-reliance",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-reliant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-respect",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-respecting",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-satisfied",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-serving",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-starter",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-worth",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sensible",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "sensitive",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "sermonize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "shamble",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "sharp",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "shiftless",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shifty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shirk",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "shirker",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "shoot your mouth off (about something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "show off",
+    "type": "phrasal verb",
+    "level": "B2"
+  },
+  {
+    "term": "shrewd",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shy",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "skill",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "skilled",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "skill set",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "slacker",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sleaze",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sleazy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "slob",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "slob around",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "slob out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "sloth",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "slothful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "slouch",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "slouchy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sluggard",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sluggish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sly",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "smart",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "smear",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "smoothly",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "smug",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "snide",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sociable",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "soft",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "soft-hearted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "softie",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "softy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sordid",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sparkle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "sparkle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "spin (somebody) a yarn, tale, etc.",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "spirit",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "spirited",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "spiteful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sprightly",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "springy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "spry",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "spunk",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "spurn",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "square",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stand tall",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "staunch",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stiff-necked",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stout",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stout-hearted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "straight",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "straightforward",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "straight-laced",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "strait-laced",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "street-smart",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "street smarts",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "streetwise",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "strength",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "strict",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "strong",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "strut",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "stubborn",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "suave",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sulky",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "superficial",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "superiority complex",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sure",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "sure-footed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sureness",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "surly",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "suspicion",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "suspicious",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "swagger",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "swank",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "sweet",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "sweetie",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sympathetic",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "sympathy",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "tactful",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "talented",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "talkative",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "tart",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "taunt",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "taunt",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "team player",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "temerity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "temperament",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "temperamental",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tender",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "tender-hearted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "thoughtful",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "tigerish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "timid",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "timidity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "timorous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tireless",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "together",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tolerance",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "tolerant",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "tough",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "trick",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "trumpet",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "trust",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "trust",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "trustworthy",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "truthful",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "trying",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unapproachable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unbearable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "uncharitable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unchristian",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "unconscionable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "understanding",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "unflinching",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unfriendliness",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "unfriendly",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "ungracious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unsmiling",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "untruthful",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "upright",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "upstanding",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vain",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "vainglorious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vainglory",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "valiant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "valour",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "vanity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "veracity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "vice",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "vigorous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vigour",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "villain",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "villainous",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "villainy",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "virtue",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "virtuous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vital",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vivacious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vivacity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "vociferous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vulgar",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vulgarity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "walk tall",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "wanton",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "warm",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "warm-hearted",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "wastrel",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "weak-kneed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "welcoming",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "well disposed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "well meaning",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "while away",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "whine",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "whinge",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "whizz-kid",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "wholesome",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "wily",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "wimp",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "wisdom",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "wise",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "wit",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "withdrawn",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "witty",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "wrong",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "wuss",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "yellow-bellied",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "yellow-belly",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "zeal",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "zealous",
+    "type": "adjective",
+    "level": "C2"
+  }
+]

@@ -1,0 +1,4867 @@
+[
+  {
+    "term": "abashed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "abhor",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "abominable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "abominate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "absorbed",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "absorption",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "abuse",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "acrimonious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "acrimony",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "addict",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "addicted",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "adoration",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "adore",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "adoring",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "adrenaline",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "adrift",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "affection",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "affectionate",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "aflutter",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "afraid",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "aggression",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "aggressive",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "aghast",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "agitate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "agitated",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "agitation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "agog",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "alarm",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "alarm",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "alarmed",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "alone",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "amaze",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "amazed",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "amazement",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "amorous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "amour",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "amusement",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "anger",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "anger",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "angrily",
+    "type": "adverb",
+    "level": "B1"
+  },
+  {
+    "term": "angry",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "annoy",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "annoyance",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "annoyed",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "annoying",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "antagonism",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "antagonize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "anxiety",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "anxious",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "apathy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "apoplectic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "appalled",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "apprehension",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "apprehensive",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "approval",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "ardour",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "argue",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "argument",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "ashamed",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "(as) pleased/proud as Punch",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "(as) sick as a parrot",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "astonish",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "astonished",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "astonishment",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "astound",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "astounded",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "attraction",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "awkward",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "bad",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "bashful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "be a bag/bundle of nerves",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "beam",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "be at your wits’ end",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be frightened/nervous/scared of your own shadow",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be/get (all) riled up",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be/get (all) steamed up (about/over something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "belong",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "be lost for words",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "be on edge",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "(be) on tenterhooks",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "bereft",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "berserk",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "be scared/bored witless",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "besotted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "be starving (for something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be taken aback (by somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "be tickled pink",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "bitter",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "blanch",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "blaze up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "blazing",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bleary",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bleary-eyed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "blench",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "blindside",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "blissful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "blithe",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bloom",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "blow a fuse",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "blow/knock somebody’s socks off",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "blow-up",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "blow up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "blue",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "blush",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "body blow",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "boggle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "boil",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "boil over",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "boil up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "bore",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "bore",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "bored",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "boredom",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "bowl over",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "brain-dead",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "break",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "breathtaking",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "bristle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "broken",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "broken heart",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "broken-hearted",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "brood",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "broody",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "bum",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "bust-up",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "buzz",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "caper",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "capture",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "care",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "careworn",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "carry a torch for somebody",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "(catch/throw somebody) off balance",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "chafe",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "chagrin",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "channel",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "chatter",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "cheerful",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "cheery",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "chill",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "choked",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "choleric",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "chuffed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "chug",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "churn",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "cloud",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "cold sweat",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "come alive",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "complain",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "condole",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "confess",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "confession",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "confound",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "confrontational",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "conscience-stricken",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "consternation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "contempt",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "contemptuous",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "content",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "controversial",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "cool",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "cowed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "cower",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "cranky",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "crazy",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "creepy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "crestfallen",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "cringe",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "cringeworthy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "cross",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "crotchety",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "crumple",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "cry",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "curdle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "curious",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "dead beat",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dejected",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dejection",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "delighted",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "delirious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "demolish",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "depressed",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "depressing",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "depression",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "desire",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "desolate",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "desolation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "despair",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "despair",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "desperate",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "desperation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "despondency",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "despondent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "detest",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "devastate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "devoted",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "devotion",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "devour",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "diffidence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "diffident",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disappoint",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "disappointed",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "disappointing",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "disappointment",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "disapproval",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "discomfit",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "discomfiture",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "discomfort",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "disconcert",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "disconcerted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disconcerting",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disconsolate",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "discontent",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "discontented",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "disgrace",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "disgraceful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disgruntled",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "disgust",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "disgust",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "disgusted",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "disgusting",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "disillusioned",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "disinterested",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dismay",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "dismay",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "distress",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "distress",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "distressed",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "distressing",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "disturbed",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "dog-tired",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "doldrums",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "doleful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dote on",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "dote upon",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "doting",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "down",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "down",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "downcast",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "downer",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "downhearted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "down in the dumps",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "down in the mouth",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "drab",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "drag",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "drained",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dre",
+    "type": "adverb",
+    "level": "C1"
+  },
+  {
+    "term": "dread",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "dreaded",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dreadful",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "dreary",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "droop",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "drowsy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dry",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "dull",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "dumbfound",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "dumbfounded",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "eager",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "eagerness",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "eco-anxiety",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "ecstatic",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "edgy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "effervescent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "ejaculation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "elated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "electric",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "electrify",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "embarrassed",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "embarrassing",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "embarrassment",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "embitter",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "embittered",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "emotion",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "emotional",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "empathetic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "empathetically",
+    "type": "adverb",
+    "level": "C2"
+  },
+  {
+    "term": "emptiness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "empty",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "enamoured",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "enchant",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "engrossed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "enjoy",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "enjoyment",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "enrage",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "enthuse",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "enthusiasm",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "enthusiast",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "envy",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "envy",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "exasperated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "excitable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "excite",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "excited",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "excitement",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "exclamatory",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "exhausted",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "exhausting",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "exhaustion",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "exhilarate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "exhilarated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "exhilaration",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "explode",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "explosive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "exult",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "exultant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "fail",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "faintness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fall for",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "famished",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "fancy",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "far from pleased",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "fascinated",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "fascination",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "fatigue",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "fatigued",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "fear",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "fear for",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "fearful",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "fearsome",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "febrile",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "fed up",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "feel",
+    "type": "linking verb",
+    "level": "A1"
+  },
+  {
+    "term": "feel good",
+    "type": "idiom",
+    "level": "A2"
+  },
+  {
+    "term": "feel-good",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "feeling",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "fidget",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "fidgety",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "fierce",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "fiery",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "fire",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flabbergasted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "flap",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flare",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flare-up",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "flare up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "flattering",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "flinch",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flinch from",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "flinch from doing",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "flip",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flip your lid",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "float/walk on air",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "floor",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flop",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flourish",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "flush",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flush",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fluster",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "flutter",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "flutter",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "fly into a rage, temper, etc.",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "fly off the handle",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "foam at the mouth",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "FOMO",
+    "type": "abbreviation",
+    "level": "C2"
+  },
+  {
+    "term": "fond",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "foolish",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "for fear of something/of doing something",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "forlorn",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "frantic",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "frazzled",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "freak",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "freeze your blood",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "fret",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "fretful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "fright",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "frightened",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "frisson",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "frozen",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "frustrate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "frustrated",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "fulfil",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "fulfilled",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "fume",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "fun",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "furious",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "fury",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "gall",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "galling",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "galvanize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "gasp",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "get/have cold feet",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "get/have the hots for somebody",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "gibber",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "giddy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "give somebody the creeps",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "give your heart to somebody",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "glad",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "gladden",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "glare",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "glare",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "glaze",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "glee",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gleeful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "gloom",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "gloomy",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "glow",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "glow",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "glower",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "glued/riveted/rooted to the spot",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "glum",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "gnash your teeth",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "gnaw at",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "go ballistic",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "go bananas",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "gobble",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "gobsmacked",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "goggle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "goggle-eyed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "go hot and cold",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "go off on one",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "go on",
+    "type": "phrasal verb",
+    "level": "C1"
+  },
+  {
+    "term": "goose pimples",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gorge",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "go spare",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "go through the roof",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "grab",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "grateful",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "gratitude",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "grave",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "greed",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "greedy",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "grief-stricken",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "grieve",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "groggy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "gross-out",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gross-out",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "grudge",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "guilt",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "guilty",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "gutted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "guzzle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "hacked off",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hang-up",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "happiness",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "happy",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "happy place",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "harp on",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "hate",
+    "type": "verb",
+    "level": "A1"
+  },
+  {
+    "term": "hate",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "hatred",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "have a quick/short temper",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have a thing for somebody/something",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have got it bad",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "have hysterics",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "head over heels in love",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "heady",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "heart",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "heartache",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "heartbreak",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "heartbreaking",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "heartbroken",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "heart-rending",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "heartsick",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "heaven",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "heebie-jeebies",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "het up",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "highly strung",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hit the roof",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "hit/touch/strike a (raw/sensitive) nerve",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "homesick",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "homesickness",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "honor",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "honour",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "hook",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hope",
+    "type": "verb",
+    "level": "A1"
+  },
+  {
+    "term": "hope",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "hopping mad",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "horrified",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "horrify",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "horrifying",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "horror",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "horror-struck",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hostile",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "hostility",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "hot",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "hot-blooded",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hot-tempered",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hot under the collar",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "huff",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "huff and puff",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "humdrum",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "humiliate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "humiliating",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "humiliation",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "hunger",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "hungry",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "hunted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hurt",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "hyped up",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hyper",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "hyperventilate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "hysteria",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "hysterics",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "idol",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "idolatrous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "idolatry",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "idolize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "idyll",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ignominious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "ignominy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "ill-tempered",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "illuminate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "illumine",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "in a (flat) spin",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "in a huff",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "incense",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "incensed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "inconsolable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "indignant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "indignation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "indignity",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "infatuated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "infatuation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "in fear of your life",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "inflamed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "infuriate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "infuriating",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "in good heart",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "inhibited",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "inhibition",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "inquisitive",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "insecure",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "insecurity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "in seventh heaven",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "interest",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "intimidated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "intoxicated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "intoxicating",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "intrigue",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "intrigued",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "invective",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "irascibility",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "irascible",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "irate",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "irrepressible",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "irritate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "irritated",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "isolation",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "jaunty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "jealous",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "jealousy",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "jitters",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "jittery",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "jolt",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "JOMO",
+    "type": "abbreviation",
+    "level": "C2"
+  },
+  {
+    "term": "joy",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "joyful",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "joyous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "jump",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "jumpy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "keen",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "keyed up",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "kick off",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "knock",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "knock somebody sideways",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "knot",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "lament",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "lash",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "laugh",
+    "type": "verb",
+    "level": "A1"
+  },
+  {
+    "term": "laugh",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "livid",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "loathe",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "loathsome",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "loneliness",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "lonely",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "loner",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "lonesome",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "longing",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "look/feel small",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "lose your heart (to somebody/something)",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "lose your rag",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "lovable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "love",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "love",
+    "type": "verb",
+    "level": "A1"
+  },
+  {
+    "term": "loved-up",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "loveless",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "lovelorn",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "lovesick",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "lovey-dovey",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "loving",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "lugubrious",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "lukewarm",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "lurch",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "lurve",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "lust",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "mad",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "madden",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "maddening",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "make somebody sick",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "make somebody’s blood boil",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "make somebody’s blood run cold",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "make somebody’s day",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "make somebody’s toes curl",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "make your flesh creep",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "make your skin crawl",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "manic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "marvel",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "melancholy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "melancholy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "mellow",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "meltdown",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "melting",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "menace",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "merriment",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "merry",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "messed-up",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "miffed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "mind-numbing",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "miserable",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "misery",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "monotonous",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "monotony",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "mood",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "moody",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "moon about",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "moon around",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "moonstruck",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "morose",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "mortification",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "mortify",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "mortifying",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "mourn",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "mournful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "munchies",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "nail-biting",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "nerve",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "nervous",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "nervy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "nettle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "neurosis",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "nuts",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "offend",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "OK",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "on top of the world",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "on your conscience",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "open-mouthed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "outrage",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "outrage",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "overawe",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "overawed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "overexcited",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "overheated",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "overjoyed",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "overprotective",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "over the moon",
+    "type": "idiom",
+    "level": "C1"
+  },
+  {
+    "term": "overtired",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "overwrought",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pain",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "painful",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "palpitate",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "panic",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "paranoia",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "parched",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "passion",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "passionate",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "peckish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pessimism",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "pessimist",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "petrified",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "petrify",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "phobia",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "pig",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "pine",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "pique",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "pity",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "pity",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "plaintive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pleased",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "pleasure",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "poignancy",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "poignant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "poleaxe",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "ponderous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pop",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "pop-eyed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "predictable",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "prickle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "protective",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "proud",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "provocation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "provocative",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "provoke",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "psyched",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "pull, tug, etc. at somebody's heartstrings",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "pump up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "puppy love",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "push",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "put somebody on the spot",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "quail",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "quake",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "quarrel",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "queasy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "quench",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "querulous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "quick-tempered",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "race",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "radiance",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "radiant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "rage",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "rage",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "rail",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "rankle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "rant",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "rant and rave",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "rantings",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "rapt",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "rattle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "ratty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "rave",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "ravenous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "recluse",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "reclusive",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "recoil",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "red",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "red-faced",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "regret",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "regretful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "rejoicing",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "relief",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "relieved",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "repel",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "repetitive",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "reproach",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "repugnance",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "repugnant",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "repulse",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "requite",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "resent",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "resentful",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "resentment",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "retiring",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "revolt",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "revulsion",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "rile",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "rip into",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "rivet",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "roast",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "round-eyed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "rouse",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "routine",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "routine",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "row",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "rueful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "rut",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sad",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "sadden",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "sadly",
+    "type": "adverb",
+    "level": "A2"
+  },
+  {
+    "term": "sadness",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "satisfied",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "satisfy",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "scare",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "scared",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "scene",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "scoff",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "scream",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "secure",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "security",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "see red",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "seethe",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "self-conscious",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "self-effacement",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-effacing",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "self-esteem",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "self-fulfilment",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-loathing",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-satisfaction",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "self-satisfied",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sensation",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "sensational",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "sentiment",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "sentimental",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "sepulchral",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "seraphic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shake",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "shake in your boots/shoes",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "shaken",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "shame",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "shamefaced",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shameful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shaming",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shattered",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "sheepish",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shirty",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shiver",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "shock",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "short-fused",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "short-tempered",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "shriek",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "shriek",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "shrink",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "shudder",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "shy",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "sick at heart",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "sickness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sigh",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "slake",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "smile",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "smile",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "smile/grin/beam from ear to ear",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "smirk",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "smirk",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "smitten",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "smize",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "smize",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "smother",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "snap",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "snarf",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "snarl",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "solitary",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "solitude",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sombre",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "somebody’s blood is up",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "somebody’s face is like thunder",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "somebody’s heart is in their mouth",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "somebody’s heart leaps",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "something boggles the mind",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "sore",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sorrow",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "sorrowful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sorry",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "soulful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "speechless",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "spent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "spiky",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "spineless",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "spit",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "splenetic",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "spook",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "square",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stagger",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "staggered",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "staid",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "start",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "startle",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "startled",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "static",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "steal somebody’s heart",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "steaming",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stimulate",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "sting",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "stir",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "stir the blood",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "stoked",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stoke up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "stop/halt somebody in their tracks",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "storm",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "stormy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stress",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "stress",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "stressed",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "strife",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "string along",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "strung up",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stuff",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "stuffed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stuffy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "stun",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "stupefaction",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "stupefy",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "subdued",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "suburban",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sulk",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "sulk",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "sulky",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "sunny",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "surprise",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "surprise",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "surprised",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "surprising",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "sweep somebody off their feet",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "switched on",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "swoon",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "take aback",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "tantrum",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tease",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "teed off",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tee off",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "temper",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "temperamental",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tense",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "terrible",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "terrify",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "terrifying",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "terror",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "tetchy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "thankful",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "the feel-good factor",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "thirst",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "thirsty",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "thrill",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "thrill",
+    "type": "verb",
+    "level": "B2"
+  },
+  {
+    "term": "thrilled",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "throw",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "thunderous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "thunderstruck",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tight",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tight-lipped",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tirade",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tire",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "tired",
+    "type": "adjective",
+    "level": "A1"
+  },
+  {
+    "term": "tiredness",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "togetherness",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tongue-tied",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "torrid",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "torture",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "torture",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "tortured",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "tragic",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "tremble",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "tremor",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tremulous",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "trepidation",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "trigger",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "trippy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "trouble",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "truculence",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "truculent",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "twinkle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "twitchy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "uncomfortable",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "unconcerned",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "unconsolable",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "underfed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unease",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "uneasy",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "unhappiness",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "unhappy",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "uninterested",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "unnerve",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "unnerving",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "unrequited",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "up",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "uplifted",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "upset",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "upset",
+    "type": "verb",
+    "level": "B1"
+  },
+  {
+    "term": "upsetting",
+    "type": "adjective",
+    "level": "B2"
+  },
+  {
+    "term": "uptight",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "vexed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "wail",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "walk tall",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "wearing",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "wearisome",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "wear out",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "weary",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "weep",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "weepy",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "whacked",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "whip up",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "whirl",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "whoop",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "wide-eyed",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "willies",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "wilt",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "win somebody’s heart",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "wiped out",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "wired",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "with bated breath",
+    "type": "idiom",
+    "level": "C2"
+  },
+  {
+    "term": "woebegone",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "woeful",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "wolf",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "wonder",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "wonderful",
+    "type": "adjective",
+    "level": "B1"
+  },
+  {
+    "term": "wonderment",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "woo",
+    "type": "verb",
+    "level": "C2"
+  },
+  {
+    "term": "worked up",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "work off",
+    "type": "phrasal verb",
+    "level": "C2"
+  },
+  {
+    "term": "worn",
+    "type": "adjective",
+    "level": "C2"
+  },
+  {
+    "term": "worn out",
+    "type": "adjective",
+    "level": "C1"
+  },
+  {
+    "term": "worried",
+    "type": "adjective",
+    "level": "A2"
+  },
+  {
+    "term": "worry",
+    "type": "verb",
+    "level": "A2"
+  },
+  {
+    "term": "worry",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "worship",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "worship",
+    "type": "verb",
+    "level": "C1"
+  },
+  {
+    "term": "wretched",
+    "type": "adjective",
+    "level": "C2"
+  }
+]
