@@ -21,6 +21,8 @@ output{min-width:2ch;display:inline-block;text-align:right}
 .list{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
 .card{background:var(--panel);padding:14px;border-radius:14px;box-shadow:0 0 0 1px var(--ring) inset}
 .card h3{margin:0 0 6px 0;font-size:18px}
+.card h3[role="link"]{cursor:pointer}
+.card h3[role="link"]:hover, .card h3[role="link"]:focus{ text-decoration: underline; text-underline-offset: 2px }
 .meta{color:var(--muted);font-size:13px;margin-bottom:10px}
 .actions{display:flex;gap:6px;flex-wrap:wrap}
 .actions .icon-btn{padding:6px 8px;border-radius:10px;border:1px solid var(--ring);background:#0d1116;cursor:pointer}
@@ -38,9 +40,9 @@ a.download{display:inline-block;margin-top:8px}
   :root{--bg:#f6f7fb;--panel:#fff;--text:#0c1116;--muted:#5b6770;--ring:#d0d7de}
   body{background:var(--bg);color:var(--text)}
   .levels label{background:#fff; box-shadow:0 0 0 1px var(--ring) inset}
-  .select, select, input[type="range"]{background:#fff; border-color:var(--ring); color:var(--text)}
-  .btn{background:#fff; border-color:var(--ring); color:var(--text)}
+  .select, select, input[type="range"]{background:#fff; border-color:var(--ring); color:#0c1116}
+  .btn{background:#fff; border-color:var(--ring); color:#0c1116}
   .btn.primary{background:linear-gradient(180deg,#f7fafc 0%,#eef2f8 100%); border-color:#c9d4e5}
   .btn.danger{background:#fff; border-color:#f2c9c9; color:#8a1f1f}
-  .actions .icon-btn{background:#fff; border-color:var(--ring); color:var(--text)}
+  .actions .icon-btn{background:#fff; border-color:var(--ring); color:#0c1116}
 }

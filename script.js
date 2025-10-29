@@ -2,6 +2,7 @@
 
 /* ===== Config ===== */
 const SOURCES = [
+  { path: "Kitchen equipment.json", topic: "Kitchen equipment" },
   { path: "Opinion and argument.json", topic: "Opinion & Argument" },
   { path: "Doubt, guessing and certainty.json", topic: "Doubt, guessing and certainty" },
   { path: "Discussion and agreement.json", topic: "Discussion and agreement" },
@@ -118,7 +119,7 @@ function renderList(items){
 
     const h3 = document.createElement('h3');
     h3.textContent = it.term;
-    // Make the term behave like a link without changing CSS
+    // Link-like behavior -> Oxford Learner's Dictionaries
     h3.setAttribute('role','link');
     h3.tabIndex = 0;
     h3.title = 'Open Oxford definition in a new tab';

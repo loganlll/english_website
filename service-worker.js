@@ -1,5 +1,5 @@
 /* Simple offline cache */
-const VERSION = 'v4';
+const VERSION = 'v6';
 const APP_ASSETS = [
   './',
   './index.html',
@@ -7,6 +7,7 @@ const APP_ASSETS = [
   './script.js',
   './manifest.webmanifest',
   // data
+  './Kitchen equipment.json',
   './Opinion and argument.json',
   './Doubt, guessing and certainty.json',
   './Discussion and agreement.json',
@@ -41,7 +42,6 @@ self.addEventListener('fetch', (event) => {
       if (req.method === 'GET' && res.ok) cache.put(req, res.clone());
       return res;
     } catch (err) {
-      // Offline fallback: try index for navigations
       if (req.mode === 'navigate') return cache.match('./index.html');
       throw err;
     }

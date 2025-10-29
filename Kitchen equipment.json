@@ -1,0 +1,407 @@
+[
+  {
+    "term": "air fryer",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "baking sheet",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "balloon whisk",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "barbecue",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "barbie",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "blender",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "broiler",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "burner",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "chopping board",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "cling film",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "cocktail stick",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "colander",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "convection oven",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "cooker",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "cookware",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "corkscrew",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "counter",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "countertop",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "dish",
+    "type": "noun",
+    "level": "A1"
+  },
+  {
+    "term": "dishwasher",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "fan oven",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "food processor",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "fryer",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "frying pan",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "garbage disposal",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "garlic press",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "gas ring",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "grater",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "greaseproof paper",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "griddle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "grill",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "grinder",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "hob",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "hotplate",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "jar",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "juicer",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "kettle",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "lemon-squeezer",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "liquidizer",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "measuring cup",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "measuring jug",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "meat grinder",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "microwave",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "mincer",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "mixing bowl",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "opener",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "oven",
+    "type": "noun",
+    "level": "A2"
+  },
+  {
+    "term": "ovenware",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "paper towel",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "peeler",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "pestle",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "pot",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "pressure cooker",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "range",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "roaster",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "rolling pin",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "rotisserie",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "saucepan",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "scale",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "sieve",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "skewer",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "skillet",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "slotted spoon",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "slow cooker",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "spatula",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "steamer",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "stove",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "stovetop",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "strainer",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tin",
+    "type": "noun",
+    "level": "B1"
+  },
+  {
+    "term": "tin opener",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "toaster",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "tongs",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "tray",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "utensil",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "waste disposal unit",
+    "type": "noun",
+    "level": "C1"
+  },
+  {
+    "term": "wax paper",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "whisk",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "wok",
+    "type": "noun",
+    "level": "C2"
+  },
+  {
+    "term": "wooden spoon",
+    "type": "noun",
+    "level": "B2"
+  },
+  {
+    "term": "worktop",
+    "type": "noun",
+    "level": "C2"
+  }
+]
